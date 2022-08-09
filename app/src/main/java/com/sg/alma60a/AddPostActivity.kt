@@ -15,6 +15,7 @@ class AddPostActivity : AppCompatActivity() {
     lateinit var post7Lines: Post7Lines
     lateinit var post8Lines: Post8Lines
     lateinit var post9Lines: Post9Lines
+    lateinit var post10Lines: Post10Lines
 
     val util = Utility()
 
@@ -32,6 +33,7 @@ class AddPostActivity : AppCompatActivity() {
         post7Lines = Post7Lines(this)
         post8Lines = Post8Lines(this)
         post9Lines = Post9Lines(this)
+        post10Lines = Post10Lines(this)
 
         // post1Lines.loadPost100()
         //  post1Lines.loadPost101()
@@ -108,7 +110,7 @@ class AddPostActivity : AppCompatActivity() {
 //        post4Lines.loadPost4940()
 //        post4Lines.loadPost4941()
 //        post4Lines.loadPost4942()
-        post4Lines.loadPost4943()
+//        post4Lines.loadPost4943()
 
 
 //  post5Lines.loadPost540()
@@ -171,8 +173,10 @@ class AddPostActivity : AppCompatActivity() {
 //     post8Lines.loadPost804()
 //     post8Lines.loadPost805()
 
-        //   post9Lines.loadPost900()
-//      post9Lines.loadPost901()
+          post9Lines.loadPost900()
+
+
+//      post10Lines.loadPost1000()
         //  -----------------------------------------------
 
         // post2Lines.loadPost200()

@@ -10,12 +10,63 @@ class Post9Lines(val context: Context) {
 
     private val layout: ConstraintLayout = (context as Activity).findViewById(R.id.itemLayoutFire)
     val drawPost= DrawPostCenter(context)
+    val pref = context.getSharedPreferences(SHARPREF_ALMA, Context.MODE_PRIVATE)
     private val util= Utility()
 
     fun loadPost900() {
         val post = Post()
         with(post) {
             postNum = 900
+            lineNum = 9
+            postId=70
+            imageUri = "https://cdn.pixabay.com/photo/2013/04/07/21/29/hotel-hall-101634_1280.jpg"
+            postText = arrayListOf(
+                "לפעמים החיים מרגישים לך כמו מסדרון",
+                " של מחשבות תחושות וחוסר משמעות,  ",
+                " אתה יודע שאם לא תהיה בתנועה ",
+                " תהיה תקוע במסדרון הזה כל היום, ",
+                " הכוזבים מכחישים שיש בכלל מסדרון ",
+                " הדיכאוניים מכחישים שאפשר ללכת ",
+                " הפסימיים לא מאמינים שיש סוף לזה ",
+                "רודפי הנחמה  גוררים רגלים, ",
+                "  אבל תמיד בסוף המסדרון יש חדר גדול.  "
+            )
+
+            val di = 0
+            val dd = 0
+            postMargin = arrayListOf(
+                arrayListOf(0, 10 + di, 0, -1 + dd),
+                arrayListOf(0, 40 + di, 0, -1 + dd),
+                arrayListOf(0, 70 + di, 0, -1 + dd),
+                arrayListOf(0, 100 + di, 0, -1 + dd),
+                arrayListOf(0, -1 + di, 0, 120 + dd),
+                arrayListOf(0, -1 + di, 0, 90 + dd),
+                arrayListOf(0, -1 + di, 0, 60 + dd),
+                arrayListOf(0, -1 + di, 0, 30+ dd),
+                arrayListOf(0, -1 + di, 0, 0 + dd)
+            )
+            postTransparency =6
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#1E4174"
+            val textColor = "#DDA94B"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postRadiuas = 16
+            lineSpacing = 1.3f
+        }
+        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
+//        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
+        drawPost.drawPostFire(post,layout)
+        util.sendPostToStringFirestore(post)
+    }
+    fun loadPost901() {
+        val post = Post()
+        with(post) {
+            postNum = 901
             lineNum = 9
             imageUri = "https://cdn.pixabay.com/photo/2017/02/06/11/58/desert-2042738_1280.jpg"
             postText = arrayListOf(
@@ -58,56 +109,10 @@ class Post9Lines(val context: Context) {
         util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost901() {
-        val post = Post()
-        with(post) {
-            postNum = 901
-            lineNum = 9
-            imageUri = "https://cdn.pixabay.com/photo/2013/04/07/21/29/hotel-hall-101634_1280.jpg"
-            postText = arrayListOf(
-                " בסוף המסדרון הזה יש חדר גדול ",
-                " אם לא תהיה בתנועה ",
-                " תהיה תקוע במסדרון כל היום, ",
-                " ולמציאות פנים רבות ",
-                " הכוזבים מכחישים את המסדרון ",
-                " הדיכאוניים מכחישים את ההליכה ",
-                " הפסימיים לא מאמינים שיש סוף למסדרון הזה ",
-                "  רודפי הנחמה גוררים רגלים  ",
-                "  ואני פעם זה ופעם זה.  "
-            )
-            postBackground = "1E4174"
-            postTransparency =10
-            val di = 0
-            val dd = 10
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 305 + dd),
-                arrayListOf(0, -1 + di, 0, 270 + dd),
-                arrayListOf(0, -1 + di, 0, 235 + dd),
-                arrayListOf(0, -1 + di, 0, 200 + dd),
-                arrayListOf(0, -1 + di, 0, 165 + dd),
-                arrayListOf(0, -1 + di, 0, 130 + dd),
-                arrayListOf(0, -1 + di, 0, 70 + dd),
-                arrayListOf(0, -1 + di, 0, 35+ dd),
-                arrayListOf(0, -1 + di, 0, 0 + dd)
-            )
-            val size1 = 16
-            val size2 = 0
-            postTextSize = arrayListOf(0, size1, size2)
-            postPadding = arrayListOf(0, 0, 0, 0)
-            val col = "#DDA94B"
-             postTextColor = arrayListOf(CONSTANT, col)
-            postFontFamily = 103
-            postRadiuas = 15
-            lineSpacing=1.2f
-        }
-        drawPost.drawPostFire(post,layout)
-        util.sendPostToStringFirestore(post)
-    }
-}
+    /*        זה שאתה יודע הרבה על דיכאונות ואיך לצאת מהם זה לא אומר שאתה לא מדוכא
+   זה שאתה יועץ נישואים זה לא אומר שהזוגיות שלך מוצלחת
+   זה שאתה פסיכולוג זה לא אומר שאתה נמצא באופן שיגרתי לפני התמוטטות עצבים
+   זה שאתה יודע הרבה על החיים זה לא אומר שאתה חי בטוב
+   */
 
- /*
-        זה שאתה יודע הרבה על דיכאונות ואיך לצאת מהם זה לא אומר שאתה לא מדוכא
-זה שאתה יועץ נישואים זה לא אומר שהזוגיות שלך מוצלחת
-זה שאתה פסיכולוג זה לא אומר שאתה נמצא באופן שיגרתי לפני התמוטטות עצבים
-זה שאתה יודע הרבה על החיים זה לא אומר שאתה חי בטוב
-*/
+}

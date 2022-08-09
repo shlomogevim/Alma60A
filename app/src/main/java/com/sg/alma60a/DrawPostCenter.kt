@@ -22,6 +22,7 @@ class DrawPostCenter(val context: Context) {
     val draw7Line = DrawGeneralPost()
     val draw8Line =DrawGeneralPost()
     val draw9Line = DrawGeneralPost()
+    val draw10Line = DrawGeneralPost()
     fun Int.toPx(): Int = (this * Resources.getSystem().displayMetrics.density).toInt()
 
 
@@ -38,6 +39,7 @@ class DrawPostCenter(val context: Context) {
             7 -> draw7Line.drawPost(context, post, layout)
             8 -> draw8Line.drawPost(context, post, layout)
             9 -> draw9Line.drawPost(context, post, layout)
+            10 -> draw10Line.drawPost(context, post, layout)
         }
     }
     fun drawPostFire(post: Post, layout: ConstraintLayout) {
@@ -54,6 +56,7 @@ class DrawPostCenter(val context: Context) {
             7 -> draw7Line.drawPostFire(context, post, layout)
             8 -> draw8Line.drawPostFire(context, post, layout)
             9 -> draw9Line.drawPostFire(context, post, layout)
+            10 -> draw10Line.drawPostFire(context, post, layout)
         }
     }
 }
