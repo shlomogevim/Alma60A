@@ -8,6 +8,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 
 class Post8Lines(val context: Context) {
     private val layout: ConstraintLayout = (context as Activity).findViewById(R.id.itemLayoutFire)
+    val pref = context.getSharedPreferences(SHARPREF_ALMA, Context.MODE_PRIVATE)
     val drawPost= DrawPostCenter(context)
     private val util= Utility()
 
@@ -248,7 +249,7 @@ fun loadPost802() {
                 " מעניינים בטירוף ",
                 " אבל שורפים לך את המודעות. "
             )
-            val di=0
+            /*val di=0
             val dd=20
             postMargin = arrayListOf(
                 arrayListOf(0,-1+di,0,210+dd),
@@ -259,7 +260,7 @@ fun loadPost802() {
                 arrayListOf(0,-1+di, 0,60+dd),
                 arrayListOf(0,-1+di, 0,30+dd),
                 arrayListOf(0,-1+di, 0,0+dd)
-            )
+            )*/
             postTransparency =6
             postTextSize =  arrayListOf(0, 14)
             val backgroundColor = "0A174E"
@@ -269,12 +270,14 @@ fun loadPost802() {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-            postPadding = arrayListOf(0, 0, 0, 0)
+            postPadding = arrayListOf(100, -1, 30, 10)
             postRadiuas = 16
             lineSpacing=1.4f
         }
-        drawPost.drawPostFire(post,layout)
-        util.sendPostToStringFirestore(post)
+                pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
+//        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
     }
     }
 

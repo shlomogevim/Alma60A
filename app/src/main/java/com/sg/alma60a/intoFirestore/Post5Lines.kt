@@ -10,6 +10,7 @@ class Post5Lines(val context: Context) {
 
     private val layout: ConstraintLayout = (context as Activity).findViewById(R.id.itemLayoutFire)
     val drawPost= DrawPostCenter(context)
+    val pref = context.getSharedPreferences(SHARPREF_ALMA, Context.MODE_PRIVATE)
     private val util= Utility()
 
     fun loadPost500() {
@@ -2169,6 +2170,74 @@ fun loadPost553() {
             postRadiuas = 10
             lineSpacing=1.2f
         }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost555() {
+        val post = Post()
+        with(post) {
+            postNum = 555
+            postId=84
+            lineNum = 5
+            imageUri = "https://cdn.pixabay.com/photo/2016/10/23/23/03/sunrise-1765027_1280.jpg"
+            postText = arrayListOf(
+                " החיים האלה ",
+                " הם כלי לא רע  כדי לחיות, ",
+                " בכל מקרה ",
+                " בלעדיהם היה לך קצת קשה  ",
+                " להשתמש בסמרטפון שלך. "
+            )
+            postPadding = arrayListOf(100, -1, 30, 10)
+            postTransparency =0
+            postTextSize = arrayListOf(0, 15)
+            val  backgroundColor = "#7b9acc"
+            val textColor = "#FCF6F5"
+            postFontFamily =103
+            postBackground =util. improveColorString(backgroundColor)
+            val textcolo=util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postPadding = arrayListOf(100, -1, 30, 10)
+            postRadiuas = 10
+            lineSpacing=1.2f
+        }
+                pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
+//        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost556() {
+        val post = Post()
+        with(post) {
+            postNum = 556
+            postId=86
+            lineNum = 5
+            imageUri = "https://cdn.pixabay.com/photo/2017/03/07/14/09/landscape-2124104_1280.jpg"
+            postText = arrayListOf(
+                " אתה לא צריך לחסל את כל השדים שלך",
+                " זה אכזרי מדי ולא ראלי, ",
+                " מספיק שתשלח אותם לביתם הפרטי ",
+                " שמצוי אי שם  ",
+                " במרחבי העולם הנפשי שלך. "
+            )
+            postPadding = arrayListOf(100, -1, 30, 10)
+            postTransparency =0
+            postTextSize = arrayListOf(0, 15)
+            val  backgroundColor = "#7b9acc"
+            val textColor = "#FCF6F5"
+            postFontFamily =103
+            postBackground =util. improveColorString(backgroundColor)
+            val textcolo=util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postPadding = arrayListOf(100, -1, 30, 10)
+            postRadiuas = 10
+            lineSpacing=1.2f
+        }
+        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
+//        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }

@@ -31,8 +31,7 @@ class Post9Lines(val context: Context) {
                 "רודפי הנחמה  גוררים רגלים, ",
                 "  אבל תמיד בסוף המסדרון יש חדר גדול.  "
             )
-
-            val di = 0
+      /*      val di = 0
             val dd = 0
             postMargin = arrayListOf(
                 arrayListOf(0, 10 + di, 0, -1 + dd),
@@ -44,7 +43,7 @@ class Post9Lines(val context: Context) {
                 arrayListOf(0, -1 + di, 0, 60 + dd),
                 arrayListOf(0, -1 + di, 0, 30+ dd),
                 arrayListOf(0, -1 + di, 0, 0 + dd)
-            )
+            )*/
             postTransparency =6
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#1E4174"
@@ -54,7 +53,7 @@ class Post9Lines(val context: Context) {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-            postPadding = arrayListOf(0, 0, 0, 0)
+            postPadding = arrayListOf(100, -1, 30, 10)
             postRadiuas = 16
             lineSpacing = 1.3f
         }
@@ -62,6 +61,7 @@ class Post9Lines(val context: Context) {
 //        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
         drawPost.drawPostFire(post,layout)
         util.sendPostToStringFirestore(post)
+//        util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
     }
     fun loadPost901() {
         val post = Post()

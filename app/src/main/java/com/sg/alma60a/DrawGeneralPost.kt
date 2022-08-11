@@ -166,14 +166,14 @@ class DrawGeneralPost() {
     private fun createTextView(
         index: Int, textView: TextView, post: Post, context: Context, layout: ConstraintLayout
     ) {
-        util.logi("Draw GeneralPost 142  ${post.postTextColor.joinToString()}")
+//        util.logi("Draw GeneralPost 142  ${post.postTextColor.joinToString()}")
 
         for (index in 1..post.postTextColor.size - 1) {
             /* if (!post.postTextColor[index].contains("#")) {
                  post.postTextColor[index] = "#" + post.postTextColor[index]
              }*/
             var col = post.postTextColor[index]
-            util.logi("Draw GeneralPost 147    col=$col")
+//            util.logi("Draw GeneralPost 147    col=$col")
             col = col.replace("$", "")
             col = col.replace("#", "")
             col = "#$col"
@@ -217,16 +217,84 @@ float mult = tvSampleText.getLineSpacingMultiplier(); */
         val fontAddress = helper.getFamilyFont(post.postFontFamily)
 
         textView.typeface = ResourcesCompat.getFont(context, fontAddress)
-        textView.setPadding(
+       /* textView.setPadding(
             post.postPadding[0].toPx(),
             post.postPadding[1].toPx(),
             post.postPadding[2].toPx(),
             post.postPadding[3].toPx()
-        )
+        )*/
         textView.gravity = Gravity.CENTER
     }
 
     private fun locateTextView(
+        index: Int,
+        textView: TextView,
+        post: Post
+    ) {
+        constraintSet.clear(textView.id, ConstraintSet.TOP)
+        constraintSet.clear(textView.id, ConstraintSet.BOTTOM)
+         val ind = index - 1
+        val ind1=post.lineNum-ind-1
+        //  logi("DrawGeneralPost  378  index=$index   ind=$ind       postNum=${post.postNum}")
+        /*         arrayListOf(  0,   -1 + di,   0,   90 + dd  ),
+               arrayListOf(  0,   -1 + di,   0,   60 + dd  ),
+               arrayListOf(  0,   -1 + di,   0,   30 + dd  ),
+               arrayListOf(  0,   -1 + di,   0,    0 + dd  )
+   */
+//    post.postPadding = arrayListOf(100, -1, 30, 0)     // locate in the buttom
+//    post.postPadding = arrayListOf(100, 58, 30,-1)     // locate in the top
+
+        val num0=post.postPadding[0]
+        val top=post.postPadding[1]
+        val dis=post.postPadding[2]
+        val bottom=post.postPadding[3]
+
+        //  logi("DrawGeneral 391 num0=$num0  buttom=$bottom    dis=$dis   top=$top")
+
+        if (num0!=0) {
+//         logi("DrawGeneral 393 buttom=$bottom")
+//         if (post.postMargin[ind][1] == -1) {
+            if (top == -1) {
+//             logi("DrawGeneral 395 buttom=$bottom")
+                constraintSet.connect(
+                    textView.id,
+                    ConstraintSet.BOTTOM,
+                    ConstraintSet.PARENT_ID,
+//                 ConstraintSet.BOTTOM, post.postMargin[ind][3].toPx()
+                    ConstraintSet.BOTTOM, (bottom+(dis*ind1)).toPx()
+                )
+            }
+
+            if (bottom == -1) {
+                constraintSet.connect(
+                    textView.id,
+                    ConstraintSet.TOP,
+                    ConstraintSet.PARENT_ID,
+                    ConstraintSet.TOP, (top+dis*ind).toPx()
+                )
+            }
+
+        }else{
+            if (post.postMargin[ind][3] == -1) {
+                constraintSet.connect(
+                    textView.id,
+                    ConstraintSet.TOP,
+                    ConstraintSet.PARENT_ID,
+                    ConstraintSet.TOP, post.postMargin[ind][1].toPx()
+                )
+            }
+            if (post.postMargin[ind][1] == -1) {
+                constraintSet.connect(
+                    textView.id,
+                    ConstraintSet.BOTTOM,
+                    ConstraintSet.PARENT_ID,
+                    ConstraintSet.BOTTOM, post.postMargin[ind][3].toPx()
+                )
+            }
+        }
+    }
+
+/*    private fun locateTextView(
         index: Int,
         textView: TextView,
         post: Post
@@ -251,5 +319,5 @@ float mult = tvSampleText.getLineSpacingMultiplier(); */
                 ConstraintSet.BOTTOM, post.postMargin[ind][3].toPx()
             )
         }
-    }
+    }*/
 }

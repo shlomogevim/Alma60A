@@ -10,6 +10,7 @@ class Post3Lines(val context: Context) {
 
     private val layout: ConstraintLayout = (context as Activity).findViewById(R.id.itemLayoutFire)
     val drawPost = DrawPostCenter(context)
+    val pref = context.getSharedPreferences(SHARPREF_ALMA, Context.MODE_PRIVATE)
     private val util = Utility()
 
 
@@ -3680,6 +3681,38 @@ fun loadPost364() {
             lineSpacing= 1.1F
             postRadiuas = 15
         }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost3915() {
+        val post = Post()
+        with(post) {
+            postNum = 3915
+            postId= 87
+            lineNum = 3
+            imageUri = "https://cdn.pixabay.com/photo/2018/01/29/14/08/counting-3116201_1280.jpg"
+            postText = arrayListOf(
+                " חשבונות הנפש האלה ",
+                " גורמים לך להשתפר בחשבון  ",
+                "  ופחות להתפתחות הנפש.  ",
+            )
+
+            postTransparency =6
+            postTextSize = arrayListOf(0, 16)
+            val  backgroundColor = "#2BAE66"
+            val textColor = "#FCF6F5"
+            postFontFamily =103
+            postBackground =util. improveColorString(backgroundColor)
+            val textcolo=util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postPadding = arrayListOf(100, -1, 30, 10)
+            lineSpacing= 1.1F
+            postRadiuas = 15
+        }
+        //        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
+        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }

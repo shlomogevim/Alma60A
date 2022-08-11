@@ -11,6 +11,7 @@ class Post2Lines(val context: Context) {
 
     private val layout: ConstraintLayout = (context as Activity).findViewById(R.id.itemLayoutFire)
     val drawPost= DrawPostCenter(context)
+    val pref = context.getSharedPreferences(SHARPREF_ALMA, Context.MODE_PRIVATE)
     private val util= Utility()
 
 
@@ -2065,5 +2066,36 @@ fun loadPost258() {
         }
         drawPost.drawPostFire(post,layout)
         util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost264() {
+        val post = Post()
+        with(post) {
+            postNum = 264
+            lineNum = 2
+            postId= 86
+            imageUri ="https://cdn.pixabay.com/photo/2014/10/16/20/00/woman-491623_1280.jpg"
+            postText =  arrayListOf(
+                " אם החלומות שלך מזדקנים איתך  ",
+                "  סימן שלא בחרת את החלומות הנכונים. "
+            )
+            postTransparency =3
+            postTextSize = arrayListOf(0,14)
+            val  backgroundColor = "000000"
+            val textColor = "#ffffff"
+            postFontFamily =103
+
+            postBackground =util. improveColorString(backgroundColor)
+            val textcolo=util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postPadding = arrayListOf(100,20,35,-1)
+            postRadiuas = 15
+            lineSpacing=0.9f
+        }
+        drawPost.drawPostFire(post,layout)
+        util.sendPostToStringFirestore(post)
+        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
+//        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
     }
 }

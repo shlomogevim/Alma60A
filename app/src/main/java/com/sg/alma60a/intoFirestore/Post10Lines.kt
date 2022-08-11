@@ -30,10 +30,10 @@ class Post10Lines(val context: Context) {
                 " ממש לא, ",
                 " כדי שהכל יסתדר ",
                 "  מספיק שאתה אישית  ",
-                " תרגיש בסדר עם עצמך לרגע ",
+                " תרגיש בסדר עם עצמך לרגע, ",
                 " זה הכול. "
             )
-            val di = 0
+          /*  val di = 0
             val dd = 0
             val interval=35
             postMargin = arrayListOf(
@@ -47,7 +47,7 @@ class Post10Lines(val context: Context) {
                 arrayListOf(0, -1 + di, 0, interval*2+ dd),
                 arrayListOf(0, -1 + di, 0, interval*1 + dd),
                 arrayListOf(0, -1 + di, 0, 0 + dd)
-            )
+            )*/
             postTransparency = 5
             postTextSize = arrayListOf(0, 17)
             val backgroundColor = "#00539C"
@@ -57,7 +57,7 @@ class Post10Lines(val context: Context) {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-            postPadding = arrayListOf(0, 0, 0, 0)
+            postPadding = arrayListOf(100, -1, 35, 10)
             postRadiuas = 16
             lineSpacing = 1.3f
             }
@@ -65,6 +65,7 @@ class Post10Lines(val context: Context) {
 //        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
+//        util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
     }
 
 
