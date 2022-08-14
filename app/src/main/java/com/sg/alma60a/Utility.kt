@@ -53,6 +53,8 @@ class Utility() {
         val postTextSize: ArrayList<Int> = convertFromStringArrayToIntArry(postTextSize1)
         val postPadding1 = snap?.getString(POST_PADDING).toString()
         val postPadding: ArrayList<Int> = convertFromStringArrayToIntArry(postPadding1)
+        val textLocation1 = snap?.getString(POST_TEXT_LOCATION).toString()
+        val textLocation: ArrayList<Int> = convertFromStringArrayToIntArry(textLocation1)
         val postMargin1 = snap?.getString(POST_MARGIN).toString()
         val postMargin: ArrayList<ArrayList<Int>> = convertFromStringArrayToIntArry2(postMargin1)
         val postLineSpacing = snap?.getLong(POST_LINE_SPACING)!!.toFloat()
@@ -68,6 +70,7 @@ class Utility() {
             postTranparency,
             postTextSize,
             postPadding,
+            textLocation,
             postTextColor,
             postFontFamily,
             postRadius,
@@ -410,6 +413,7 @@ class Utility() {
             data[POST_TRANPARECY] = postTransparency
             data[POST_TEXT_SIZE] = postTextSize.joinToString()
             data[POST_PADDING] = postPadding.joinToString()
+            data[POST_TEXT_LOCATION] = textLocation.joinToString()
             data[POST_TEXT_COLOR] = postTextColor
             data[POST_FONT_FAMILY] = postFontFamily
             data[POST_RADIUS] = postRadiuas
@@ -432,6 +436,7 @@ class Utility() {
             data[POST_TRANPARECY] = postTransparency
             data[POST_TEXT_SIZE] = postTextSize.joinToString()
             data[POST_PADDING] = postPadding.joinToString()
+            data[POST_TEXT_LOCATION] = textLocation.joinToString()
             data[POST_TEXT_COLOR] = postTextColor
             data[POST_FONT_FAMILY] = postFontFamily
             data[POST_RADIUS] = postRadiuas

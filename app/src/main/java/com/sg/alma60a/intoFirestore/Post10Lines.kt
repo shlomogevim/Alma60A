@@ -33,22 +33,7 @@ class Post10Lines(val context: Context) {
                 " תרגיש בסדר עם עצמך לרגע, ",
                 " זה הכול. "
             )
-          /*  val di = 0
-            val dd = 0
-            val interval=35
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, interval*9 + dd),
-                arrayListOf(0, -1 + di, 0, interval*8+ dd),
-                arrayListOf(0, -1 + di, 0, interval*7 + dd),
-                arrayListOf(0, -1 + di, 0, interval*6 + dd),
-                arrayListOf(0, -1 + di, 0, interval*5 + dd),
-                arrayListOf(0, -1 + di, 0,interval*4 + dd),
-                arrayListOf(0, -1 + di, 0, interval*3 + dd),
-                arrayListOf(0, -1 + di, 0, interval*2+ dd),
-                arrayListOf(0, -1 + di, 0, interval*1 + dd),
-                arrayListOf(0, -1 + di, 0, 0 + dd)
-            )*/
-            postTransparency = 5
+             postTransparency = 5
             postTextSize = arrayListOf(0, 17)
             val backgroundColor = "#00539C"
             val textColor = "#FFD662"
@@ -57,15 +42,19 @@ class Post10Lines(val context: Context) {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-            postPadding = arrayListOf(100, -1, 35, 10)
+            //        post.textLocation = arrayListOf(102,   -1,       35,            10,               0,        60,         1,            -30)            // locate in the bottom
+            //      post.textLocation = arrayListOf(102,  10,       35,            -1,               0,         0,          0,              0)            //locate in the top
+            textLocation = arrayListOf(10, -1, 35,10, 0, 0,0, 0)
+//            textLocation = arrayListOf(10, 10, 35,-1, 0, 0,0, 0)
+            postPadding =  arrayListOf(0, 0,0, 0)
             postRadiuas = 16
             lineSpacing = 1.3f
             }
         pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
 //        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
         drawPost.drawPostFire(post, layout)
-        util.sendPostToStringFirestore(post)
-//        util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
+//        util.sendPostToStringFirestore(post)
+        util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
     }
 
 

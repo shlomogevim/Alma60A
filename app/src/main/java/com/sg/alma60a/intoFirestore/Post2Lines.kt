@@ -2098,4 +2098,38 @@ fun loadPost258() {
         pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
 //        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
     }
+
+    fun loadPost265() {
+        val post = Post()
+        with(post) {
+            postNum = 265
+            lineNum = 2
+            postId= 90
+            imageUri ="https://cdn.pixabay.com/photo/2016/04/27/16/30/pretty-1357039_1280.jpg"
+            postText =  arrayListOf(
+                "מי שלא יודע להניח לדברים",
+                "הדברים לא מניחים לו."
+            )
+            postTransparency =3
+            postTextSize = arrayListOf(0,16)
+            val  backgroundColor = "000000"
+            val textColor = "#ffffff"
+            postFontFamily =103
+
+            postBackground =util. improveColorString(backgroundColor)
+            val textcolo=util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            //        post.textLocation = arrayListOf(102,   -1,       35,            10,               0,        60,         1,            -30)     // locate in the bottom
+            //      post.textLocation = arrayListOf(102,  10,       35,            -1,               0,         0,          0,              0)       //locate in the top
+            textLocation = arrayListOf(102, -1, 35,10, 0, -60,0, 0)
+            postPadding =  arrayListOf(10, 5,10, 0)
+            postRadiuas = 16
+            lineSpacing = 1.3f
+        }
+        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
+//        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
 }

@@ -9,6 +9,9 @@ const val SHARPREF_ALMA = "ShareprefAlma"
 //const val TRUE = "ShareprefTrue"
 //const val FALSE= "ShareprefFalse"
 
+const val NO_TOP= -1
+const val NO_BOTTOM= -1
+
 const val POST_REF="Posts"
 const val POST_ID="post_id"
 const val POST_NUM="post_num"
@@ -20,6 +23,7 @@ const val POST_BACKGROUND="post_background"
 const val POST_TRANPARECY="post_tranparecy"
 const val POST_TEXT_SIZE="post_textSize"
 const val POST_PADDING="post_padding"
+const val POST_TEXT_LOCATION="post_text_location"
 const val POST_TEXT_COLOR="post_textColor"
 const val POST_FONT_FAMILY="post_fontFamily"
 const val POST_RADIUS="post_radius"

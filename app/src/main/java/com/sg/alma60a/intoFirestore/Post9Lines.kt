@@ -31,20 +31,7 @@ class Post9Lines(val context: Context) {
                 "רודפי הנחמה  גוררים רגלים, ",
                 "  אבל תמיד בסוף המסדרון יש חדר גדול.  "
             )
-      /*      val di = 0
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, 10 + di, 0, -1 + dd),
-                arrayListOf(0, 40 + di, 0, -1 + dd),
-                arrayListOf(0, 70 + di, 0, -1 + dd),
-                arrayListOf(0, 100 + di, 0, -1 + dd),
-                arrayListOf(0, -1 + di, 0, 120 + dd),
-                arrayListOf(0, -1 + di, 0, 90 + dd),
-                arrayListOf(0, -1 + di, 0, 60 + dd),
-                arrayListOf(0, -1 + di, 0, 30+ dd),
-                arrayListOf(0, -1 + di, 0, 0 + dd)
-            )*/
-            postTransparency =6
+            postTransparency =8
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#1E4174"
             val textColor = "#DDA94B"
@@ -53,15 +40,22 @@ class Post9Lines(val context: Context) {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-            postPadding = arrayListOf(100, -1, 30, 10)
+            //        post.textLocation = arrayListOf(102,   -1,       35,            10,               0,        60,         1,            -30)            // locate in the bottom
+            //      post.textLocation = arrayListOf(102,  10,       35,            -1,               0,         0,          0,              0)            //locate in the top
+            /* textLocation = arrayListOf(10, -1, 35,10, 0, 0,0, 0)
+//            textLocation = arrayListOf(10, 10, 35,-1, 0, 0,0, 0)*/
+
+            textLocation = arrayListOf(10, -1, 30,10, 0, 0,0, 0)
+//            textLocation = arrayListOf(10, 10, 30,-1, 0, 0,0, 0)
+            postPadding =  arrayListOf(5, 0,5, 0)
             postRadiuas = 16
             lineSpacing = 1.3f
         }
         pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
 //        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
         drawPost.drawPostFire(post,layout)
-        util.sendPostToStringFirestore(post)
-//        util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
+//        util.sendPostToStringFirestore(post)
+        util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
     }
     fun loadPost901() {
         val post = Post()
