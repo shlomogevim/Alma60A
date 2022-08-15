@@ -54,7 +54,7 @@ class Post10Lines(val context: Context) {
 //        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
         drawPost.drawPostFire(post, layout)
 //        util.sendPostToStringFirestore(post)
-        util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
+        util.sendPostToStringFirestore(post)
     }
 
 

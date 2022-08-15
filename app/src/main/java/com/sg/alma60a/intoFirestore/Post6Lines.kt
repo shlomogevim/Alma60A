@@ -56,7 +56,7 @@ class Post6Lines(val context: Context) {
                 "ומה שנותר פתוח",
                 "זו אותה אמונה באגדות עתיקות."
             )
-            textLocation = arrayListOf(10, -1, 30,400, 1,30,0,0)
+            textLocation = arrayListOf(10, 10, 30,-1, 3, 30, 0,0)
             postTextSize = arrayListOf(0, 14)
             postTransparency = 5
             postBackground = "337def"
@@ -776,7 +776,7 @@ fun loadPost614() {
         pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
 //        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
         drawPost.drawPostFire(post, layout)
-        util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
+        util.sendPostToStringFirestore(post)
     }
   
   }

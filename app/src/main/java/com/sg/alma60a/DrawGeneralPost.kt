@@ -250,13 +250,13 @@ float mult = tvSampleText.getLineSpacingMultiplier(); */
 
 
     private fun arangeText10(index: Int, textView: TextView, post: Post) {
-       // post.textLocation = arrayListOf(10, 10, 35, NO_BOTTOM, 1, 500, 0, 0)
+
 //val arr= arrayListOf(10, NO_TOP,     35,         0,             0,        300,         2,          100)
-  //  val arr= arrayListOf(10, 0,              35,   NO_BOTTOM,     2,       300,         0,          0)
                                         //top            //dis   //bottom       //line1   //dis1   //line2      //dis2        //locate in the
                       //  10,    NO_TOP,  35,     10,                 0,        60,         1,            -30           //  bottom
                       //  10,          100,             35,  NO_BOTTOM,        0,         0,          0,              0           // top
-       // post.textLocation = arr
+//         post.textLocation = arrayListOf(10, -1, 35,10, 1, 30, 0,0)
+//         post.textLocation = arrayListOf(10, 10, 30,-1, 3, 30, 0,0)
         val line = index - 1
         val ind1 = post.lineNum - line - 1
         var top = post.textLocation[1]
@@ -277,9 +277,9 @@ float mult = tvSampleText.getLineSpacingMultiplier(); */
 
           if (line==0) {
 //              util.logi("------------------" )
-            util.logi("DrawGeneral 280 inside  arangeText102 top=$top dis=$dis bottom=$bottom line1=$line1 dis1=$dis1  line2=$line2 dis2=$dis2" )
+//            util.logi("DrawGeneral 280 inside  arangeText102 top=$top dis=$dis bottom=$bottom line1=$line1 dis1=$dis1  line2=$line2 dis2=$dis2" )
           }
-       util.logi("DrawGeneral 292 line=$line   ind1=$ind1  distanceTop=$distanceTop      ${textView.text}")
+//       util.logi("DrawGeneral 282 line=$line   ind1=$ind1  distanceTop=$distanceTop      ${textView.text}")
 
         if (top == NO_TOP) {                                                                            //locate in the bottom
             if (line <= line1) {
@@ -300,13 +300,14 @@ float mult = tvSampleText.getLineSpacingMultiplier(); */
 
         if (bottom == NO_BOTTOM) {                                                                            //locate in the top
 //            var distance = (top + (dis * line)).toPx()                                                //10, 0,              35,   NO_BOTTOM,     0,       500,         0,          0
-              util.logi("DrawGeneral 303  line=$line   line1=$line1 ")
-            if (line <= line1) {
+//              util.logi("DrawGeneral 303  line=$line   line1=$line1 ")
+            if (line >= line1) {
+//                util.logi("DrawGeneral 305  line=$line   line1=$line1 ")
                 distanceTop += dis1
             }
-          /*  if (line <=line2) {
+            if (line >=line2) {
                 distanceTop += dis2
-            }*/
+            }
             constraintSet.connect(
                 textView.id,
                 ConstraintSet.TOP,
