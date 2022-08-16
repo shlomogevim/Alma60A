@@ -17,6 +17,7 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 500
+            postId=68
             lineNum = 5
             imageUri =
                 "https://cdn.pixabay.com/photo/2018/12/02/20/26/till-eulenspiegel-3852068_1280.jpg"
@@ -29,19 +30,9 @@ class Post5Lines(val context: Context) {
             )
             postBackground = "a9dce3"
             postTransparency = 8
-            val di = 0
-            val dd = 20
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 200 + dd),
-                arrayListOf(0, -1 + di, 0, 150 + dd),
-                arrayListOf(0, -1 + di, 0, 100 + dd),
-                arrayListOf(0, -1 + di, 0, 50 + dd),
-                arrayListOf(0, -1 + di, 0, 0 + dd)
-            )
-            val size1 = 20
-            val size2 = 0
-            postTextSize = arrayListOf(0, size1, size2)
-            postPadding = arrayListOf(0, 2, 0, 2)
+            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+                     postTextSize = arrayListOf(0,14)
+            postPadding = arrayListOf(5, 0, 5, 0)
             val col = "#ffffff"
             val col1 = "#4dd0e1"
             postTextColor = arrayListOf(CONSTANT, col, col1)
@@ -58,6 +49,7 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 501
+            postId=75
             lineNum = 5
             imageUri =
                 "https://cdn.pixabay.com/photo/2020/03/01/07/25/remote-control-4891936_1280.jpg"
@@ -70,20 +62,8 @@ class Post5Lines(val context: Context) {
             )
             postBackground = "a9dce3"
             postTransparency = 0
-            val di = 0
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, 10 + di, 0, -1 + dd),
-                arrayListOf(0, 50 + di, 0, -1 + dd),
-                arrayListOf(0, 90 + di, 0, -1 + dd),
-                /*arrayListOf(0,120+di, 0,-1+dd),
-              arrayListOf(0,160+di, 0,-1+dd)*/
-                arrayListOf(0, -1 + di, 0, 50 + dd),
-                arrayListOf(0, -1 + di, 0, 10 + dd)
-            )
-            val size1 = 20
-            val size2 = 0
-            postTextSize = arrayListOf(0, size1, size2)
+            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
+           postTextSize = arrayListOf(0, 16)
             postPadding = arrayListOf(0, 0, 0, 0)
             val col = "#ffffff"
             val col1 = "#4dd0e1"
@@ -101,8 +81,9 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 502
+            postId=75
             lineNum = 5
-            imageUri = "https://cdn.pixabay.com/photo/2017/08/24/03/41/milky-way-2675323_1280.jpg"
+            imageUri = "https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_1280.jpg"
             postText = arrayListOf(
                 "אמת לא הולכת אף פעם לאיבוד",
                 "אף פעם לא משתנה,",
@@ -112,18 +93,8 @@ class Post5Lines(val context: Context) {
             )
             postBackground = "a9dce3"
             postTransparency = 0
-            val di = 20
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, 0 + di, 0, -1 + dd),
-                arrayListOf(0, 60 + di, 0, -1 + dd),
-                arrayListOf(0, 100 + di, 0, -1 + dd),
-                arrayListOf(0, 140 + di, 0, -1 + dd),
-                arrayListOf(0, 180 + di, 0, -1 + dd)
-            )
-            val size1 = 20
-            val size2 = 0
-            postTextSize = arrayListOf(0, size1, size2)
+            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
+             postTextSize = arrayListOf(0, 16)
             postPadding = arrayListOf(0, 0, 0, 0)
             val col = "#ffffff"
             val col1 = "#4dd0e1"
@@ -140,6 +111,7 @@ class Post5Lines(val context: Context) {
     fun loadPost503() {
         val post = Post()
         with(post) {
+            postId=74
             postNum = 503
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2018/09/23/23/13/children-3698745_1280.jpg"
@@ -152,23 +124,12 @@ class Post5Lines(val context: Context) {
             )
             postBackground = "000000"
             postTransparency = 10
-            val di = 0
-            val dd = -5
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 170 + dd),
-
-                arrayListOf(0, -1 + di, 0, 130 + dd),
-                arrayListOf(0, -1 + di, 0, 90 + dd),
-                arrayListOf(0, -1 + di, 0, 50 + dd),
-                arrayListOf(0, -1 + di, 0, 10 + dd)
-            )
-            val size1 = 24
-            val size2 = 0
-            postTextSize = arrayListOf(0, size1, size2)
+            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
+                   postTextSize = arrayListOf(0, 16)
             postPadding = arrayListOf(0, 0, 0, 0)
             val col = "#ffffff"
             postTextColor = arrayListOf(CONSTANT, col)
-            postFontFamily = 1
+            postFontFamily = 103
             postRadiuas = 15
         }
         pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
@@ -181,6 +142,7 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 504
+            postId=91
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2016/01/19/17/22/children-1149671_1280.jpg"
             val st1 = " בסוף מה נשאר לך? "
@@ -194,16 +156,8 @@ class Post5Lines(val context: Context) {
             )
             postBackground = "000000"
             //  postBackground ="4d3227"
-            postTransparency = 4
-            val di = 0
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, 10, 0, -1),
-                arrayListOf(0, 45 + di, 0, -1),
-                arrayListOf(0, 80 + di, 0, -1),
-                arrayListOf(0, 115 + di, 0, -1),
-                arrayListOf(0, 145 + di, 0, -1),
-            )
+            postTransparency = 0
+            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
             val size1 = 16
             val size2 = 0
             postTextSize = arrayListOf(0, size1, size2)
@@ -223,6 +177,7 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 505
+            postId=76
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2013/04/04/12/34/mountains-100367_1280.jpg"
             postText = arrayListOf(
@@ -233,16 +188,8 @@ class Post5Lines(val context: Context) {
                 "ויותר בחיים."
             )
             postBackground = "263238"
-            postTransparency = 4
-            val di = 0
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 105 + dd),
-                arrayListOf(0, -1 + di, 0, 80 + dd),
-                arrayListOf(0, -1 + di, 0, 55 + dd),
-                arrayListOf(0, -1 + di, 0, 30 + dd),
-                arrayListOf(0, -1 + di, 0, 5 + dd)
-            )
+            postTransparency = 0
+            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
             val size1 = 13
             val size2 = 0
             postTextSize = arrayListOf(0, size1, size2)
@@ -262,6 +209,7 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 506
+            postId=74
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2017/02/27/00/19/male-2101801_1280.jpg"
             postText = arrayListOf(
@@ -272,16 +220,8 @@ class Post5Lines(val context: Context) {
                 "  בחוסר המשמעות של הקיום.  "
             )
             postBackground = "263238"
-            postTransparency = 4
-            val di = 0
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, 0 + di, 0, -1 + dd),
-                arrayListOf(0, 30 + di, 0, -1 + dd),
-                arrayListOf(0, 60 + di, 0, -1 + dd),
-                arrayListOf(0, 90 + di, 0, -1 + dd),
-                arrayListOf(0, 120 + di, 0, -1 + dd)
-            )
+            postTransparency = 0
+            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
             val size1 = 16
             val size2 = 0
             postTextSize = arrayListOf(0, size1, size2)
@@ -302,6 +242,7 @@ class Post5Lines(val context: Context) {
         with(post) {
             postNum = 507
             lineNum = 5
+            postId=90
             imageUri = "https://cdn.pixabay.com/photo/2019/08/09/23/11/forest-4395986_1280.jpg"
             postText = arrayListOf(
                 "מלחמות גדולות",
@@ -311,19 +252,9 @@ class Post5Lines(val context: Context) {
                 "והמוצלחות ביותר היו אילו שלא היו."
             )
             postBackground = "263238"
-            postTransparency = 4
-            val di = 0
-            val dd = 10
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 120 + dd),
-                arrayListOf(0, -1 + di, 0, 90 + dd),
-                arrayListOf(0, -1 + di, 0, 60 + dd),
-                arrayListOf(0, -1 + di, 0, 30 + dd),
-                arrayListOf(0, -1 + di, 0, 0 + dd)
-            )
-            val size1 = 16
-            val size2 = 0
-            postTextSize = arrayListOf(0, size1, size2)
+            postTransparency =0
+            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
+            postTextSize = arrayListOf(0, 16)
             postPadding = arrayListOf(0, 0, 0, 0)
             val col = "#ffffff"
             postTextColor = arrayListOf(CONSTANT, col)
@@ -340,6 +271,7 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 508
+            postId=79
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2020/08/19/00/13/sea-5499649_1280.jpg"
             postText = arrayListOf(
@@ -351,22 +283,12 @@ class Post5Lines(val context: Context) {
             )
             postBackground = "263238"
             postTransparency = 4
-            val di = 0
-            val dd = 10
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 160 + dd),
-                arrayListOf(0, -1 + di, 0, 120 + dd),
-                arrayListOf(0, -1 + di, 0, 80 + dd),
-                arrayListOf(0, -1 + di, 0, 40 + dd),
-                arrayListOf(0, -1 + di, 0, 0 + dd)
-            )
-            val size1 = 22
-            val size2 = 0
-            postTextSize = arrayListOf(0, size1, size2)
+            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
+             postTextSize = arrayListOf(0, 16)
             postPadding = arrayListOf(0, 0, 0, 0)
             val col = "#ffffff"
             postTextColor = arrayListOf(CONSTANT, col)
-            postFontFamily = 4
+            postFontFamily = 103
             postRadiuas = 15
         }
         pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
@@ -379,6 +301,7 @@ class Post5Lines(val context: Context) {
         var post = Post()
         with(post) {
             postNum = 509
+            postId=82
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2017/08/01/14/42/knight-2565957_1280.jpg"
             postText = arrayListOf(
@@ -388,15 +311,7 @@ class Post5Lines(val context: Context) {
                 " להילחם ",
                 " רק את המלחמות שמתאימות לך. "
             )
-            val di = 0
-            val dd = 10
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 120 + dd),
-                arrayListOf(0, -1 + di, 0, 90 + dd),
-                arrayListOf(0, -1 + di, 0, 60 + dd),
-                arrayListOf(0, -1 + di, 0, 30 + dd),
-                arrayListOf(0, -1 + di, 0, 0 + dd)
-            )
+            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
             postTextSize = arrayListOf(0, 17)
             postTransparency = 10
             postBackground = "efc8b1"
@@ -417,6 +332,7 @@ class Post5Lines(val context: Context) {
         var post = Post()
         with(post) {
             postNum = 510
+            postId=76
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2017/06/25/08/07/sunbeds-2439952_1280.jpg"
             postText = arrayListOf(
@@ -426,15 +342,7 @@ class Post5Lines(val context: Context) {
                 "שאין בך מודעות ",
                 "שבעצם יש לך כבר אותם."
             )
-            val di = 0
-            val dd = 10
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 120 + dd),
-                arrayListOf(0, -1 + di, 0, 90 + dd),
-                arrayListOf(0, -1 + di, 0, 60 + dd),
-                arrayListOf(0, -1 + di, 0, 30 + dd),
-                arrayListOf(0, -1 + di, 0, 0 + dd)
-            )
+            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
             postTextSize = arrayListOf(0, 20)
             postTransparency = 7
             postBackground = "143d59"
@@ -455,6 +363,7 @@ class Post5Lines(val context: Context) {
         var post = Post()
         with(post) {
             postNum = 511
+            postId=84
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2013/05/11/08/28/sunset-110305__340.jpg"
             postText = arrayListOf(
@@ -464,15 +373,7 @@ class Post5Lines(val context: Context) {
                 "והרבה יותר רחוק",
                 "ממה שאתה מצפה לו."
             )
-            val di = 10
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, 0 + di, 0, -1 + dd),
-                arrayListOf(0, 30 + di, 0, -1 + dd),
-                arrayListOf(0, 60 + di, 0, -1 + dd),
-                arrayListOf(0, 90 + di, 0, -1 + dd),
-                arrayListOf(0, 120 + di, 0, -1 + dd)
-            )
+            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
             postTextSize = arrayListOf(0, 20)
             postTransparency = 7
             postBackground = "143d59"
@@ -493,6 +394,7 @@ class Post5Lines(val context: Context) {
         var post = Post()
         with(post) {
             postNum = 512
+            postId=84
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2012/03/04/01/01/father-22194_1280.jpg"
             postText = arrayListOf(
@@ -502,17 +404,9 @@ class Post5Lines(val context: Context) {
                 "אם תשתדל",
                 "תוכל להיות הכי אתה בעולם."
             )
-            val di = 10
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, 0 + di, 0, -1 + dd),
-                arrayListOf(0, 30 + di, 0, -1 + dd),
-                arrayListOf(0, 60 + di, 0, -1 + dd),
-                arrayListOf(0, 90 + di, 0, -1 + dd),
-                arrayListOf(0, 120 + di, 0, -1 + dd)
-            )
+            textLocation = arrayListOf(10,5, 30,-1,0, 0, 0, 0)
             postTextSize = arrayListOf(0, 20)
-            postTransparency = 7
+            postTransparency = 0
             postBackground = "143d59"
             val textColor = "f6ff03"
             postFontFamily = 320
@@ -531,6 +425,7 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 513
+            postId=81
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2019/05/04/09/33/male-4177635_1280.jpg"
             postText = arrayListOf(
@@ -540,15 +435,7 @@ class Post5Lines(val context: Context) {
                 "אלא לפי",
                 "כמה שאתה מציק לעצמך."
             )
-            val di = 0
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 130 + dd),
-                arrayListOf(0, -1 + di, 0, 100 + dd),
-                arrayListOf(0, -1 + di, 0, 70 + dd),
-                arrayListOf(0, -1 + di, 0, 40 + dd),
-                arrayListOf(0, -1 + di, 0, 10 + dd)
-            )
+            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 24)
             val backgroundColor = "#F2EDD7"
@@ -573,6 +460,7 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 514
+            postId=80
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2014/07/05/08/37/graveyard-384604_1280.jpg"
             postText = arrayListOf(
@@ -582,15 +470,7 @@ class Post5Lines(val context: Context) {
                 "שאתה מצליח להבין את זה",
                 "רק בצ'ק אאוט."
             )
-            val di = 0
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 130 + dd),
-                arrayListOf(0, -1 + di, 0, 100 + dd),
-                arrayListOf(0, -1 + di, 0, 70 + dd),
-                arrayListOf(0, -1 + di, 0, 40 + dd),
-                arrayListOf(0, -1 + di, 0, 10 + dd)
-            )
+            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 24)
             val backgroundColor = "#F2EDD7"
@@ -615,6 +495,7 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 515
+            postId=78
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2016/10/27/14/23/old-man-1775239_1280.jpg"
             postText = arrayListOf(
@@ -624,15 +505,7 @@ class Post5Lines(val context: Context) {
                 " תהיה הרבה יותר זמן אתה, ",
                 "  וזהו.  "
             )
-            val di = 20
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, 0 + di, 0, -1 + dd),
-                arrayListOf(0, 35 + di, 0, -1 + dd),
-                arrayListOf(0, 70 + di, 0, -1 + dd),
-                arrayListOf(0, 105 + di, 0, -1 + dd),
-                arrayListOf(0, 140 + di, 0, -1 + dd)
-            )
+            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
             postTransparency = 5
             postTextSize = arrayListOf(0, 20)
             val backgroundColor = "#101820"
@@ -657,6 +530,7 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 516
+            postId=79
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2018/06/04/06/56/religion-3452571_1280.jpg"
             postText = arrayListOf(
@@ -666,15 +540,7 @@ class Post5Lines(val context: Context) {
                 " לפתור אותך מדרך הנשמות ",
                 " שיבוא יומך.  "
             )
-            val di = 20
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, 0 + di, 0, -1 + dd),
-                arrayListOf(0, 35 + di, 0, -1 + dd),
-                arrayListOf(0, 70 + di, 0, -1 + dd),
-                arrayListOf(0, 105 + di, 0, -1 + dd),
-                arrayListOf(0, 140 + di, 0, -1 + dd)
-            )
+            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
             postTransparency = 5
             postTextSize = arrayListOf(0, 24)
             val backgroundColor = "#101820"
@@ -699,24 +565,17 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 517
+            postId=75
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2018/05/22/22/36/girl-3422711_1280.jpg"
             postText = arrayListOf(
                 " יש הרבה סיבות  ",
-                " להיות אומלל בעולם הזה ",
+                " להיות אומלל בעולם הזה, ",
                 " וכול הסיבות יחד ",
                 " זה לא סיבה מספיקה ",
                 " להיות אומלל.  "
             )
-            val di = 0
-            val dd = 10
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 130 + dd),
-                arrayListOf(0, -1 + di, 0, 100 + dd),
-                arrayListOf(0, -1 + di, 0, 70 + dd),
-                arrayListOf(0, -1 + di, 0, 40 + dd),
-                arrayListOf(0, -1 + di, 0, 10 + dd)
-            )
+            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 24)
             val backgroundColor = "#101820"
@@ -737,30 +596,24 @@ class Post5Lines(val context: Context) {
         util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
     }
 
+
     fun loadPost518() {
         val post = Post()
         with(post) {
             postNum = 518
+            postId=81
             lineNum = 5
-            imageUri = "https://cdn.pixabay.com/photo/2017/01/10/17/12/guinea-pig-1969698_1280.jpg"
+            imageUri = "https://cdn.pixabay.com/photo/2016/05/15/20/49/people-1394377_1280.jpg"
             postText = arrayListOf(
-                "  לאלמה בת השנתיים  ",
-                " שתצליחי שלא לדפוק את הבטן אחרי כל כך הרבה עוגות, ",
-                " שתפלי נפילות שאפשר לקום מהם, ",
-                " שתצליחי להבדיל בין עיקר לטפל, ",
-                " ושיהיה לך יום הולדת שמח.  "
+                "  אם אתה  ",
+                " מדבר כמו זקן, ",
+                " חושב כמו זקן, ",
+                " וחולם כמו זקן, ",
+                " יש סיכוי שאתה זקן.  "
             )
-            val di = 0
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 160 + dd),
-                arrayListOf(0, -1 + di, 0, 100 + dd),
-                arrayListOf(0, -1 + di, 0, 70 + dd),
-                arrayListOf(0, -1 + di, 0, 40 + dd),
-                arrayListOf(0, -1 + di, 0, 10 + dd)
-            )
-            postTransparency = 8
-            postTextSize = arrayListOf(0, 15)
+            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
+            postTransparency = 5
+            postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#990011"
             val textColor = "#FCF6F5"
             postFontFamily = 103
@@ -783,6 +636,7 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 519
+            postId=68
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2018/11/11/10/46/opposites-3808487_1280.jpg"
             postText = arrayListOf(
@@ -792,15 +646,7 @@ class Post5Lines(val context: Context) {
                 " בגלל האופי ההישרדותי שבך ",
                 " וחבל.  "
             )
-            val di = 0
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, 0 + di, 0, -1 + dd),
-                arrayListOf(0, 30 + di, 0, -1 + dd),
-                arrayListOf(0, 60 + di, 0, -1 + dd),
-                arrayListOf(0, 90 + di, 0, -1 + dd),
-                arrayListOf(0, 120 + di, 0, -1 + dd)
-            )
+            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
             postTransparency = 4
             postTextSize = arrayListOf(0, 15)
             val backgroundColor = "#00203F"
@@ -825,6 +671,7 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 520
+            postId=65
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2015/03/17/16/59/clown-678042_1280.jpg"
             postText = arrayListOf(
@@ -834,15 +681,7 @@ class Post5Lines(val context: Context) {
                 " אבל היא רק תפאורה לסיפור ",
                 " שהאדם חי בו.  "
             )
-            val di = 0
-            val dd = 10
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 150 + dd),
-                arrayListOf(0, -1 + di, 0, 115 + dd),
-                arrayListOf(0, -1 + di, 0, 80 + dd),
-                arrayListOf(0, -1 + di, 0, 45 + dd),
-                arrayListOf(0, -1 + di, 0, 10 + dd)
-            )
+            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
             postTransparency = 10
             postTextSize = arrayListOf(0, 18)
             val backgroundColor = "#F5D042"
@@ -867,26 +706,19 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 521
+            postId=83
             lineNum = 5
             imageUri =
                 "https://cdn.pixabay.com/photo/2016/07/30/00/03/winding-road-1556177_1280.jpg"
             postText = arrayListOf(
-                " זה שאיבדת את הדרך לרגעים  ",
+                " זה שאיבדת את הדרך לרגע  ",
                 " זה לא אומר שאין דרך, ",
                 " או שהדרך משובשת ",
                 " זה רק אומר ",
                 " שאיבדת את הדרך לרגע.  "
             )
-            val di = 0
-            val dd = 10
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 150 + dd),
-                arrayListOf(0, -1 + di, 0, 115 + dd),
-                arrayListOf(0, -1 + di, 0, 80 + dd),
-                arrayListOf(0, -1 + di, 0, 45 + dd),
-                arrayListOf(0, -1 + di, 0, 10 + dd)
-            )
-            postTransparency = 8
+            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
+            postTransparency = 7
             postTextSize = arrayListOf(0, 18)
             val backgroundColor = "#F5D042"
             val textColor = "#0A174E"
@@ -910,6 +742,7 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 522
+            postId=72
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2019/08/09/20/52/old-man-4395870_1280.jpg"
             postText = arrayListOf(
@@ -921,19 +754,12 @@ class Post5Lines(val context: Context) {
             )
             val di = 0
             val dd = 10
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 150 + dd),
-                arrayListOf(0, -1 + di, 0, 115 + dd),
-                arrayListOf(0, -1 + di, 0, 80 + dd),
-                arrayListOf(0, -1 + di, 0, 45 + dd),
-                arrayListOf(0, -1 + di, 0, 10 + dd)
-            )
+            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
             postTransparency = 10
             postTextSize = arrayListOf(0, 18)
             val backgroundColor = "#F5D042"
             val textColor = "#0A174E"
             postFontFamily = 100
-
             postBackground = util.improveColorString(backgroundColor)
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
@@ -952,6 +778,7 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 523
+            postId=79
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2018/04/29/04/37/flower-3359072_1280.jpg"
             postText = arrayListOf(
@@ -961,15 +788,7 @@ class Post5Lines(val context: Context) {
                 " דמות בסרט מצויר ",
                 " או סתם עציץ.  "
             )
-            val di = 0
-            val dd = 30
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 150 + dd),
-                arrayListOf(0, -1 + di, 0, 115 + dd),
-                arrayListOf(0, -1 + di, 0, 80 + dd),
-                arrayListOf(0, -1 + di, 0, 45 + dd),
-                arrayListOf(0, -1 + di, 0, 10 + dd)
-            )
+            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 18)
             val backgroundColor = "#F5D042"
@@ -994,6 +813,7 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 524
+            postId=80
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2021/01/24/20/47/mountains-5946500_1280.jpg"
             postText = arrayListOf(
@@ -1003,15 +823,7 @@ class Post5Lines(val context: Context) {
                 " אין שקט באזורי האומללות ",
                 " הכל צומח בערבות האין סופים.  "
             )
-            val di = 0
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 150 + dd),
-                arrayListOf(0, -1 + di, 0, 115 + dd),
-                arrayListOf(0, -1 + di, 0, 80 + dd),
-                arrayListOf(0, -1 + di, 0, 45 + dd),
-                arrayListOf(0, -1 + di, 0, 10 + dd)
-            )
+            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
             postTransparency = 4
             postTextSize = arrayListOf(0, 18)
             val backgroundColor = "#0A174E"
@@ -1036,6 +848,7 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 525
+            postId=79
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2017/05/16/21/24/gorilla-2318998_1280.jpg"
             postText = arrayListOf(
@@ -1045,28 +858,20 @@ class Post5Lines(val context: Context) {
                 " וטיפש מידי ",
                 " בשביל להבין שהוא נשאר יצור די פרימיטיבי. "
             )
-            val di = 0
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, 0 + di, 0, -1 + dd),
-                arrayListOf(0, 30 + di, 0, -1 + dd),
-                arrayListOf(0, 60 + di, 0, -1 + dd),
-                arrayListOf(0, 90 + di, 0, -1 + dd),
-                arrayListOf(0, 120 + di, 0, -1 + dd)
-            )
-            postTransparency = 8
-            postTextSize = arrayListOf(0, 17)
+            textLocation = arrayListOf(10,10, 30,-1,1,30, 0, 0)
+            postTransparency = 5
+            postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#0A174E"
             val textColor = "#F5D042"
-            postFontFamily = 100
+            postFontFamily = 103
 
             postBackground = util.improveColorString(backgroundColor)
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-            postPadding = arrayListOf(0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 5)
             postRadiuas = 10
-            lineSpacing = 1f
+            lineSpacing = 1.4f
         }
         pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
 //        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
@@ -1079,6 +884,7 @@ class Post5Lines(val context: Context) {
         with(post) {
             postNum = 526
             lineNum = 5
+            postId=83
             imageUri = "https://cdn.pixabay.com/photo/2019/12/12/18/02/window-4691326_1280.jpg"
             postText = arrayListOf(
                 " זה לא משנה  ",
@@ -1087,16 +893,8 @@ class Post5Lines(val context: Context) {
                 " תמיד הוא מוסיף ",
                 " עוד מרחב לעולם שלך. "
             )
-            val di = 120
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, 0 + di, 0, -1 + dd),
-                arrayListOf(0, 40 + di, 0, -1 + dd),
-                arrayListOf(0, 80 + di, 0, -1 + dd),
-                arrayListOf(0, 120 + di, 0, -1 + dd),
-                arrayListOf(0, 160 + di, 0, -1 + dd)
-            )
-            postTransparency = 10
+            textLocation = arrayListOf(10,10, 40,-1,0, 0, 0, 0)
+            postTransparency = 3
             postTextSize = arrayListOf(0, 22)
             val backgroundColor = "#0A174E"
             val textColor = "#F5D042"
@@ -1106,7 +904,7 @@ class Post5Lines(val context: Context) {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-            postPadding = arrayListOf(0, 0, 0, 0)
+            postPadding = arrayListOf(5, 0, 5, 0)
             postRadiuas = 10
             lineSpacing = 1f
         }
@@ -1121,6 +919,7 @@ class Post5Lines(val context: Context) {
         with(post) {
             postNum = 527
             lineNum = 5
+            postId=78
             imageUri = "https://cdn.pixabay.com/photo/2017/06/24/23/03/railway-2439189_1280.jpg"
             postText = arrayListOf(
                 " אנשים שחיים לעד  ",
@@ -1129,21 +928,12 @@ class Post5Lines(val context: Context) {
                 " הזמן אומנם ממשיך לזרום כדרכו ",
                 " אבל לא בשבילם. "
             )
-            val di = 0
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 150 + dd),
-                arrayListOf(0, -1 + di, 0, 115 + dd),
-                arrayListOf(0, -1 + di, 0, 80 + dd),
-                arrayListOf(0, -1 + di, 0, 45 + dd),
-                arrayListOf(0, -1 + di, 0, 10 + dd)
-            )
-            postTransparency = 8
+            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
+            postTransparency =4
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#990011"
             val textColor = "#FCF6F5"
             postFontFamily = 103
-
             postBackground = util.improveColorString(backgroundColor)
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
@@ -1162,6 +952,7 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 528
+            postId=80
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2020/06/20/18/04/people-5321914_1280.jpg"
             postText = arrayListOf(
@@ -1173,14 +964,8 @@ class Post5Lines(val context: Context) {
             )
             val di = 0
             val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, 0 + di, 0, -1 + dd),
-                arrayListOf(0, 35 + di, 0, -1 + dd),
-                arrayListOf(0, 70 + di, 0, -1 + dd),
-                arrayListOf(0, 105 + di, 0, -1 + dd),
-                arrayListOf(0, 140 + di, 0, -1 + dd)
-            )
-            postTransparency = 5
+            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#101820"
             val textColor = "#F2AA4C"
@@ -1204,25 +989,18 @@ class Post5Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 529
+            postId=78
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2016/09/28/22/20/old-1701640_1280.jpg"
             postText = arrayListOf(
-                " אתה חושב שטוב לך אז טוב לך  ",
-                " אתה חושב שרע לך אז רע לך, ",
+                " שאתה חושב שטוב לך אז טוב לך  ",
+                " שאתה חושב שרע לך אז רע לך, ",
                 " זה שאתה נותן למחשבה ",
                 " זכות בלעדית על איכות החיים שלך ",
                 " זה חוסר אחריות בעליל. "
             )
-            val di = 0
-            val dd = 0
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 120 + dd),
-                arrayListOf(0, -1 + di, 0, 90 + dd),
-                arrayListOf(0, -1 + di, 0, 60 + dd),
-                arrayListOf(0, -1 + di, 0, 30 + dd),
-                arrayListOf(0, -1 + di, 0, 0 + dd)
-            )
-            postTransparency = 9
+            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
+            postTransparency = 5
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#101820"
             val textColor = "#F2AA4C"
@@ -1232,9 +1010,9 @@ class Post5Lines(val context: Context) {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-            postPadding = arrayListOf(0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 5)
             postRadiuas = 10
-            lineSpacing = 1f
+            lineSpacing = 1.4f
         }
         pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
 //        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()

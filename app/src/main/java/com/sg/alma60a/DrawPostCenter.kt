@@ -11,6 +11,9 @@ import com.sg.alma60a.Utility
 
 class DrawPostCenter(val context: Context) {
 
+    val pref = context.getSharedPreferences(SHARPREF_ALMA, Context.MODE_PRIVATE)
+
+
     val util = Utility()
 
     val draw1Line = DrawGeneralPost()
@@ -44,6 +47,11 @@ class DrawPostCenter(val context: Context) {
     }
     fun drawPostFire(post: Post, layout: ConstraintLayout) {
  //    util.logi("DrawPostCenter 105     =========>       post.lineNum=${post.lineNum}")
+
+       // util.sendPostToStringFirestore(post)
+        util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
+        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
+//        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
 
         when (post.lineNum) {
 
