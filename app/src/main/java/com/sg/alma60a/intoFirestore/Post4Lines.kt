@@ -19,7 +19,7 @@ class Post4Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 400
-            postId=68
+            postId = 68
             lineNum = 4
             imageUri = "https://cdn.pixabay.com/photo/2020/01/21/11/39/running-4782722_1280.jpg"
             postText = arrayListOf(
@@ -30,7 +30,7 @@ class Post4Lines(val context: Context) {
             )
             postBackground = "a9dce3"
             postTransparency = 0
-            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
             postTextSize = arrayListOf(0, 16)
             postPadding = arrayListOf(0, 0, 0, 0)
             val col = "#ffffff"
@@ -47,7 +47,7 @@ class Post4Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 401
-            postId=82
+            postId = 82
             lineNum = 4
             imageUri =
                 "https://cdn.pixabay.com/photo/2017/01/09/22/24/guy-playing-billiard-1967834_1280.jpg"
@@ -59,7 +59,7 @@ class Post4Lines(val context: Context) {
             )
             postBackground = "210070"
             postTransparency = 9
-            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
             postTextSize = arrayListOf(0, 16)
             postPadding = arrayListOf(0, 0, 0, 0)
             val col = "#ffffff"
@@ -86,8 +86,8 @@ class Post4Lines(val context: Context) {
             )
             postBackground = "a3842c"
             postTransparency = 9
-            postId=80
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 80
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             val size1 = 16
             val size2 = 0
             postTextSize = arrayListOf(0, size1, size2)
@@ -98,7 +98,7 @@ class Post4Lines(val context: Context) {
             postFontFamily = 103
             postRadiuas = 15
         }
-         drawPost.drawPostFire(post, layout)
+        drawPost.drawPostFire(post, layout)
     }
 
     fun loadPost403() {
@@ -115,8 +115,8 @@ class Post4Lines(val context: Context) {
             )
             postBackground = "a3842c"
             postTransparency = 10
-            postId=78
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 78
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             val size1 = 24
             val size2 = 0
             postTextSize = arrayListOf(0, size1, size2)
@@ -127,7 +127,7 @@ class Post4Lines(val context: Context) {
             postFontFamily = 130
             postRadiuas = 15
         }
-          drawPost.drawPostFire(post, layout)
+        drawPost.drawPostFire(post, layout)
     }
 
     fun loadPost404() {
@@ -144,8 +144,8 @@ class Post4Lines(val context: Context) {
             )
             postBackground = "a3842c"
             postTransparency = 4
-            postId=80
-            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
+            postId = 80
+            textLocation = arrayListOf(10, -1, 35, 10, 0, 0, 0, 0)
             val size1 = 24
             val size2 = 0
             postTextSize = arrayListOf(0, size1, size2)
@@ -155,7 +155,7 @@ class Post4Lines(val context: Context) {
             postFontFamily = 130
             postRadiuas = 15
         }
-               drawPost.drawPostFire(post, layout)
+        drawPost.drawPostFire(post, layout)
     }
 
     fun loadPost405() {
@@ -170,8 +170,8 @@ class Post4Lines(val context: Context) {
                 "כי מתחיל האח הגדול",
                 "ויש הדחה כפולה."
             )
-            postId=79
-            textLocation = arrayListOf(10,-1, 30,10,0, 30, 0, 0)
+            postId = 79
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 30, 0, 0)
             postTextSize = arrayListOf(0, 14)
             postBackground = "a3842c"
             postTransparency = 6
@@ -182,7 +182,7 @@ class Post4Lines(val context: Context) {
             postRadiuas = 15
             postPadding = arrayListOf(5, 0, 5, 5)
         }
-         drawPost.drawPostFire(post, layout)
+        drawPost.drawPostFire(post, layout)
     }
 
     fun loadPost406() {
@@ -197,8 +197,8 @@ class Post4Lines(val context: Context) {
                 "אתה פחות סופד להם",
                 "ויותר לעצמך."
             )
-            postId=79
-            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
+            postId = 79
+            textLocation = arrayListOf(10, -1, 35, 10, 0, 0, 0, 0)
             postTextSize = arrayListOf(0, 16)
             postBackground = "FCE77D"
             postTransparency = 9
@@ -209,7 +209,7 @@ class Post4Lines(val context: Context) {
             postRadiuas = 15
             postPadding = arrayListOf(10, 0, 10, 0)
         }
-              drawPost.drawPostFire(post, layout)
+        drawPost.drawPostFire(post, layout)
     }
 
     fun loadPost407() {
@@ -227,8 +227,8 @@ class Post4Lines(val context: Context) {
                 "לקרוא ליום לילה וללילה יום",
                 "בשם האמונות שלו."
             )
-            postId=65
-            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
+            postId = 65
+            textLocation = arrayListOf(10, -1, 35, 10, 0, 0, 0, 0)
             postTextSize = arrayListOf(0, 16)
             postBackground = "FCE77D"
             postTransparency = 9
@@ -255,8 +255,8 @@ class Post4Lines(val context: Context) {
                 "לא יצאת חכם יותר",
                 "אבל לפחות אמרת את מה שאתה חושב."
             )
-            postId=79
-            textLocation = arrayListOf(10,-1, 35,10,2,25, 0, 0)
+            postId = 79
+            textLocation = arrayListOf(10, -1, 35, 10, 2, 25, 0, 0)
             postTextSize = arrayListOf(0, 16)
             postBackground = "FCE77D"
             postTransparency = 7
@@ -266,9 +266,9 @@ class Post4Lines(val context: Context) {
             postTextColor = arrayListOf(CONSTANT, "#$textColor")
             postRadiuas = 15
             postPadding = arrayListOf(10, 0, 10, 0)
-            lineSpacing=1.1f
+            lineSpacing = 1.1f
         }
-               drawPost.drawPostFire(post, layout)
+        drawPost.drawPostFire(post, layout)
     }
 
     fun loadPost409() {
@@ -283,8 +283,8 @@ class Post4Lines(val context: Context) {
                 "ויותר, איפה אני בכל",
                 " מה שקורה כאן."
             )
-            postId=76
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 76
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTextSize = arrayListOf(0, 22)
             postBackground = "F0A07C"
             postTransparency = 8
@@ -295,7 +295,7 @@ class Post4Lines(val context: Context) {
             postRadiuas = 15
             postPadding = arrayListOf(10, 0, 10, 0)
         }
-               drawPost.drawPostFire(post, layout)
+        drawPost.drawPostFire(post, layout)
     }
 
     fun loadPost410() {
@@ -310,8 +310,8 @@ class Post4Lines(val context: Context) {
                 "אתה יכול להאשים רק את עצמך",
                 " שאתה נמצא יותר מידי זמן באיזורים האלה."
             )
-            postId=81
-            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
+            postId = 81
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
             postTextSize = arrayListOf(0, 14)
             postBackground = "00e1d9"
             postTransparency = 0
@@ -321,7 +321,7 @@ class Post4Lines(val context: Context) {
             postRadiuas = 15
             postPadding = arrayListOf(10, 0, 10, 0)
         }
-         drawPost.drawPostFire(post, layout)
+        drawPost.drawPostFire(post, layout)
     }
 
     fun loadPost411() {
@@ -336,8 +336,8 @@ class Post4Lines(val context: Context) {
                 "ואז אתה מרגיש טוב עם עצמך",
                 " ויש ימים שלא. "
             )
-            postId=75
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 75
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTextSize = arrayListOf(0, 16)
             postBackground = "efc8b1"
             postTransparency = 7
@@ -348,8 +348,8 @@ class Post4Lines(val context: Context) {
             postRadiuas = 15
             postPadding = arrayListOf(10, 0, 10, 0)
         }
-             drawPost.drawPostFire(post, layout)
-         }
+        drawPost.drawPostFire(post, layout)
+    }
 
     fun loadPost412() {
         val post = Post()
@@ -363,9 +363,9 @@ class Post4Lines(val context: Context) {
                 "עם האמת הפשוטה",
                 " אני כבר אסתדר. "
             )
-            postId=85
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
-                      postTextSize = arrayListOf(0, 20)
+            postId = 85
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
+            postTextSize = arrayListOf(0, 20)
             postBackground = "efc8b1"
             postTransparency = 8
             val textColor = "514644"
@@ -390,8 +390,8 @@ class Post4Lines(val context: Context) {
                 " רק שעם הגיל ",
                 "אתה משתמש בהם קצת אחרת."
             )
-            postId=84
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 84
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTextSize = arrayListOf(0, 16)
             postBackground = "558b2f"
             postTransparency = 0
@@ -402,7 +402,7 @@ class Post4Lines(val context: Context) {
             postRadiuas = 15
             postPadding = arrayListOf(10, 0, 10, 0)
         }
-               drawPost.drawPostFire(post, layout)
+        drawPost.drawPostFire(post, layout)
     }
 
     fun loadPost414() {
@@ -417,8 +417,8 @@ class Post4Lines(val context: Context) {
                 "שכמה שהאלוהות שבך יותר גדולה,",
                 "הבעיות האישיות שלך יותר קטנות."
             )
-            postId=82
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 82
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTextSize = arrayListOf(0, 14)
             postBackground = "337def"
             postTransparency = 7
@@ -428,7 +428,7 @@ class Post4Lines(val context: Context) {
             postRadiuas = 15
             postPadding = arrayListOf(10, 0, 10, 0)
         }
-             drawPost.drawPostFire(post, layout)
+        drawPost.drawPostFire(post, layout)
     }
 
     fun loadPost415() {
@@ -443,8 +443,8 @@ class Post4Lines(val context: Context) {
                 "שרק למי שיש חיי נצח",
                 "יכול להרשות לעצמו."
             )
-            postId=78
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 78
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTextSize = arrayListOf(0, 22)
             postBackground = "ffb8b1"
             postTransparency = 10
@@ -455,7 +455,7 @@ class Post4Lines(val context: Context) {
             postRadiuas = 15
             postPadding = arrayListOf(10, 0, 10, 0)
         }
-              drawPost.drawPostFire(post, layout)
+        drawPost.drawPostFire(post, layout)
     }
 
     fun loadPost416() {
@@ -470,9 +470,9 @@ class Post4Lines(val context: Context) {
                 "פשוט",
                 "כי אתה כזה."
             )
-            postId=78
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
-                      postTextSize = arrayListOf(0, 20)
+            postId = 78
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
+            postTextSize = arrayListOf(0, 20)
             postBackground = "ffb8b1"
             postTransparency = 0
             val textColor = "ffffff"
@@ -482,7 +482,7 @@ class Post4Lines(val context: Context) {
             postRadiuas = 15
             postPadding = arrayListOf(10, 0, 10, 0)
         }
-              drawPost.drawPostFire(post, layout)
+        drawPost.drawPostFire(post, layout)
     }
 
     fun loadPost417() {
@@ -497,8 +497,8 @@ class Post4Lines(val context: Context) {
                 "אבל בכל מקרה",
                 "בסוף תמות באמת."
             )
-            postId=86
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 86
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTextSize = arrayListOf(0, 16)
             postBackground = "ffb8b1"
             postTransparency = 0
@@ -508,7 +508,7 @@ class Post4Lines(val context: Context) {
             postRadiuas = 15
             postPadding = arrayListOf(10, 0, 10, 0)
         }
-             drawPost.drawPostFire(post, layout)
+        drawPost.drawPostFire(post, layout)
     }
 
     fun loadPost418() {
@@ -523,8 +523,8 @@ class Post4Lines(val context: Context) {
                 "אתה מסתפק בסיפורים על החיים ",
                 "שיש אצלך בראש."
             )
-            postId=72
-            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
+            postId = 72
+            textLocation = arrayListOf(10, -1, 35, 10, 0, 0, 0, 0)
             postTextSize = arrayListOf(0, 16)
             postBackground = "000000"
             postTransparency = 8
@@ -535,7 +535,7 @@ class Post4Lines(val context: Context) {
             postRadiuas = 15
             postPadding = arrayListOf(5, 0, 5, 0)
         }
-             drawPost.drawPostFire(post, layout)
+        drawPost.drawPostFire(post, layout)
     }
 
     fun loadPost419() {
@@ -550,8 +550,8 @@ class Post4Lines(val context: Context) {
                 "אבל כדי להנות ממנו ",
                 "אתה צריך להיות קצת ילד."
             )
-            postId=80
-            textLocation = arrayListOf(10,5, 30,-1,0, 0, 0, 0)
+            postId = 80
+            textLocation = arrayListOf(10, 5, 30, -1, 0, 0, 0, 0)
             postTextSize = arrayListOf(0, 16)
             postBackground = "000000"
             postTransparency = 5
@@ -577,8 +577,8 @@ class Post4Lines(val context: Context) {
                 "העוול הגדול שהאדם עושה לעצמו",
                 "הוא לשים את כל הבעיות באותו שק."
             )
-            postId=78
-            textLocation = arrayListOf(10,-1, 35,10,2, 35, 0, 0)
+            postId = 78
+            textLocation = arrayListOf(10, -1, 35, 10, 2, 35, 0, 0)
             postTextSize = arrayListOf(0, 16)
             postBackground = "000000"
             postTransparency = 4
@@ -604,8 +604,8 @@ class Post4Lines(val context: Context) {
                 "יכול להתעצבן עליהם",
                 "גם מחר."
             )
-            postId=73
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 73
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTextSize = arrayListOf(0, 16)
             postBackground = "000000"
             postTransparency = 4
@@ -632,8 +632,8 @@ class Post4Lines(val context: Context) {
                 "  למעשים הנכונים לך  ",
                 "שאתה עושה."
             )
-            postId=79
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 79
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTextSize = arrayListOf(0, 16)
             postBackground = "000000"
             postTransparency = 4
@@ -660,8 +660,8 @@ class Post4Lines(val context: Context) {
                 "שפיות",
                 "זה לחיות את הטירוף של הכלל."
             )
-            postId=80
-            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
+            postId = 80
+            textLocation = arrayListOf(10, -1, 35, 10, 0, 0, 0, 0)
 
             postTextSize = arrayListOf(0, 22)
             postBackground = "000000"
@@ -689,8 +689,8 @@ class Post4Lines(val context: Context) {
                 "אבל בסוף",
                 "תמיד הם פוגשים בעיקר את עצמם."
             )
-            postId=81
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 81
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTextSize = arrayListOf(0, 16)
             postBackground = "000000"
             postTransparency = 3
@@ -717,8 +717,8 @@ class Post4Lines(val context: Context) {
                 "אבל",
                 "תופס אותם כמו שאתה."
             )
-            postId=81
-            textLocation = arrayListOf(10,-1, 40,10,0, 0, 0, 0)
+            postId = 81
+            textLocation = arrayListOf(10, -1, 40, 10, 0, 0, 0, 0)
             postTextSize = arrayListOf(0, 22)
             postBackground = "000000"
             postTransparency = 3
@@ -745,8 +745,8 @@ class Post4Lines(val context: Context) {
                 "להביא אור בחשכה",
                 "זה קצת יותר ייחודי."
             )
-            postId=84
-            textLocation = arrayListOf(10,20, 30,-1,0, 0, 0, 0)
+            postId = 84
+            textLocation = arrayListOf(10, 20, 30, -1, 0, 0, 0, 0)
             postTextSize = arrayListOf(0, 22)
             postBackground = "000000"
             postTransparency = 1
@@ -773,8 +773,8 @@ class Post4Lines(val context: Context) {
                 "שלווה",
                 "זה שאתה מבין שאתה בסדר."
             )
-            postId=87
-            textLocation = arrayListOf(10,20, 30,-1,0, 0, 0, 0)
+            postId = 87
+            textLocation = arrayListOf(10, 20, 30, -1, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             postBackground = "1E4174"
@@ -803,8 +803,8 @@ class Post4Lines(val context: Context) {
                 "אבל לרוב אתה סימן קריאה",
                 "והתשובה האמיתית מחליקה עליך ונעלמת."
             )
-            postId=78
-            textLocation = arrayListOf(10,80, 35,-1,2,30, 0, 0)
+            postId = 78
+            textLocation = arrayListOf(10, 80, 35, -1, 2, 30, 0, 0)
 
             postTransparency = 0
             postTextSize = arrayListOf(0, 16)
@@ -834,8 +834,8 @@ class Post4Lines(val context: Context) {
                 "אבל זה ממש לא עוזר לך",
                 "  לדעת לשחק את המשחק הזה.  "
             )
-            postId=79
-            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
+            postId = 79
+            textLocation = arrayListOf(10, -1, 35, 10, 0, 0, 0, 0)
             postTransparency = 8
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#F2EDD7"
@@ -866,8 +866,8 @@ class Post4Lines(val context: Context) {
                 "  זה  ",
                 "  לא עושה אותה יותר מחצי כוס.  "
             )
-            postId=80
-            textLocation = arrayListOf(10,20, 30,-1,0, 0, 0, 0)
+            postId = 80
+            textLocation = arrayListOf(10, 20, 30, -1, 0, 0, 0, 0)
             postTransparency = 8
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#F2EDD7"
@@ -898,8 +898,8 @@ class Post4Lines(val context: Context) {
                 "או שאתה חושך,",
                 "ככה פשוט."
             )
-            postId=86
-            textLocation = arrayListOf(10,20, 30,-1,0, 0, 0, 0)
+            postId = 86
+            textLocation = arrayListOf(10, 20, 30, -1, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 18)
             val backgroundColor = "#F2EDD7"
@@ -929,8 +929,8 @@ class Post4Lines(val context: Context) {
                 "זה אומר רק שלא נהרגתי אפילו פעם אחת",
                 "ושאני יודע לקום בבוקר."
             )
-            postId=73
-            textLocation = arrayListOf(10,20, 30,-1,2,30, 3, 30)
+            postId = 73
+            textLocation = arrayListOf(10, 20, 30, -1, 2, 30, 3, 30)
             postTransparency = 6
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#FCF6F5"
@@ -961,8 +961,8 @@ class Post4Lines(val context: Context) {
                 "כי אין לך משהו אחר",
                 " להיות. "
             )
-            postId=75
-            textLocation = arrayListOf(10,20, 35,-1,0, 0, 0, 0)
+            postId = 75
+            textLocation = arrayListOf(10, 20, 35, -1, 0, 0, 0, 0)
             postTransparency = 5
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#FCF6F5"
@@ -992,8 +992,8 @@ class Post4Lines(val context: Context) {
                 "היית פותח חדשות ",
                 " כדי לשמוע מה קורה בגיהנום. "
             )
-            postId=79
-            textLocation = arrayListOf(10,20, 30,-1,0, 0, 0, 0)
+            postId = 79
+            textLocation = arrayListOf(10, 20, 30, -1, 0, 0, 0, 0)
             postTransparency = 9
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "000000"
@@ -1023,8 +1023,8 @@ class Post4Lines(val context: Context) {
                 " לא מבחוץ  ",
                 " ולא מבפנים. "
             )
-            postId=86
-            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
+            postId = 86
+            textLocation = arrayListOf(10, -1, 35, 10, 0, 0, 0, 0)
             postTransparency = 6
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#2BAE66"
@@ -1054,8 +1054,8 @@ class Post4Lines(val context: Context) {
                 " שיעבור עלי ",
                 " שיעבור. "
             )
-            postId=69
-            textLocation = arrayListOf(10,20, 30,-1,0, 0, 0, 0)
+            postId = 69
+            textLocation = arrayListOf(10, 20, 30, -1, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#2BAE66"
@@ -1085,8 +1085,8 @@ class Post4Lines(val context: Context) {
                 " כל זמן ",
                 " שאתה תופס אותם כהבלים."
             )
-            postId=74
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 74
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTransparency = 8
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#CED46A"
@@ -1115,9 +1115,9 @@ class Post4Lines(val context: Context) {
                 " שאתה גדול ",
                 " זה סתם אבק ברוח."
             )
-            postId=77
-            textLocation = arrayListOf(10,20, 35,-1,0, 0, 0, 0)
-            postTransparency =0
+            postId = 77
+            textLocation = arrayListOf(10, 20, 35, -1, 0, 0, 0, 0)
+            postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#00203F"
             val textColor = "#ADEFD1"
@@ -1146,8 +1146,8 @@ class Post4Lines(val context: Context) {
                 " זה הופך את החיים שלך ",
                 " להצגה כושלת."
             )
-            postId=68
-            textLocation = arrayListOf(10,20, 35,-1,0, 0, 0, 0)
+            postId = 68
+            textLocation = arrayListOf(10, 20, 35, -1, 0, 0, 0, 0)
             postTransparency = 4
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#00203F"
@@ -1177,8 +1177,8 @@ class Post4Lines(val context: Context) {
                 " אבל האדם נמצא במקום אחר ",
                 " ולכן קשה לו לפגוש אותו אישית. "
             )
-            postId=64
-            textLocation = arrayListOf(10,20, 35,-1,0, 0, 0, 0)
+            postId = 64
+            textLocation = arrayListOf(10, 20, 35, -1, 0, 0, 0, 0)
             postTransparency = 6
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#00203F"
@@ -1208,8 +1208,8 @@ class Post4Lines(val context: Context) {
                 " העולם ממשיך להיות ",
                 " הרבה מעבר לזה. "
             )
-            postId=73
-            textLocation = arrayListOf(10,20, 35,-1,0, 0, 0, 0)
+            postId = 73
+            textLocation = arrayListOf(10, 20, 35, -1, 0, 0, 0, 0)
             postTransparency = 6
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#00203F"
@@ -1240,8 +1240,8 @@ class Post4Lines(val context: Context) {
                 " שנכונים לך, ",
                 "  שמורה למתי מעט.  "
             )
-            postId=78
-            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
+            postId = 78
+            textLocation = arrayListOf(10, -1, 35, 10, 0, 0, 0, 0)
             postTransparency = 6
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#00203F"
@@ -1271,8 +1271,8 @@ class Post4Lines(val context: Context) {
                 " העולם סביב ",
                 "  רק בורא את החומרים לזה.  "
             )
-            postId=77
-            textLocation = arrayListOf(10,20, 35,-1,0, 0, 0, 0)
+            postId = 77
+            textLocation = arrayListOf(10, 20, 35, -1, 0, 0, 0, 0)
             postTransparency = 7
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#1E4174"
@@ -1301,8 +1301,8 @@ class Post4Lines(val context: Context) {
                 " שלא צריך להיות חכם גדול ",
                 "  כדי לחיות בעולם הזה.  "
             )
-            postId=68
-            textLocation = arrayListOf(10,20, 30,-1,0, 0, 0, 0)
+            postId = 68
+            textLocation = arrayListOf(10, 20, 30, -1, 0, 0, 0, 0)
             postTransparency = 6
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#1E4174"
@@ -1331,8 +1331,8 @@ class Post4Lines(val context: Context) {
                 " אבל רק מעטים  ",
                 " יודעים לתת בהם תוכן. "
             )
-            postId=69
-            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
+            postId = 69
+            textLocation = arrayListOf(10, -1, 35, 10, 0, 0, 0, 0)
             postTransparency = 8
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#F0EDCC"
@@ -1361,8 +1361,8 @@ class Post4Lines(val context: Context) {
                 " שלא ליצור בעיות  ",
                 " איפה שהן לא קיימות. "
             )
-            postId=76
-            textLocation = arrayListOf(10,20, 35,-1,0, 0, 0, 0)
+            postId = 76
+            textLocation = arrayListOf(10, 20, 35, -1, 0, 0, 0, 0)
             postTransparency = 6
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#1E4174"
@@ -1391,8 +1391,8 @@ class Post4Lines(val context: Context) {
                 " בדרך כלל  ",
                 " מונעת ממך לדעת את האמת. "
             )
-            postId=70
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
+            postId = 70
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#1E4174"
@@ -1421,8 +1421,8 @@ class Post4Lines(val context: Context) {
                 " רק שאתה מרגע מסוים  ",
                 " לא תשתתף בהם יותר. "
             )
-            postId=72
-            textLocation = arrayListOf(10,20, 35,-1,0, 0, 0, 0)
+            postId = 72
+            textLocation = arrayListOf(10, 20, 35, -1, 0, 0, 0, 0)
             postTransparency = 6
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#1E4174"
@@ -1451,8 +1451,8 @@ class Post4Lines(val context: Context) {
                 " הבעיה שלפעמים גם עם הישן  ",
                 " קשה לי להסתדר. "
             )
-            postId=81
-            textLocation = arrayListOf(10,20, 35,-1,0, 0, 0, 0)
+            postId = 81
+            textLocation = arrayListOf(10, 20, 35, -1, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#1E4174"
@@ -1481,8 +1481,8 @@ class Post4Lines(val context: Context) {
                 " עובר דרך איזורים   ",
                 " שנראים לך כחסרי פתרון. "
             )
-            postId=82
-            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
+            postId = 82
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
             postTransparency = 2
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#1E4174"
@@ -1511,8 +1511,8 @@ class Post4Lines(val context: Context) {
                 " והכי טוב  ",
                 " זה לחיות אותם.  "
             )
-            postId=78
-            textLocation = arrayListOf(10,-1, 30,20,0, 0, 0, 0)
+            postId = 78
+            textLocation = arrayListOf(10, -1, 30, 20, 0, 0, 0, 0)
             postTransparency = 8
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#1E4174"
@@ -1541,8 +1541,8 @@ class Post4Lines(val context: Context) {
                 "  מאפשרים לשאר האנושות  ",
                 "  לשקוע בטמטום גמור.  "
             )
-            postId=78
-            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
+            postId = 78
+            textLocation = arrayListOf(10, -1, 35, 10, 0, 0, 0, 0)
             postTransparency = 9
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#1E4174"
@@ -1571,8 +1571,8 @@ class Post4Lines(val context: Context) {
                 " וודאי שהייתי  ",
                 "יכול להנות הרבה יותר מהחיים האלה."
             )
-            postId=81
-            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
+            postId = 81
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#1E4174"
@@ -1601,8 +1601,8 @@ class Post4Lines(val context: Context) {
                 " שאינם אגם קפוא  ",
                 " אלא נהר זורם. "
             )
-            postId=82
-            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
+            postId = 82
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#1E4174"
@@ -1631,8 +1631,8 @@ class Post4Lines(val context: Context) {
                 " קורטוב קדושה חומק ממך  ",
                 "  בעיקר בגלל חוסר מקום. "
             )
-            postId=86
-            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
+            postId = 86
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
             postTransparency = 6
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#1E4174"
@@ -1661,8 +1661,8 @@ class Post4Lines(val context: Context) {
                 " היא רק מתגלית לך  ",
                 "  כל פעם מחדש. "
             )
-            postId=76
-            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
+            postId = 76
+            textLocation = arrayListOf(10, 10, 35, -1, 0, 0, 0, 0)
             postTransparency = 2
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#1E4174"
@@ -1691,8 +1691,8 @@ class Post4Lines(val context: Context) {
                 " במלחמות סרק  ",
                 "  שהיו קיימות רק בראש שלך. "
             )
-            postId=80
-            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
+            postId = 80
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
             postTransparency = 2
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#1E4174"
@@ -1721,8 +1721,8 @@ class Post4Lines(val context: Context) {
                 " רק שאתה לפעמים עומד להם  ",
                 "  באמצע אותה דרך. "
             )
-            postId=85
-            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
+            postId = 85
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#000000"
@@ -1751,8 +1751,8 @@ class Post4Lines(val context: Context) {
                 " השמחה שלך נמדדת  ",
                 " ממפלס הצער בו היית. "
             )
-            postId=80
-            textLocation = arrayListOf(10,-1, 30,20,0, 25, 0, 0)
+            postId = 80
+            textLocation = arrayListOf(10, -1, 30, 20, 0, 25, 0, 0)
             postTransparency = 5
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#1E4174"
@@ -1782,8 +1782,8 @@ class Post4Lines(val context: Context) {
                 " היתר משחקים את הדמות שלהם  ",
                 " כמו שהם מכירים אותה. "
             )
-            postId=75
-            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
+            postId = 75
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
             postTransparency = 5
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#000000"
@@ -1813,8 +1813,8 @@ class Post4Lines(val context: Context) {
                 " שאפשרי לך  ",
                 " בתור מה שאתה ברגע זה. "
             )
-            postId=75
-            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
+            postId = 75
+            textLocation = arrayListOf(10, -1, 35, 10, 0, 0, 0, 0)
             postTransparency = 10
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#F2AA4C"
@@ -1844,8 +1844,8 @@ class Post4Lines(val context: Context) {
                 " עד יום שלישי הבא,  ",
                 " איזה כיף. "
             )
-            postId=77
-            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
+            postId = 77
+            textLocation = arrayListOf(10, -1, 35, 10, 0, 0, 0, 0)
             postTransparency = 5
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#606060"
@@ -1875,8 +1875,8 @@ class Post4Lines(val context: Context) {
                 " הוא לא היה מתבייש בזה בכלל  ",
                 " אלא צוחק על זה בפה מלא. "
             )
-            postId=76
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 76
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTransparency = 3
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#000000"
@@ -1906,8 +1906,8 @@ class Post4Lines(val context: Context) {
                 " ובאם לא תיצור אותו ",
                 " הוא לא יברא אותך מחדש. "
             )
-            postId=82
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
+            postId = 82
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#000000"
@@ -1938,8 +1938,8 @@ class Post4Lines(val context: Context) {
                 " כי היא היחידה ",
                 " הקיימת בעולם שלך ברגע זה. "
             )
-            postId=75
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
+            postId = 75
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
             postTransparency = 6
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#02343F"
@@ -1969,8 +1969,8 @@ class Post4Lines(val context: Context) {
                 " אולי בגלל  שלא הודיעו להם רשמית ",
                 " שיש להם חיים טובים. "
             )
-            postId=73
-            textLocation = arrayListOf(10,-1, 30,5,0, 0, 0, 0)
+            postId = 73
+            textLocation = arrayListOf(10, -1, 30, 5, 0, 0, 0, 0)
             postTransparency = 8
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#02343F"
@@ -2000,8 +2000,8 @@ class Post4Lines(val context: Context) {
                 " באיזשהו מקום קצת חבל ",
                 " כי הם יכולים להיות די נחמדים. "
             )
-            postId=76
-            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
+            postId = 76
+            textLocation = arrayListOf(10, -1, 35, 10, 0, 0, 0, 0)
             postTransparency = 6
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#815854"
@@ -2011,7 +2011,7 @@ class Post4Lines(val context: Context) {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-            postPadding = arrayListOf(0,5, 0, 0)
+            postPadding = arrayListOf(0, 5, 0, 0)
             postRadiuas = 15
             lineSpacing = 1f
         }
@@ -2031,8 +2031,8 @@ class Post4Lines(val context: Context) {
                 " וגם מי שלא עשה דבר ",
                 " הולכים לישון עייפים. "
             )
-            postId=89
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 89
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#606060"
@@ -2062,8 +2062,8 @@ class Post4Lines(val context: Context) {
                 " הרוחות הטובות מנשבות רק במקומות ספורים ",
                 " וצריך התכוונות לטוב כדי להרגיש אותם. "
             )
-            postId=82
-            textLocation = arrayListOf(10,-1, 30,10,0, 30, 1, 30)
+            postId = 82
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 30, 1, 30)
             postTransparency = 0
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#606060"
@@ -2093,8 +2093,8 @@ class Post4Lines(val context: Context) {
                 " החצי השני ",
                 " זה לדעת שהיא כבר פה. "
             )
-            postId=81
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 81
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTransparency = 5
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#606060"
@@ -2124,8 +2124,8 @@ class Post4Lines(val context: Context) {
                 " על חשבון עתיד לא ידוע, ",
                 " אז למה לא ... "
             )
-            postId=79
-            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
+            postId = 79
+            textLocation = arrayListOf(10, -1, 35, 10, 0, 0, 0, 0)
             postTransparency = 8
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#00203F"
@@ -2155,8 +2155,8 @@ class Post4Lines(val context: Context) {
                 " ואם כבר הכרחי ",
                 " עשה את זה בטעם. "
             )
-            postId=78
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 78
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTransparency = 10
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#101820"
@@ -2186,8 +2186,8 @@ class Post4Lines(val context: Context) {
                 " אינם טעויות ",
                 " אלא דרך חיים. "
             )
-            postId=81
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 81
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTransparency = 6
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#101820"
@@ -2218,8 +2218,8 @@ class Post4Lines(val context: Context) {
                 " כי אנשים עם הומור ",
                 "  מבינים בדיחה טובה. "
             )
-            postId=79
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 79
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTransparency = 8
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#101820"
@@ -2250,8 +2250,8 @@ class Post4Lines(val context: Context) {
                 " שעון תקין ",
                 " יכול לטעות תמיד. "
             )
-            postId=84
-            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
+            postId = 84
+            textLocation = arrayListOf(10, 10, 35, -1, 0, 0, 0, 0)
             postTransparency = 5
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#000000"
@@ -2282,8 +2282,8 @@ class Post4Lines(val context: Context) {
                 " שאתה חי ",
                 " לא בטוח שאתה חי. "
             )
-            postId=79
-            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
+            postId = 79
+            textLocation = arrayListOf(10, 10, 35, -1, 0, 0, 0, 0)
             postTransparency = 6
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#101820"
@@ -2314,8 +2314,8 @@ class Post4Lines(val context: Context) {
                 " שהתשובה לה ",
                 " מקטינה את החיים. "
             )
-            postId=83
-            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
+            postId = 83
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
             postTransparency = 4
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#101820"
@@ -2346,8 +2346,8 @@ class Post4Lines(val context: Context) {
                 " הוא צורך הכרחי ",
                 " אם אתה רוצה לחיות טוב  בגיהינום. "
             )
-            postId=81
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 81
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTransparency = 5
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#101820"
@@ -2378,9 +2378,9 @@ class Post4Lines(val context: Context) {
                 " היא רק אותה המחשבה ",
                 " שיש לו בעיה. "
             )
-            postId=84
-            textLocation = arrayListOf(10,-1, 35,10,0, 0, 0, 0)
-            postTransparency =5
+            postId = 84
+            textLocation = arrayListOf(10, -1, 35, 10, 0, 0, 0, 0)
+            postTransparency = 5
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#101820"
             val textColor = "#FEE715"
@@ -2410,8 +2410,8 @@ class Post4Lines(val context: Context) {
                 "  אבל הכעס שלו והכעס שלי  ",
                 " דומים להפליא. "
             )
-            postId=79
-            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
+            postId = 79
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
             postTransparency = 4
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#101820"
@@ -2442,8 +2442,8 @@ class Post4Lines(val context: Context) {
                 "  אם יותר אנשים היו מודעים לזה  ",
                 " הייתה פחות בדידות בעולם. "
             )
-            postId=83
-            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
+            postId = 83
+            textLocation = arrayListOf(10, 10, 35, -1, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#101820"
@@ -2474,8 +2474,8 @@ class Post4Lines(val context: Context) {
                 "  אחת מהבעיות האלה היא  ",
                 " משמעות החיים. "
             )
-            postId=78
-            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
+            postId = 78
+            textLocation = arrayListOf(10, 10, 35, -1, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#FFDFDE"
@@ -2506,9 +2506,9 @@ class Post4Lines(val context: Context) {
                 "  המבוססת על מקרה אמיתי  ",
                 " של מה שקרה לך. "
             )
-            postId=72
-            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
-            postTransparency =6
+            postId = 72
+            textLocation = arrayListOf(10, 10, 35, -1, 0, 0, 0, 0)
+            postTransparency = 6
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#FFDFDE"
             val textColor = "#6A7BA2"
@@ -2537,8 +2537,8 @@ class Post4Lines(val context: Context) {
                 " מלהתבכיין ",
                 " על מה שאתה לא יכול לעשות. "
             )
-            postId=79
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 79
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTransparency = 7
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#755139"
@@ -2549,7 +2549,7 @@ class Post4Lines(val context: Context) {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-            postPadding = arrayListOf(0,0, 0,0)
+            postPadding = arrayListOf(0, 0, 0, 0)
             postRadiuas = 16
             lineSpacing = 1.3f
         }
@@ -2569,8 +2569,8 @@ class Post4Lines(val context: Context) {
                 " בו אפשרי לך ",
                 " ליצור יש מהאין. "
             )
-            postId=84
-            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
+            postId = 84
+            textLocation = arrayListOf(10, 10, 35, -1, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#755139"
@@ -2601,8 +2601,8 @@ class Post4Lines(val context: Context) {
                 " היחס הוא חלק מהאדם עצמו ",
                 " וללא יחס הוא מרגיש חסר. "
             )
-            postId=80
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 80
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTransparency = 7
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#755139"
@@ -2633,8 +2633,8 @@ class Post4Lines(val context: Context) {
                 " שמחבר בין הדברים שקורים ",
                 "  לידי חוויה אישית. "
             )
-            postId=84
-            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
+            postId = 84
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
             postTransparency = 6
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#CED46A"
@@ -2665,8 +2665,8 @@ class Post4Lines(val context: Context) {
                 " זה מרגיש יותר כמו נישואי נוחות ",
                 "  מסיפור אהבה. "
             )
-            postId=83
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 83
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTransparency = 4
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#A4193D"
@@ -2697,8 +2697,8 @@ class Post4Lines(val context: Context) {
                 " אלה אותם ",
                 "  שלא משתתפים. "
             )
-            postId=79
-            textLocation = arrayListOf(10,-1, 30,5,0, 25, 0, 0)
+            postId = 79
+            textLocation = arrayListOf(10, -1, 30, 5, 0, 25, 0, 0)
             postTransparency = 8
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#ADEFD1"
@@ -2729,7 +2729,7 @@ class Post4Lines(val context: Context) {
                 " ממלאות לי את כל חלל המודעות ",
                 "  כי אני יצור שבנוי ברובו לעיסוק בהבלים.  "
             )
-            textLocation = arrayListOf(10,-1, 30,5,0, 25, 0, 0)
+            textLocation = arrayListOf(10, -1, 30, 5, 0, 25, 0, 0)
             postTransparency = 3
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#00203F"
@@ -2761,7 +2761,7 @@ class Post4Lines(val context: Context) {
                 " אלא ",
                 "  מה שאתה מבין מכל מזה.  "
             )
-            textLocation = arrayListOf(10,-1, 35,5,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 5, 0, 0, 0, 0)
             postTransparency = 7
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#101820"
@@ -2792,7 +2792,7 @@ class Post4Lines(val context: Context) {
                 " רחוק מידי תתקרר ",
                 "  קרוב מידי תישרף.  "
             )
-            textLocation = arrayListOf(10,-1, 35,5,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 5, 0, 0, 0, 0)
             postTransparency = 8
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#101820"
@@ -2824,7 +2824,7 @@ class Post4Lines(val context: Context) {
                 " אבל הוא לא מסוגל להבין ",
                 "  איך זה עובד ביחד.  "
             )
-            textLocation = arrayListOf(10,-1, 35,5,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 5, 0, 0, 0, 0)
             postTransparency = 4
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#101820"
@@ -2855,7 +2855,7 @@ class Post4Lines(val context: Context) {
                 " הכשרון  לבזבז את החיים שלו ",
                 "  מתפתח אצלו לרמה מרשימה.  "
             )
-            textLocation = arrayListOf(10,-1, 35,5,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 5, 0, 0, 0, 0)
             postTransparency = 9
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#F9EBDE"
@@ -2888,7 +2888,7 @@ class Post4Lines(val context: Context) {
                 " לא תמיד  ",
                 "  זה המקום שהכי טוב בשבילו.  "
             )
-            textLocation = arrayListOf(10,-1, 35,5,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 5, 0, 0, 0, 0)
             postTransparency = 8
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#CED46A"
@@ -2899,7 +2899,7 @@ class Post4Lines(val context: Context) {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-            postPadding = arrayListOf(10, 5,10, 0)
+            postPadding = arrayListOf(10, 5, 10, 0)
             postRadiuas = 16
             lineSpacing = 1.5f
         }
@@ -2920,7 +2920,7 @@ class Post4Lines(val context: Context) {
                 " אבל ההבנה הזאת בדרך כלל  ",
                 "  לא תחלץ אותך מתוך המגבלה הזו.  "
             )
-            textLocation = arrayListOf(10,-1, 30,20,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 30, 20, 0, 0, 0, 0)
             postTransparency = 5
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#990011"
@@ -2945,14 +2945,15 @@ class Post4Lines(val context: Context) {
             postNum = 4907
             postId = 75
             lineNum = 4
-            imageUri = "https://cdn.pixabay.com/photo/2016/08/23/15/52/fresh-orange-juice-1614822_1280.jpg"
+            imageUri =
+                "https://cdn.pixabay.com/photo/2016/08/23/15/52/fresh-orange-juice-1614822_1280.jpg"
             postText = arrayListOf(
                 " האדם יוצר את הבעיות שלו  ",
                 " מתוך העולם שסביבו, ",
                 " הוא לא ממציא עובדות חדשות למציאות  ",
                 "  אלא פשוט מרכיב אותם שלא בסדר הנכון. "
             )
-            textLocation = arrayListOf(10,-1, 30,20,2, 25, 0, 0)
+            textLocation = arrayListOf(10, -1, 30, 20, 2, 25, 0, 0)
             postTransparency = 9
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#CED46A"
@@ -2962,7 +2963,7 @@ class Post4Lines(val context: Context) {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-            postPadding = arrayListOf(0, 0, 0,5)
+            postPadding = arrayListOf(0, 0, 0, 5)
             postRadiuas = 16
             lineSpacing = 1.2f
         }
@@ -2983,7 +2984,7 @@ class Post4Lines(val context: Context) {
                 " ככה נשאר לאדם מרחב נקי  ",
                 "  ליצור את המשמעות שלו בחיים.  "
             )
-            textLocation = arrayListOf(10,20, 35,-1,0, 0, 0, 0)
+            textLocation = arrayListOf(10, 20, 35, -1, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 17)
             val backgroundColor = "#50586C"
@@ -3014,7 +3015,7 @@ class Post4Lines(val context: Context) {
                 " מה שמייחד אותה ",
                 "  שהיא הדרך הנכונה בשבילך.  "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
             postTransparency = 7
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#50586C"
@@ -3045,7 +3046,7 @@ class Post4Lines(val context: Context) {
                 " אחרי הכל ",
                 "  כולם משתמשים בהם.  "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
             postTransparency = 7
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#50586C"
@@ -3077,7 +3078,7 @@ class Post4Lines(val context: Context) {
                 " שהרגע עובר לפעמים ",
                 "  הרבה יותר לאט.  "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
             postTransparency = 8
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#50586C"
@@ -3108,7 +3109,7 @@ class Post4Lines(val context: Context) {
                 " אבל הן פחות טובות ",
                 "  בשביל לחוות אותו מחדש.  "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
             postTransparency = 4
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#50586C"
@@ -3140,7 +3141,7 @@ class Post4Lines(val context: Context) {
                 " בגלל שכל תשומת הלב שלו ",
                 "  מכוונת להתמודדות עם הרע.  "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
             postTransparency = 6
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#50586C"
@@ -3172,7 +3173,7 @@ class Post4Lines(val context: Context) {
                 " לא אחראי על כל זה ",
                 "  אני באתי הנה רק לביקור קצר.  "
             )
-            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
             postTransparency = 8
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#F5D042"
@@ -3203,7 +3204,7 @@ class Post4Lines(val context: Context) {
                 " כמו שלא להישאר כאן ",
                 "  לבד עם עצמם.  "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
             postTransparency = 8
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#80634C"
@@ -3234,7 +3235,7 @@ class Post4Lines(val context: Context) {
                 " צדק ",
                 "  הוא לא אחד מהם.  "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
             postPadding = arrayListOf(5, 5, 5, 0)
             postTransparency = 6
             postTextSize = arrayListOf(0, 16)
@@ -3265,7 +3266,7 @@ class Post4Lines(val context: Context) {
                 " לעודף משקל ",
                 "  לא לשביעות רצון.  "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#F2AA4C"
@@ -3296,7 +3297,7 @@ class Post4Lines(val context: Context) {
                 " אם אוטובוס המחשבות שלך ",
                 "  לוקח אותך למחוזות אבודים.  "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
             postTransparency = 8
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#2BAE66"
@@ -3327,7 +3328,7 @@ class Post4Lines(val context: Context) {
                 " ואתה לעומת זאת מזיק לעצמך חופשי, ",
                 "  כי אתה יכול.  "
             )
-            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postTransparency = 8
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#2BAE66"
@@ -3359,7 +3360,7 @@ class Post4Lines(val context: Context) {
                 " זה רק הצל של המחשבה שלך ",
                 "  על הטוב.  "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#F95700"
@@ -3390,7 +3391,7 @@ class Post4Lines(val context: Context) {
                 " אל תיתן לאנשים יותר מידי שפויים ",
                 "  להסביר לך אותו.  "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
             postTransparency = 6
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#F95700"
@@ -3421,7 +3422,7 @@ class Post4Lines(val context: Context) {
                 " אם האדם שחי אותם ",
                 "  חושב שהם טובים.  "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
             postPadding = arrayListOf(0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 16)
@@ -3452,7 +3453,7 @@ class Post4Lines(val context: Context) {
                 " אם תהיה קצת צודק  ",
                 "  זה יעלה לך בקצת בריאות.  "
             )
-            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
+            textLocation = arrayListOf(10, 10, 35, -1, 0, 0, 0, 0)
             postPadding = arrayListOf(0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 16)
@@ -3483,7 +3484,7 @@ class Post4Lines(val context: Context) {
                 " כי אז היינו יכולים ללמוד משהו על החיים  ",
                 "  במקום לקבל בראש בכל יום מחדש.  "
             )
-            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
             postPadding = arrayListOf(0, 0, 0, 0)
             postTransparency = 4
             postTextSize = arrayListOf(0, 14)
@@ -3514,7 +3515,7 @@ class Post4Lines(val context: Context) {
                 " שמשתפים עם זה יותר פעולה  ",
                 " ויש כמה שפחות.  "
             )
-            textLocation = arrayListOf(10,-1, 30,20,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 30, 20, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 18)
             val backgroundColor = "#0A174E"
@@ -3545,7 +3546,7 @@ class Post4Lines(val context: Context) {
                 "  לא טובים יותר או רעים יותר  ",
                 "  רק חסרים יותר.  "
             )
-            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
+            textLocation = arrayListOf(10, 10, 35, -1, 0, 0, 0, 0)
             postPadding = arrayListOf(0, 0, 0, 0)
             postTransparency = 7
             postTextSize = arrayListOf(0, 16)
@@ -3576,7 +3577,7 @@ class Post4Lines(val context: Context) {
                 "  ( אלוהים הוא כזה או כזה )  ",
                 "  אמונה זה משהו שמעבר לתפיסה הזו.  "
             )
-            textLocation = arrayListOf(10,-1, 35,20,2, 35, 0, 30)
+            textLocation = arrayListOf(10, -1, 35, 20, 2, 35, 0, 30)
             postPadding = arrayListOf(0, 0, 0, 0)
             postTransparency = 9
             postTextSize = arrayListOf(0, 16)
@@ -3607,7 +3608,7 @@ class Post4Lines(val context: Context) {
                 "  זה סתם מעיק עליך  ",
                 "  ובדרך כלל לא משלמים לך על זה.  "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
             postTransparency = 6
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#422057"
@@ -3638,7 +3639,7 @@ class Post4Lines(val context: Context) {
                 "  זה אתה,  ",
                 "  חבל שאתה לא משתמש בו.  "
             )
-            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
+            textLocation = arrayListOf(10, 10, 35, -1, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#422057"
@@ -3669,7 +3670,7 @@ class Post4Lines(val context: Context) {
                 "  אבל תפיסת המציאות שלנו  ",
                 "  מתעללת בנו על בסיס קבוע.  "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
             postTransparency = 4
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#422057"
@@ -3700,7 +3701,7 @@ class Post4Lines(val context: Context) {
                 "  ולקוות למשהו חדש,  ",
                 "  זה ממש לא בכיוון.  "
             )
-            textLocation = arrayListOf(10,10, 35,-1,2, 30, 0, 0)
+            textLocation = arrayListOf(10, 10, 35, -1, 2, 30, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#FCF6F5"
@@ -3731,7 +3732,7 @@ class Post4Lines(val context: Context) {
                 "  אבל מונעת ממנו  ",
                 "  להיות מישהו אחר.  "
             )
-            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
+            textLocation = arrayListOf(10, 10, 35, -1, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#FCF6F5"
@@ -3762,7 +3763,7 @@ class Post4Lines(val context: Context) {
                 "  חוסר היכולת שלך לקבל אותם  ",
                 "  זו בעיה.  "
             )
-            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
             postTransparency = 5
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#000000"
@@ -3793,7 +3794,7 @@ class Post4Lines(val context: Context) {
                 "  דרישות מוגזמות  ",
                 "  וזוגיות חונקת.  "
             )
-            textLocation = arrayListOf(10,10, 30,-1,0, 0, 0, 0)
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
             postTransparency = 0
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#000000"
@@ -3817,14 +3818,15 @@ class Post4Lines(val context: Context) {
             postNum = 4935
             postId = 84
             lineNum = 4
-            imageUri = "https://cdn.pixabay.com/photo/2015/12/17/14/40/jewish-cemetery-1097409_1280.jpg"
+            imageUri =
+                "https://cdn.pixabay.com/photo/2015/12/17/14/40/jewish-cemetery-1097409_1280.jpg"
             postText = arrayListOf(
                 "  איפה הצדק איפה, ",
                 "  בסוף כולם מתים  ",
                 "  גם אלה שצודקים  ",
                 "  וגם אלה שלא.  "
             )
-            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
+            textLocation = arrayListOf(10, 10, 35, -1, 0, 0, 0, 0)
             postTransparency = 4
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#000000"
@@ -3855,8 +3857,8 @@ class Post4Lines(val context: Context) {
                 "  אלא  ",
                 "  איפה שכי מתאים לו.  "
             )
-            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
-            postTransparency =6
+            textLocation = arrayListOf(10, 10, 35, -1, 0, 0, 0, 0)
+            postTransparency = 6
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#FAEBEF"
             val textColor = "#333D79"
@@ -3886,8 +3888,8 @@ class Post4Lines(val context: Context) {
                 "  דפים ריקים  ",
                 "  טובים ליוצרי מציאות.  "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
-            postTransparency =5
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
+            postTransparency = 5
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#755139"
             val textColor = "#F2EDD7"
@@ -3917,8 +3919,8 @@ class Post4Lines(val context: Context) {
                 "  מי שמתווכח עם שוטה ",
                 "  הוא שוטה.  "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
-            postTransparency =0
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
+            postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#755139"
             val textColor = "#F2EDD7"
@@ -3948,8 +3950,8 @@ class Post4Lines(val context: Context) {
                 "  אם הייתי אחר  ",
                 "  היו לי עוגמות נפש אחרות.  "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
-            postTransparency =7
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
+            postTransparency = 7
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#DCE2F0"
             val textColor = "#195190"
@@ -3971,7 +3973,7 @@ class Post4Lines(val context: Context) {
         with(post) {
             postNum = 4940
             postId = 82
-            lineNum =4
+            lineNum = 4
             imageUri = "https://cdn.pixabay.com/photo/2016/11/29/07/22/bible-1868070_1280.jpg"
             postText = arrayListOf(
                 "  שתהיה דף מלא   ",
@@ -3979,8 +3981,8 @@ class Post4Lines(val context: Context) {
                 "  ודף ריק  ",
                 "  ליום המחר.  "
             )
-            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
-            postTransparency =3
+            textLocation = arrayListOf(10, 10, 35, -1, 0, 0, 0, 0)
+            postTransparency = 3
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#00539C"
             val textColor = "#FFD662"
@@ -3992,16 +3994,17 @@ class Post4Lines(val context: Context) {
             postPadding = arrayListOf(0, 0, 0, 0)
             postRadiuas = 16
             lineSpacing = 1.3f
-            }
+        }
         drawPost.drawPostFire(post, layout)
 //        util.sendPostToStringFirestore(post)
     }
+
     fun loadPost4941() {
         val post = Post()
         with(post) {
             postNum = 4941
             postId = 78
-            lineNum =4
+            lineNum = 4
             imageUri = "https://cdn.pixabay.com/photo/2015/07/18/08/00/people-850097_1280.jpg"
             postText = arrayListOf(
                 "  במידה והאדם היה רוצה   ",
@@ -4009,9 +4012,9 @@ class Post4Lines(val context: Context) {
                 " ולא את מה שאין לו כרגע  ",
                 " הרבה מהבעיות שלו היו נעלמות. "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
-            postPadding = arrayListOf(0, 0, 0,0)
-            postTransparency =5
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency = 5
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#00539C"
             val textColor = "#FFD662"
@@ -4020,10 +4023,10 @@ class Post4Lines(val context: Context) {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-             postRadiuas = 16
+            postRadiuas = 16
             lineSpacing = 1.3f
         }
-      drawPost.drawPostFire(post, layout)
+        drawPost.drawPostFire(post, layout)
 //        util.sendPostToStringFirestore(post)
     }
 
@@ -4032,7 +4035,7 @@ class Post4Lines(val context: Context) {
         with(post) {
             postNum = 4942
             postId = 79
-            lineNum =4
+            lineNum = 4
             imageUri = "https://cdn.pixabay.com/photo/2015/09/16/21/07/egg-943413_1280.jpg"
             postText = arrayListOf(
                 "  אין מתכון בדוק לחיים טובים  ",
@@ -4040,9 +4043,9 @@ class Post4Lines(val context: Context) {
                 " אבל יש מתכון כזה לחיים רעים  ",
                 " פשוט תישאר ברע. "
             )
-            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
-            postPadding = arrayListOf(0, 0, 0,0)
-            postTransparency =0
+            textLocation = arrayListOf(10, 10, 35, -1, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#00539C"
             val textColor = "#FFD662"
@@ -4051,7 +4054,7 @@ class Post4Lines(val context: Context) {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-             postRadiuas = 16
+            postRadiuas = 16
             lineSpacing = 1.3f
         }
         drawPost.drawPostFire(post, layout)
@@ -4063,7 +4066,7 @@ class Post4Lines(val context: Context) {
         with(post) {
             postNum = 4943
             postId = 82
-            lineNum =4
+            lineNum = 4
             imageUri = "https://cdn.pixabay.com/photo/2014/11/21/03/27/quairaing-540122_1280.jpg"
             postText = arrayListOf(
                 " עדיף ללכת בדרך פחות נוחה ",
@@ -4071,9 +4074,9 @@ class Post4Lines(val context: Context) {
                 " מללכת בדרך נוחה  ",
                 " המובילה אותך לשום מקום. "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
-            postPadding = arrayListOf(0, 0, 0,0)
-            postTransparency =0
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#00539C"
             val textColor = "#ffffff"
@@ -4085,7 +4088,7 @@ class Post4Lines(val context: Context) {
             postRadiuas = 16
             lineSpacing = 1.3f
         }
-         drawPost.drawPostFire(post, layout)
+        drawPost.drawPostFire(post, layout)
 //        util.sendPostToStringFirestore(post)
     }
 
@@ -4094,7 +4097,7 @@ class Post4Lines(val context: Context) {
         with(post) {
             postNum = 4944
             postId = 87
-            lineNum =4
+            lineNum = 4
             imageUri = "https://cdn.pixabay.com/photo/2015/06/01/00/20/man-792821_1280.jpg"
             postText = arrayListOf(
                 " אתה החיים, ",
@@ -4102,9 +4105,9 @@ class Post4Lines(val context: Context) {
                 " היא רק נקודת מבט זמנית ",
                 " על החיים. "
             )
-            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
-            postPadding = arrayListOf(0, 0, 0,0)
-            postTransparency =0
+            textLocation = arrayListOf(10, 10, 35, -1, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency = 0
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#00539C"
             val textColor = "#ffffff"
@@ -4125,7 +4128,7 @@ class Post4Lines(val context: Context) {
         with(post) {
             postNum = 4945
             postId = 83
-            lineNum =4
+            lineNum = 4
             imageUri = "https://cdn.pixabay.com/photo/2020/11/01/10/35/street-5703332_1280.jpg"
             postText = arrayListOf(
                 " כל כמה ",
@@ -4133,9 +4136,9 @@ class Post4Lines(val context: Context) {
                 " ההמולה הזאת מסביב ",
                 " רועשת יותר ויותר. "
             )
-            textLocation = arrayListOf(10,10, 35,-1,0, 0, 0, 0)
-            postPadding = arrayListOf(0, 0, 0,0)
-            postTransparency =8
+            textLocation = arrayListOf(10, 10, 35, -1, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency = 8
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#ffffff"
             val textColor = "#000000"
@@ -4156,7 +4159,7 @@ class Post4Lines(val context: Context) {
         with(post) {
             postNum = 4946
             postId = 83
-            lineNum =4
+            lineNum = 4
             imageUri = "https://cdn.pixabay.com/photo/2015/08/28/16/06/everyday-912097_1280.jpg"
             postText = arrayListOf(
                 " כל אתרי הרשת ",
@@ -4164,9 +4167,9 @@ class Post4Lines(val context: Context) {
                 " הם רק ישכיחו ממך לרגע  ",
                 " את השאלה שלך. "
             )
-            textLocation = arrayListOf(10,20, 35,-1,0, 0, 0, 0)
-            postPadding = arrayListOf(0, 0, 0,0)
-            postTransparency =7
+            textLocation = arrayListOf(10, 20, 35, -1, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency = 7
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "##0A174E"
             val textColor = "#F5D042"
@@ -4181,12 +4184,13 @@ class Post4Lines(val context: Context) {
         drawPost.drawPostFire(post, layout)
 //        util.sendPostToStringFirestore(post)
     }
+
     fun loadPost4947() {
         val post = Post()
         with(post) {
             postNum = 4947
             postId = 79
-            lineNum =4
+            lineNum = 4
             imageUri = "https://cdn.pixabay.com/photo/2020/09/22/22/32/people-5594462_1280.jpg"
             postText = arrayListOf(
                 " מה שקשה לך ",
@@ -4194,9 +4198,9 @@ class Post4Lines(val context: Context) {
                 " אלא  ",
                 " היחס שלך לאנשים האלה. "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
-            postPadding = arrayListOf(0, 0, 0,0)
-            postTransparency =5
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency = 5
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "##0A174E"
             val textColor = "#F5D042"
@@ -4217,7 +4221,7 @@ class Post4Lines(val context: Context) {
         with(post) {
             postNum = 4948
             postId = 85
-            lineNum =4
+            lineNum = 4
             imageUri = "https://cdn.pixabay.com/photo/2015/01/27/09/58/man-613601_1280.jpg"
             postText = arrayListOf(
                 " מה שקורה בחיים ",
@@ -4225,9 +4229,9 @@ class Post4Lines(val context: Context) {
                 " ואם אתה חושב אחרת ",
                 " החיים שלך קצת אחרים משלי. "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
-            postPadding = arrayListOf(0, 0, 0,0)
-            postTransparency =3
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency = 3
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#990011"
             val textColor = "#FCF6F5"
@@ -4239,15 +4243,16 @@ class Post4Lines(val context: Context) {
             postRadiuas = 16
             lineSpacing = 1.3f
         }
-         drawPost.drawPostFire(post, layout)
+        drawPost.drawPostFire(post, layout)
 //        util.sendPostToStringFirestore(post)
     }
+
     fun loadPost4949() {
         val post = Post()
         with(post) {
             postNum = 4949
             postId = 80
-            lineNum =4
+            lineNum = 4
             imageUri = "https://cdn.pixabay.com/photo/2016/07/26/19/05/pokemon-1543556_1280.jpg"
             postText = arrayListOf(
                 " המועקה האנושית ",
@@ -4255,9 +4260,9 @@ class Post4Lines(val context: Context) {
                 " מעודף אינפורמציה לא חיונית ",
                 " וחוסר אינפורמציה חיונית. "
             )
-            textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
-            postPadding = arrayListOf(0, 0, 0,0)
-            postTransparency =3
+            textLocation = arrayListOf(10, -1, 35, 20, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency = 3
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#000000"
             val textColor = "#ffffff"
@@ -4271,6 +4276,222 @@ class Post4Lines(val context: Context) {
         }
         drawPost.drawPostFire(post, layout)
 //        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost4950() {
+        val post = Post()
+        with(post) {
+            postNum = 4950
+            lineNum = 4
+            imageUri = "https://cdn.pixabay.com/photo/2018/02/04/09/09/brushes-3129361_1280.jpg"
+            postText = arrayListOf(
+                " אתה יצרת ",
+                " את כל הרע והטוב בעולם, ",
+                " בלעדיך ",
+                " זה היה רק עולם. "
+            )
+            postId = 86
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency = 0
+            postTextSize = arrayListOf(0, 16)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postRadiuas = 16
+            lineSpacing = 1.3f
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost4951() {
+        val post = Post()
+        with(post) {
+            postNum = 4951
+            lineNum = 4
+            imageUri = "https://cdn.pixabay.com/photo/2016/11/29/04/19/ocean-1867285_1280.jpg"
+            postText = arrayListOf(
+                " שתהיה מספיק קרוב לים ",
+                " כך שתוכל לראות אותו, ",
+                " ומספיק רחוק ממנו ",
+                " שלא תטבע בו. "
+            )
+            postId = 89
+            textLocation = arrayListOf(10, -1, 30, 20, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency = 0
+            postTextSize = arrayListOf(0, 16)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postRadiuas = 16
+            lineSpacing = 1.3f
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost4952() {
+        val post = Post()
+        with(post) {
+            postNum = 4952
+            lineNum = 4
+            imageUri = "https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227_1280.jpg"
+            postText = arrayListOf(
+                " עולם הרייטינג עשוי כולו ",
+                " מפולסים חשמליים בתוך מכשירים דיגיטליים , ",
+                " קשה להיתמך בהם פיסית ",
+                " כשאתה מאבד שווי משקל באמצע הרחוב. "
+            )
+            postId = 86
+            textLocation = arrayListOf(10, 10, 35, -1, 2, 30, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 5)
+            postTransparency = 5
+            postTextSize = arrayListOf(0, 16)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postRadiuas = 16
+            lineSpacing = 1.4f
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost4953() {
+        val post = Post()
+        with(post) {
+            postNum = 4953
+            lineNum = 4
+            imageUri = "https://cdn.pixabay.com/photo/2014/07/13/02/18/woman-391555_1280.jpg"
+            postText = arrayListOf(
+                " אין עולם אחר ",
+                " אבל יש תפיסה אחרת של העולם , ",
+                " תפיסה שהיא פחות תוכנית ראליטי ",
+                " ויותר מציאות. "
+            )
+            postId = 84
+            textLocation = arrayListOf(10, -1, 35, 10, 0, 0, 5, 5)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency = 2
+            postTextSize = arrayListOf(0, 16)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postRadiuas = 16
+            lineSpacing = 1.4f
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost4954() {
+        val post = Post()
+        with(post) {
+            postNum = 4954
+            lineNum = 4
+            imageUri = "https://cdn.pixabay.com/photo/2015/09/09/20/23/baby-933097_1280.jpg"
+            postText = arrayListOf(
+                " החיים שלך קורים ",
+                " רק ברגע הזה , ",
+                " שאר הזמנים ",
+                " קורים רק בראש שלך. "
+            )
+            postId = 84
+            textLocation = arrayListOf(10, -1, 35, 10, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency = 3
+            postTextSize = arrayListOf(0, 16)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postRadiuas = 16
+            lineSpacing = 1.4f
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost4955() {
+        val post = Post()
+        with(post) {
+            postNum = 4955
+            lineNum = 4
+            imageUri = "https://cdn.pixabay.com/photo/2017/01/28/02/24/japan-2014619_1280.jpg"
+            postText = arrayListOf(
+                " העולם סביבך נראה עולב רציני ",
+                " כולו עשוי בצלמו ובדמותו של האדם, ",
+                " לא שהוא כזה ",
+                " אבל אתה כאדם תופס או ככזה.  "
+            )
+            postId = 84
+            textLocation = arrayListOf(10, -1, 35, 10, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency = 6
+            postTextSize = arrayListOf(0, 16)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postRadiuas = 16
+            lineSpacing = 1.4f
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost4956() {
+        val post = Post()
+        with(post) {
+            postNum = 4956
+            lineNum = 4
+            imageUri = "https://cdn.pixabay.com/photo/2016/10/18/05/16/woman-1749355_1280.jpg"
+            postText = arrayListOf(
+                " ביקורת ",
+                " זה חוסר השלמות שבחוסר השלמות, ",
+                " אומנות ",
+                " זה השלמות שבחוסר השלמות.  "
+            )
+            postId = 84
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency = 3
+            postTextSize = arrayListOf(0, 15)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+                 }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+
     }
 }
 

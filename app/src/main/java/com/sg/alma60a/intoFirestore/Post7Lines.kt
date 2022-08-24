@@ -338,5 +338,6 @@ class Post7Lines(val context: Context) {
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
+
 }
 

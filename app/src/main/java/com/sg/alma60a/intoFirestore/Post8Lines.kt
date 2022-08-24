@@ -110,8 +110,7 @@ class Post8Lines(val context: Context) {
             postRadiuas = 16
             lineSpacing = 1.4f
         }
-        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
-//    pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
+
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
     }
@@ -148,8 +147,6 @@ class Post8Lines(val context: Context) {
             postRadiuas = 16
             lineSpacing = 1.4f
         }
-//         pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
-        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
     }
@@ -180,13 +177,8 @@ class Post8Lines(val context: Context) {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-
             textLocation = arrayListOf(10, -1, 30, 10, 3, 30, 0, 0)
-            //top     //dis        //bottom     //line1   //dis1
-//       post.textLocation = arrayListOf(101, -1,       35,            10,             3,        60)            // locate in the bottom
-            //    post.textLocation = arrayListOf(101, 10,       35,            -1,            3,        60)            //locate in the top
-
-            postPadding = arrayListOf(0, 5, 0, 0)
+           postPadding = arrayListOf(0, 5, 0, 0)
             postRadiuas = 16
             lineSpacing = 1.4f
         }
@@ -238,7 +230,7 @@ class Post8Lines(val context: Context) {
         val post = Post()
         with(post) {
             postNum = 806
-            postId = 90
+            postId = 84
             lineNum = 8
             imageUri = "https://cdn.pixabay.com/photo/2017/08/02/13/02/people-2571488_1280.jpg"
             postText = arrayListOf(
@@ -265,8 +257,42 @@ class Post8Lines(val context: Context) {
             postRadiuas = 16
             lineSpacing = 1.3f
         }
-        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
-//        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
+    }
+        fun loadPost807() {
+        val post = Post()
+        with(post) {
+            postNum = 807
+            postId = 85
+            lineNum = 8
+            imageUri = "https://cdn.pixabay.com/photo/2015/10/30/12/18/thumb-1013968_1280.jpg"
+            postText = arrayListOf(
+                " גם אם הכל יהיה בסדר ",
+                " משהוא יהיה לא בסדר, ",
+                " ואיך זה ? ",
+                "ה\"בסדר\" וה\"לא בסדר\"",
+                " הם מרכזים הקיימים באדם כל הזמן ",
+                " ללא תלות מה קורה מסביב, ",
+                " ובזמנים שהכל מסתדר סביבך בסדר, אבל אתה מתמקד בלא בסדר, ",
+                " אז יש אלמנט של \"לא בסדר\" בכל ה\"בסדר\" הזה. "
+            )
+            postId = 84
+//            textLocation = arrayListOf(10,-1, 30,10,5, 30,6, 30)
+            textLocation = arrayListOf(10,5, 30,-1,3, 410,7,30)
+            postPadding = arrayListOf(5, 0, 5,0)
+            postTransparency =6
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postRadiuas = 16
+            lineSpacing = 1.4f
+        }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }

@@ -49,8 +49,8 @@ class DrawPostCenter(val context: Context) {
  //    util.logi("DrawPostCenter 105     =========>       post.lineNum=${post.lineNum}")
 
        // util.sendPostToStringFirestore(post)
-        util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
-        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
+       //util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
+       //pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
 //        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
 
         when (post.lineNum) {
