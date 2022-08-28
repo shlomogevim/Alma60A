@@ -2,8 +2,9 @@ package com.sg.alma60a
 
 import android.app.Activity
 import android.content.Context
-import android.widget.ImageView
 import androidx.constraintlayout.widget.ConstraintLayout
+import com.sg.alma60a.model.Post
+
 class Post6Lines(val context: Context) {
 
     private val layout: ConstraintLayout = (context as Activity).findViewById(R.id.itemLayoutFire)
@@ -869,6 +870,37 @@ class Post6Lines(val context: Context) {
             textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
             postId = 86
             postTransparency = 2
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postPadding = arrayListOf(0, 0, 0, 0)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost627() {
+        val post = Post()
+        with(post) {
+            postNum = 627
+            lineNum = 6
+            imageUri = "https://cdn.pixabay.com/photo/2015/05/31/10/51/technology-791029_1280.jpg"
+            postText = arrayListOf(
+                " מודיעים לך ברשת  ",
+                " מתי להיות שמח ומתי עצוב ",
+                " ובאמת אתה נהיה כזה,  ",
+                " והכי גרוע  ",
+                " שזה ממש לא תלוי בך ",
+                " או במה שקורה סביבך. "
+            )
+            textLocation = arrayListOf(10, 10, 30, -1, 0, 0, 0, 0)
+            postId = 82
+            postTransparency = 5
             postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#000000"
             val textColor = "#ffffff"

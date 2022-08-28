@@ -12,6 +12,7 @@ import androidx.constraintlayout.widget.ConstraintSet
 import androidx.core.content.res.ResourcesCompat
 import coil.load
 import coil.transform.RoundedCornersTransformation
+import com.sg.alma60a.model.Post
 
 class DrawGeneralPost() {
     val util = Utility()

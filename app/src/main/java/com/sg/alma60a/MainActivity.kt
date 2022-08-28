@@ -9,7 +9,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        startActivity(Intent(this,AddPostActivity::class.java))
+//        startActivity(Intent(this,AddPostActivity::class.java))
+        startActivity(Intent(this,AddArticleActivity::class.java))
 
     }
 }

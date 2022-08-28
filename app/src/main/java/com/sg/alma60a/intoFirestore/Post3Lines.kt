@@ -3,7 +3,7 @@ package com.sg.alma60a
 import android.app.Activity
 import android.content.Context
 import androidx.constraintlayout.widget.ConstraintLayout
-
+import com.sg.alma60a.model.Post
 
 
 class Post3Lines(val context: Context) {
@@ -95,7 +95,7 @@ class Post3Lines(val context: Context) {
         util.sendPostToStringFirestore(post)
     }
     fun loadPost303() {
-        var post=Post()
+        var post= Post()
         with(post) {
             postNum = 303
             lineNum =3
@@ -121,7 +121,7 @@ class Post3Lines(val context: Context) {
         util.sendPostToStringFirestore(post)
     }
     fun loadPost304() {
-        var post=Post()
+        var post= Post()
         with(post) {
             postNum = 304
             lineNum =3
@@ -149,7 +149,7 @@ class Post3Lines(val context: Context) {
     }
 
     fun loadPost305() {
-        var post=Post()
+        var post= Post()
         with(post) {
             postNum = 305
             lineNum =3
@@ -3256,6 +3256,34 @@ fun loadPost364() {
             postId = 86
             postTransparency = 2
             postTextSize = arrayListOf(0, 16)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postPadding = arrayListOf(0, 0, 0, 0)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost3922() {
+        val post = Post()
+        with(post) {
+            postNum = 3922
+            lineNum = 3
+            imageUri = "https://cdn.pixabay.com/photo/2016/02/18/15/07/people-1207310_1280.jpg"
+            postText = arrayListOf(
+                " הזקנה אינה נמדדת ",
+                " לפי כמות השנים העוברות על האדם ",
+                " אלא לפי כמות החיות שנותרה בו. ",
+            )
+            textLocation = arrayListOf(10,-1, 30,10,0, 0, 0, 0)
+            postId = 86
+            postTransparency = 6
+            postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#000000"
             val textColor = "#ffffff"
             postFontFamily = 103

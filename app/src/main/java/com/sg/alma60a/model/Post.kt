@@ -1,4 +1,4 @@
-package com.sg.alma60a
+package com.sg.alma60a.model
 
 import com.google.firebase.Timestamp
 

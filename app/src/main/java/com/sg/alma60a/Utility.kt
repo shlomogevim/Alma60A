@@ -5,6 +5,8 @@ import android.util.Log
 import com.google.firebase.firestore.DocumentSnapshot
 import com.google.firebase.firestore.FieldValue
 import com.google.firebase.firestore.FirebaseFirestore
+import com.sg.alma60a.model.Article
+import com.sg.alma60a.model.Post
 import kotlin.collections.ArrayList
 import kotlin.collections.HashMap
 
@@ -467,4 +469,22 @@ class Utility() {
         }
     }
 
-   }
+    fun sendArticleToStringFirestore(article: Article) {
+        val data = HashMap<String, Any>()
+        with(article) {
+            data[ARTICAL_NUM] = aricleNum
+            data[ARTICAL_TEXT] = aricleText
+            data[ARTICAL_TEXT_COLOR] = articleTextColor
+            data[ARTICAL_TEXT_SIZE] = aricleTextSize
+            data[ARTICAL_TITLE] = aricleTitle
+            data[ARTICAL_BACKGROUND] = articleBackground
+            data[ARTICAL_FONT_FAMILY] = articleFontFamily
+            data[ARTICAL_TIMESTAMP] = FieldValue.serverTimestamp()
+        }
+            FirebaseFirestore.getInstance().collection(ARTICAL_REF).document(article.aricleNum.toString())
+                .set(data)
+        }
+    }
+
+
+

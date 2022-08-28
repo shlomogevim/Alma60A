@@ -1,5 +1,6 @@
 package com.sg.alma60a
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.sg.alma60a.databinding.ActivityAddPostBinding
@@ -17,12 +18,17 @@ class AddPostActivity : AppCompatActivity() {
     lateinit var post9Lines: Post9Lines
     lateinit var post10Lines: Post10Lines
 
+    lateinit var articlesLines:Articles
+//    val pref = getSharedPreferences(SHARPREF_ALMA, Context.MODE_PRIVATE)
+
+
     val util = Utility()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding= ActivityAddPostBinding.inflate(layoutInflater)
         setContentView(binding.root)
+//        pref.edit().putString(ARTICAL_MODE, FALSE).apply()
 
         post1Lines = Post1Lines(this)
         post2Lines = Post2Lines(this)
@@ -34,6 +40,15 @@ class AddPostActivity : AppCompatActivity() {
         post8Lines = Post8Lines(this)
         post9Lines = Post9Lines(this)
         post10Lines = Post10Lines(this)
+
+        articlesLines=Articles(this)
+
+   //  -------------------
+
+
+
+
+        articlesLines.loadArticles10()
 
 
 //         post1Lines.loadPost100()
@@ -78,6 +93,7 @@ class AddPostActivity : AppCompatActivity() {
 //post3Lines.loadPost3919()
 //post3Lines.loadPost3920()
 //post3Lines.loadPost3921()
+post3Lines.loadPost3922()
 
 // post4Lines.loadPost4901()
 // post4Lines.loadPost4902()
@@ -135,6 +151,8 @@ class AddPostActivity : AppCompatActivity() {
 // post4Lines.loadPost4954()
 // post4Lines.loadPost4955()
 // post4Lines.loadPost4956()
+// post4Lines.loadPost4957()
+// post4Lines.loadPost4958()
 
 
 //  post5Lines.loadPost540()
@@ -157,6 +175,8 @@ class AddPostActivity : AppCompatActivity() {
 //  post5Lines.loadPost557()
 //  post5Lines.loadPost558()
 //  post5Lines.loadPost559()
+//  post5Lines.loadPost560()
+//  post5Lines.loadPost561()
 
 
 //       post6Lines.loadPost600()
@@ -186,6 +206,7 @@ class AddPostActivity : AppCompatActivity() {
 // post6Lines.loadPost624()
 // post6Lines.loadPost625()
 // post6Lines.loadPost626()
+// post6Lines.loadPost627()
 
 //           post7Lines.loadPost700()
 //     post7Lines.loadPost701()

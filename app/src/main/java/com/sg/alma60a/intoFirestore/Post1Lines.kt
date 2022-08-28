@@ -3,10 +3,7 @@ package com.sg.alma60a
 import android.app.Activity
 import android.content.Context
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.sg.alma60a.DrawPostCenter
-import com.sg.alma60a.Post
-import com.sg.alma60a.R
-import com.sg.alma60a.Utility
+import com.sg.alma60a.model.Post
 
 
 class Post1Lines(val context: Context) {

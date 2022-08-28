@@ -6,8 +6,7 @@ const val NOT_CONSTANT="notConstant"
 const val POST_PICTURE="Posts Picture"
 const val SHARPREF_ALMA = "ShareprefAlma"
 //const val SHARPREF_CHANGE_TIMESTAMP = "ShareprefChangeTimestamp"
-//const val TRUE = "ShareprefTrue"
-//const val FALSE= "ShareprefFalse"
+
 
 const val NO_TOP= -1
 const val NO_BOTTOM= -1
@@ -37,4 +36,15 @@ const val POST_IMAGE_STAM="Posts Image Stam"
 const val SHARPREF_MOVING_BACKGROUND="SharprefMovingBackground"
 const val TRUE="true"
 const val FALSE="false"
+
+const val ARTICAL_MODE="articalMode"
+const val ARTICAL_REF="Articles"
+const val ARTICAL_NUM="articalNum"
+const val ARTICAL_TEXT="articalText"
+const val ARTICAL_TEXT_COLOR="articalTextColor"
+const val ARTICAL_TEXT_SIZE="articalTextSize"
+const val ARTICAL_TITLE="articalTitle"
+const val ARTICAL_BACKGROUND="articalBackGround"
+const val ARTICAL_FONT_FAMILY="articalFontFamily"
+const val ARTICAL_TIMESTAMP="articalTimestamp"
 

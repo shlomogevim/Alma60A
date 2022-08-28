@@ -2,9 +2,8 @@ package com.sg.alma60a
 
 import android.app.Activity
 import android.content.Context
-import android.widget.ImageView
 import androidx.constraintlayout.widget.ConstraintLayout
-
+import com.sg.alma60a.model.Post
 
 
 class Post4Lines(val context: Context) {
@@ -4491,7 +4490,62 @@ class Post4Lines(val context: Context) {
                  }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
-
+    }
+        fun loadPost4957() {
+        val post = Post()
+        with(post) {
+            postNum = 4957
+            lineNum = 4
+            imageUri = "https://cdn.pixabay.com/photo/2016/11/29/08/58/hands-1868562_1280.jpg"
+            postText = arrayListOf(
+                " הכניסה לפרטים ",
+                " לפעמים מרחיקה אותך מהדיוק, ",
+                " ובמקרה שכזה  ",
+                " עדיף לראות את כל הציור מרחוק. "
+            )
+            postId = 84
+            textLocation = arrayListOf(10, -1, 30, 10, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency = 3
+            postTextSize = arrayListOf(0, 15)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+    fun loadPost4958() {
+        val post = Post()
+        with(post) {
+            postNum = 4958
+            lineNum = 4
+            imageUri = "https://cdn.pixabay.com/photo/2017/10/07/17/40/woman-2827304_1280.jpg"
+            postText = arrayListOf(
+                " בחיים האלה אתה צריך ",
+                " כסא שנוח לך לשבת בו ",
+                " דרך פתוחה  ללכת בה  ",
+                " ופטור גורף מהבלים. "
+            )
+            postId = 87
+            textLocation = arrayListOf(10, 5, 30, -1, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency = 1
+            postTextSize = arrayListOf(0, 15)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
     }
 }
 

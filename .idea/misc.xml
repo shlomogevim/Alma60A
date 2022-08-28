@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/A.Project/Alma/Alma60A/app/src/main/res/layout/activity_add_article.xml" value="0.11302083333333333" />
         <entry key="..\:/A.Project/Alma/Alma60A/app/src/main/res/layout/activity_add_post.xml" value="0.16145833333333334" />
+        <entry key="..\:/A.Project/Alma/Alma60A/app/src/main/res/layout/activity_draw_article.xml" value="0.13802083333333334" />
+        <entry key="..\:/A.Project/Alma/Alma60A/app/src/main/res/layout/activity_draw_article2.xml" value="0.1" />
         <entry key="..\:/A.Project/Alma/Alma60A/app/src/main/res/layout/activity_main.xml" value="0.12314814814814815" />
+        <entry key="..\:/A.Project/Alma/Alma60A/app/src/main/res/layout/activity_main_article.xml" value="0.1" />
         <entry key="..\:/A.Project/Alma/Alma60A/app/src/main/res/layout/item_post.xml" value="0.12314814814814815" />
       </map>
     </option>

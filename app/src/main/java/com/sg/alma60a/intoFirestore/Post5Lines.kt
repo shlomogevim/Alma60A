@@ -2,8 +2,8 @@ package com.sg.alma60a
 
 import android.app.Activity
 import android.content.Context
-import android.widget.ImageView
 import androidx.constraintlayout.widget.ConstraintLayout
+import com.sg.alma60a.model.Post
 
 
 class Post5Lines(val context: Context) {
@@ -2032,12 +2032,7 @@ class Post5Lines(val context: Context) {
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
-    /*יש שני סוגי אנשים:
-האבודים
-ואלה שנאחזים במשהו
-אפילו שהמשהו הזה בדרך כלל
-לא בדיוק מתאים להם.
-*/
+
     fun loadPost559() {
         val post = Post()
         with(post) {
@@ -2059,6 +2054,68 @@ class Post5Lines(val context: Context) {
             postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#7b9acc"
             val textColor = "#FCF6F5"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost560() {
+        val post = Post()
+        with(post) {
+            postNum = 560
+            postId = 84
+            lineNum = 5
+            imageUri = "https://cdn.pixabay.com/photo/2015/01/16/11/18/restaurant-601304_1280.jpg"
+            postText = arrayListOf(
+                " האדם בחיים דומה לאותו אחד ",
+                " שנכנס למסעדת שף יוקרתית ",
+                " הוא אוכל בנימוס והכל בסדר,  ",
+                " אבל עמוק בפנים הוא יודע  ",
+                " שהוא בנוי יותר לג'אנק פוד. "
+            )
+            postId = 85
+            textLocation = arrayListOf(10,10, 35,-1,0, 0,0, 0)
+            postPadding = arrayListOf(0, 0, 0,0)
+            postTransparency =5
+            postTextSize = arrayListOf(0, 16)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost561() {
+        val post = Post()
+        with(post) {
+            postNum = 561
+            postId = 86
+            lineNum = 5
+            imageUri = "https://cdn.pixabay.com/photo/2014/12/24/05/02/drop-of-water-578897_1280.jpg"
+            postText = arrayListOf(
+                " היכולת המרעננת להתחדש תלויה: ",
+                " במחנק מהקיים כרגע, ",
+                " בנכונות לוותר על הישן והמוכר, ",
+                " ובעוז  ",
+                " להיכנס למחוזות לא מוכרים. "
+            )
+            postId = 85
+            textLocation = arrayListOf(10,10, 30,-1,0, 0,0, 0)
+            postPadding = arrayListOf(0, 0, 0,0)
+            postTransparency =0
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#000000"
+            val textColor = "#331B3F"
             postFontFamily = 103
             postBackground = util.improveColorString(backgroundColor)
             val textcolo = util.improveColorString(textColor)

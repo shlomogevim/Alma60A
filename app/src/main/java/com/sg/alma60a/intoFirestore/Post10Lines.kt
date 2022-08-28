@@ -2,8 +2,8 @@ package com.sg.alma60a
 
 import android.app.Activity
 import android.content.Context
-import android.widget.ImageView
 import androidx.constraintlayout.widget.ConstraintLayout
+import com.sg.alma60a.model.Post
 
 
 class Post10Lines(val context: Context) {
