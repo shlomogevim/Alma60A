@@ -339,5 +339,38 @@ class Post7Lines(val context: Context) {
         util.sendPostToStringFirestore(post)
     }
 
+    fun loadPost710() {
+        var post = Post()
+        with(post) {
+            postNum = 710
+                 lineNum = 7
+            imageUri = "https://cdn.pixabay.com/photo/2016/11/29/01/31/man-1866559_1280.jpg"
+            postText = arrayListOf(
+                " שתחזיק מעצמך מספיק בסדר ",
+                " ככה ",
+                " שלא תציק לעצמך על מה שאתה,  ",
+                " ועם זאת ",
+                " שתחזיק מעצמך מספיק לא בסדר ",
+                " ככה  ",
+                " שלא תציק לאחרים על מה שהם. "
+            )
+            postId=87
+            textLocation = arrayListOf(10, -1, 35,10, 0,0,0, 0)
+            postPadding =  arrayListOf(0, 0,0, 0)
+            postTransparency =6
+            postTextSize = arrayListOf(0, 16)
+            val backgroundColor = "#0A174E"
+            val textColor = "#F5D042"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+           }
+         drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+
 }
 

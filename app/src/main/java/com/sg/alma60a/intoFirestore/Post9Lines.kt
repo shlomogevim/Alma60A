@@ -74,6 +74,49 @@ class Post9Lines(val context: Context) {
                 "זה שאתה לא עושה שום דבר זה לא אומר שיש לך זמן,",
                 "זה שיש בך את האלוהי זה לא אומר שאתה אלוהים."
             )
+            /*
+
+
+             זה שהסתדרת עם השנים
+           לא אומר שאתה מסודר,
+                זה שאתה עסוק כל הזמן
+                זה לא אומר שאתה עושה משהו,
+                זה שאתה אוכל כל הזמן
+                 זה לא אומר שאתה שבע,
+                זה שיש לך הכל
+                 זה לא אומר שאתה לא רוצה עוד,
+                זה שאתה נח כל היום
+                זה לא אומר שאתה לא עייף,
+                זה שיש לך הרבה חברים
+                זה לא אומר שאתה לא בודד,
+                זה שהחכמת עם השנים
+                זה לא אומר שאתה חכם,
+                זה שאתה לא עושה שום דבר
+                 זה לא אומר שיש לך זמן,
+                זה שיש בך את האלוהי
+                זה לא אומר שאתה אלוהים,
+                         זה שאתה יודע הרבה על דיכאונות ואיך לצאת מהם
+                          זה לא אומר שאתה לא מדוכא,
+   זה שאתה יועץ נישואים
+   זה לא אומר שהזוגיות שלך מוצלחת,
+   זה שאתה פסיכולוג
+   זה לא אומר שאתה לא נמצא באופן שיגרתי לפני התמוטטות עצבים
+   זה שאתה יודע הרבה על החיים
+    זה לא אומר שאתה חי בטוב
+
+
+
+
+
+
+
+
+
+
+
+
+
+                */
             postBackground = "a9dce3"
             postTransparency = 9
             val di = 0
@@ -108,5 +151,41 @@ class Post9Lines(val context: Context) {
    זה שאתה פסיכולוג זה לא אומר שאתה נמצא באופן שיגרתי לפני התמוטטות עצבים
    זה שאתה יודע הרבה על החיים זה לא אומר שאתה חי בטוב
    */
+
+
+    fun loadPost902() {
+        val post = Post()
+        with(post) {
+            postNum = 902
+            postId = 85
+            lineNum =9
+            imageUri = "https://cdn.pixabay.com/photo/2012/03/01/01/45/baby-20374_1280.jpg"
+            postText = arrayListOf(
+                " לדעתי בזמן הלידה ",
+                " יש ברדק גדול בשמי מרום, ",
+                " והרבה תינוקות לא מקבלים ",
+                " את החיים שלהם בצורה מסודרת, ",
+                "התינוקות האלה גדלים",
+                " ונעשים לאנשים בוגרים ",
+                " שאומנם מתפקדים בסדר גמור, ",
+                "אבל נראה שהחיים שלהם נשארו",
+                " אי שם במחסני מרום."
+            )
+            postId = 86
+            textLocation = arrayListOf(10, -1, 30,5, 0, 0, 0, 0)
+            postPadding = arrayListOf(5, 0, 5, 0)
+            postTransparency =6
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
 
 }

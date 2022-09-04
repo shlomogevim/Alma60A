@@ -296,6 +296,39 @@ class Post8Lines(val context: Context) {
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
+      fun loadPost808() {
+        val post = Post()
+        with(post) {
+            postNum = 808
+            postId = 85
+            lineNum = 8
+            imageUri = "https://cdn.pixabay.com/photo/2022/02/07/16/39/swamp-6999795_1280.jpg"
+            postText = arrayListOf(
+                " אצלנו בביצה המקומית ",
+                " בין הטחב של הזיכרונות, ",
+                " החלומות המשומשים, ",
+                "השגרה חסרת המשמעות,",
+                " הזוהמה של הפוליטיקה, ",
+                " הצורך שלא להיטרף, ",
+                "וההכרח להישאר שפוי כמו כולם",
+                " כל צפרדע חולמת להיות נרקיס."
+            )
+            postId = 85
+            textLocation = arrayListOf(10, -1, 30,10, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency =4
+            postTextSize = arrayListOf(0, 16)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
 }
 
 
