@@ -1098,5 +1098,159 @@ class Post6Lines(val context: Context) {
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
+
+    fun loadPost634() {
+        val post = Post()
+        with(post) {
+            postNum = 634
+            lineNum = 6
+            imageUri = "https://cdn.pixabay.com/photo/2017/09/30/09/39/time-2801596_1280.jpg"
+            postText = arrayListOf(
+                " אין רגע משעמם או חסר ערך ",
+                " בחיים האלה, ",
+                " אבל יש הרבה רגעים  ",
+                " שאתה פשוט לא מבין ",
+                " או לא  מקבל ",
+                " את טיבם. "
+            )
+            textLocation = arrayListOf(10, -1, 35, 5, 0, 0, 0, 0)
+            postId = 89
+            postTransparency = 10
+            postTextSize = arrayListOf(0, 16)
+            val backgroundColor = "#0A174E"
+            val textColor = "#F2AA4C"
+            postPadding = arrayListOf(10, 0, 10, 0)
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost635() {
+        val post = Post()
+        with(post) {
+            postNum = 635
+            lineNum = 6
+            imageUri = "https://cdn.pixabay.com/photo/2017/06/14/07/52/train-2401406_960_720.jpg"
+            postText = arrayListOf(
+                " אם אתה לא שומע ",
+                " את שקשוק גלגלי רכבת החיים שלך ",
+                " העוברת ביעף על מסילת הזמנים,  ",
+                " אז כנראה ",
+                " אתה תקוע באיזה תחנה ",
+                " בעבר שלך. "
+            )
+            textLocation = arrayListOf(10,5, 30, -1, 0, 0, 0, 0)
+            postId = 87
+            postTransparency = 10
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#0A174E"
+            val textColor = "#F2AA4C"
+            postPadding = arrayListOf(10, 0, 10, 0)
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+       fun loadPost636() {
+        val post = Post()
+        with(post) {
+            postNum = 636
+            lineNum = 6
+            imageUri = "https://cdn.pixabay.com/photo/2021/02/13/13/02/red-lighthouse-6011477_960_720.jpg"
+            postText = arrayListOf(
+                " ביום בהיר עם ראות טובה ",
+                " כזה שרואים חופשי למרחקים ",
+                " אם תחפש את קצה העולם,  ",
+                " תראה אחרי מאמצים רבים ",
+                " שם בקצה האופק ",
+                " אותך מחפש את קצה העולם. "
+            )
+            textLocation = arrayListOf(10,5, 30, -1, 0, 0, 0, 0)
+            postId = 90
+            postTransparency =10
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#0A174E"
+            val textColor = "#F2AA4C"
+            postPadding = arrayListOf(10, 0, 10, 5)
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost637() {
+        val post = Post()
+        with(post) {
+            postNum = 637
+            lineNum = 6
+            imageUri = "https://cdn.pixabay.com/photo/2016/08/17/00/31/trains-1599445_960_720.jpg"
+            postText = arrayListOf(
+                " האדם רוצה ",
+                " שבמותו ",
+                " יזכרו את האהבות שלו,  ",
+                " אבל משום מה ",
+                " בחייו ",
+                " הוא מטפח את השנאות שלו. "
+            )
+            textLocation = arrayListOf(10,5, 30, -1, 0, 0, 0, 0)
+            postId = 85
+            postTransparency =10
+            postTextSize = arrayListOf(0, 16)
+            val backgroundColor = "#0A174E"
+            val textColor = "#F2AA4C"
+            postPadding = arrayListOf(10, 0, 10, 0)
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost638() {
+        val post = Post()
+        with(post) {
+            postNum = 638
+            lineNum = 6
+            imageUri = "https://cdn.pixabay.com/photo/2018/03/06/18/39/ball-3204197_960_720.jpg"
+            postText = arrayListOf(
+                " אתה כמו כדור משחק, ",
+                " לכאורה אתה יכול לנוע לכל כיוון ",
+                " (קוראים לזה: בחירה חופשית)  ",
+                " למעשה אתה נע ",
+                " רק לפי ",
+                " איך שהחיים האלה בועטים אותך. "
+            )
+            textLocation = arrayListOf(10,5, 30, -1, 0, 0, 0, 0)
+            postId = 86
+            postTransparency =3
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#0A174E"
+            val textColor = "#F2AA4C"
+            postPadding = arrayListOf(10, 0, 10, 0)
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
 }
 

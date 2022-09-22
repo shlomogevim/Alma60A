@@ -57,100 +57,45 @@ class Post9Lines(val context: Context) {
 //        util.sendPostToStringFirestore(post)
         util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
     }
+
+
+
     fun loadPost901() {
         val post = Post()
         with(post) {
             postNum = 901
-            lineNum = 9
-            imageUri = "https://cdn.pixabay.com/photo/2017/02/06/11/58/desert-2042738_1280.jpg"
+            postId = 85
+            lineNum =9
+            imageUri = "https://cdn.pixabay.com/photo/2016/04/02/17/58/service-1303313_1280.jpg"
             postText = arrayListOf(
-                "זה שהסתדרת עם השנים זה לא אומר שאתה מסודר,",
-                "זה שאתה עסוק כל הזמן זה לא אומר שאתה עושה משהו,",
-                "זה שאתה אוכל כל הזמן זה לא אומר שאתה שבע,",
-                "זה שיש לך הכל זה לא אומר שאתה לא רוצה עוד,",
-                "זה שאתה נח כל היום זה לא אומר שאתה לא עייף,",
-                "זה שיש לך חברים זה לא אומר שאתה לא בודד,",
-                "זה שהחכמת עם השנים זה לא אומר שאתה חכם,",
-                "זה שאתה לא עושה שום דבר זה לא אומר שיש לך זמן,",
-                "זה שיש בך את האלוהי זה לא אומר שאתה אלוהים."
+                " שאתה הולך למסעדה ",
+                " מה שמעניין אותך יותר ",
+                " שהאוכל יהיה טעים ",
+                " פחות מה קורה במטבח, ",
+                "ובדומה לזה",
+                " מה שאתה יוצר ",
+                " זה מה שמעניין, ",
+                "התחשבנויות האישיות שלך",
+                " זה מה שקורה במטבח."
             )
-            /*
 
-
-             זה שהסתדרת עם השנים
-           לא אומר שאתה מסודר,
-                זה שאתה עסוק כל הזמן
-                זה לא אומר שאתה עושה משהו,
-                זה שאתה אוכל כל הזמן
-                 זה לא אומר שאתה שבע,
-                זה שיש לך הכל
-                 זה לא אומר שאתה לא רוצה עוד,
-                זה שאתה נח כל היום
-                זה לא אומר שאתה לא עייף,
-                זה שיש לך הרבה חברים
-                זה לא אומר שאתה לא בודד,
-                זה שהחכמת עם השנים
-                זה לא אומר שאתה חכם,
-                זה שאתה לא עושה שום דבר
-                 זה לא אומר שיש לך זמן,
-                זה שיש בך את האלוהי
-                זה לא אומר שאתה אלוהים,
-                         זה שאתה יודע הרבה על דיכאונות ואיך לצאת מהם
-                          זה לא אומר שאתה לא מדוכא,
-   זה שאתה יועץ נישואים
-   זה לא אומר שהזוגיות שלך מוצלחת,
-   זה שאתה פסיכולוג
-   זה לא אומר שאתה לא נמצא באופן שיגרתי לפני התמוטטות עצבים
-   זה שאתה יודע הרבה על החיים
-    זה לא אומר שאתה חי בטוב
-
-
-
-
-
-
-
-
-
-
-
-
-
-                */
-            postBackground = "a9dce3"
-            postTransparency = 9
-            val di = 0
-            val dd = 80
-            postMargin = arrayListOf(
-                arrayListOf(0, -1 + di, 0, 480 + dd),
-                arrayListOf(0, -1 + di, 0, 420 + dd),
-                arrayListOf(0, -1 + di, 0, 360 + dd),
-                arrayListOf(0, -1 + di, 0, 300 + dd),
-                arrayListOf(0, -1 + di, 0, 240 + dd),
-                arrayListOf(0, -1 + di, 0, 180 + dd),
-                arrayListOf(0, -1 + di, 0, 120 + dd),
-                arrayListOf(0, -1 + di, 0, 60 + dd),
-                arrayListOf(0, -1 + di, 0, 0 + dd)
-            )
-            val size1 = 16
-            val size2 = 0
-            postTextSize = arrayListOf(0, size1, size2)
-            postPadding = arrayListOf(0, 0, 0, 0)
-            val col = "#ffffff"
-            val col1 = "#4dd0e1"
-            postTextColor = arrayListOf(CONSTANT, col, col1, col1)
+            postId = 86
+            textLocation = arrayListOf(10, -1, 30,5, 0, 0, 0, 0)
+            postPadding = arrayListOf(10, 0, 10, 0)
+            postTransparency =6
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
             postFontFamily = 103
-            postRadiuas = 15
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
         }
-        drawPost.drawPostFire(post,layout)
+        drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
 
-    /*        זה שאתה יודע הרבה על דיכאונות ואיך לצאת מהם זה לא אומר שאתה לא מדוכא
-   זה שאתה יועץ נישואים זה לא אומר שהזוגיות שלך מוצלחת
-   זה שאתה פסיכולוג זה לא אומר שאתה נמצא באופן שיגרתי לפני התמוטטות עצבים
-   זה שאתה יודע הרבה על החיים זה לא אומר שאתה חי בטוב
-   */
 
 
     fun loadPost902() {

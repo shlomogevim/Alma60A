@@ -329,6 +329,204 @@ class Post8Lines(val context: Context) {
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
+
+    fun loadPost809() {
+        val post = Post()
+        with(post) {
+            postNum = 809
+            postId = 85
+            lineNum = 8
+            imageUri = "https://cdn.pixabay.com/photo/2016/10/18/05/19/old-man-1749360_1280.jpg"
+            postText = arrayListOf(
+                " יש לך בחייך שלשה משאבים מוגבלים בכמותם: ",
+                " הכסף שלך, הבריאות שלך והמודעות שלך. ",
+                " את הכסף שלך ",
+                "אתה שומר מכל משמר,",
+                " את הבריאות שלך ",
+                " אתה לפעמים נוטה לבזבז, ",
+                "ואת המודעות שלך",
+                " אתה משחית חופשי על כל הבל."
+            )
+            postId = 89
+            textLocation = arrayListOf(10, -1, 30,5, 0, 35, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency =4
+            postTextSize = arrayListOf(0, 16)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost810() {
+        val post = Post()
+        with(post) {
+            postNum = 810
+           lineNum = 8
+            imageUri = "https://cdn.pixabay.com/photo/2013/02/09/04/15/doctor-79579_1280.jpg"
+            postText = arrayListOf(
+                " כשאיבר בגוף שלך עובד מושלם  ",
+                " אתה לא מרגיש אותו כלל, ",
+                " אבל כשאיבר בגוף לא עובד טוב ",
+                "הכאב מחרפן אותך בוקר וערב,",
+                " ולמה ? ",
+                " בגלל שאתה יצור  ",
+                " שממוקד בחוסר השלמות, ",
+                " השלמות לא עושה לך דבר."
+            )
+            postId = 86
+            textLocation = arrayListOf(10, -1, 30,5, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency =4
+            postTextSize = arrayListOf(0, 16)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost811() {
+        val post = Post()
+        with(post) {
+            postNum = 811
+            lineNum = 8
+            imageUri = "https://cdn.pixabay.com/photo/2017/04/26/23/46/man-2264051_1280.jpg"
+            postText = arrayListOf(
+                " מעטים האנשים ",
+                " שמגיעים אל המנוחה ואל הנחלה, ",
+                " בגלל ש\"המנוחה והנחלה\" ",
+                "זה לא מקום ותנאים פיזיים ,",
+                " זה מצב נפשי רגעי שבו ",
+                " האדם מוצא מנוחה ונחלה על האדמה, ",
+                " וזה לא תלוי במה יש לו  ",
+                " אלא במה שחסר לו ברגע זה."
+            )
+            postId = 86
+            textLocation = arrayListOf(10, 5, 30,-1, 0, 0, 0, 0)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            postTransparency =4
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+       fun loadPost812() {
+        val post = Post()
+        with(post) {
+            postNum = 812
+            lineNum = 8
+            imageUri = "https://cdn.pixabay.com/photo/2016/07/01/22/34/people-1492052_1280.jpg"
+            postText = arrayListOf(
+                " רבי נחמן אמר: ",
+                " \"אין ייאוש בעולם כלל\" ",
+                "ולמה התכוון, ",
+                " העולם הוא מה שהוא, ",
+                " האדם יוצר ממנו: ",
+                " שמחה, דאגה, אמונה וייאוש, ",
+                " אבל בעולם עצמו  ",
+                " אין ייאוש כלל."
+            )
+            postId = 89
+            textLocation = arrayListOf(10, -1, 30,5, 0, 0, 0, 0)
+            postPadding = arrayListOf(10, 0, 10, 0)
+            postTransparency =4
+            postTextSize = arrayListOf(0, 16)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost813() {
+        val post = Post()
+        with(post) {
+            postNum = 813
+            lineNum = 8
+            imageUri = "https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593360_960_720.jpg"
+            postText = arrayListOf(
+                " גן העדן ",
+                " הוא כמו מלונות הכל כלול ",
+                "האדם שוקע בהם בטמטום חושים, ",
+                " האלוהים גירש את האדם מגן העדן ",
+                " כדי למנוע אותו מזה, ",
+                " וכך האדם נזרק לאדמה הזו ",
+                " ותוך המחסור היומיומי שמסביב  ",
+                " נוצרת היצירה האנושית."
+            )
+            postId = 82
+            textLocation = arrayListOf(10, 5, 30,-1, 0, 0, 0, 0)
+            postPadding = arrayListOf(10, 0, 10, 0)
+            postTransparency =8
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost814() {
+        val post = Post()
+        with(post) {
+            postNum = 814
+            lineNum = 8
+            imageUri = "https://cdn.pixabay.com/photo/2018/03/04/23/32/book-3199610_960_720.jpg"
+            postText = arrayListOf(
+                " המחשבה היא כלי הישרדותי ",
+                " היא נועדה לנתח מצבים  ",
+                " כדי לגבש דרכי תגובה,  ",
+                " שירה היא כלי אומנותי ",
+                " שבאה לתאר את החיים סביב ",
+                " כדי להבין לעצמך את העולם, ",
+                " ולאדם המודרני מומלץ  ",
+                " עשה שירה פחות מחשבה. "
+            )
+            postId = 87
+            textLocation = arrayListOf(10, -1, 30,5, 0, 0, 0, 0)
+            postPadding = arrayListOf(10, 0, 10, 0)
+            postTransparency =8
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
 }
 
 
