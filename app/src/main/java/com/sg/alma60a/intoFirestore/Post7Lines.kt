@@ -174,7 +174,7 @@ class Post7Lines(val context: Context) {
         util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
     }
 
-    fun loadPost705() {
+    fun loadPost705() {  //I
         var post = Post()
         with(post) {
             postNum = 705
@@ -191,18 +191,18 @@ class Post7Lines(val context: Context) {
                 " להכניס את כולם בגוף אחד. "
             )
              postTextSize = arrayListOf(0, 16)
-            postTransparency = 5
+            postTransparency = 10
             postBackground = "#0A174E"
             val textColor = "#F5D042"
             postFontFamily = 103
             postTextColor = arrayListOf(CONSTANT, "#$textColor")
-            textLocation = arrayListOf(10, 10, 35,-1, 0,0,0, 0)
+            textLocation = arrayListOf(10, 200, 35,-1, 0,0,0, 0)
             postPadding = arrayListOf(0, 0,0, 0)
             postRadiuas = 15
             lineSpacing=1.2f
         }
-        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
-//        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
+       //pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
+        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
     }
@@ -498,5 +498,68 @@ fun loadPost714() {
     drawPost.drawPostFire(post, layout)
     util.sendPostToStringFirestore(post)
 }
+
+    fun loadPost715() {
+        val post = Post()
+        with(post) {
+            postNum = 715
+            lineNum = 7
+            imageUri = "https://cdn.pixabay.com/photo/2016/07/11/20/31/construction-1510561_960_720.jpg"
+            postText = arrayListOf(
+                " רצף מילים יוצרות משפט ",
+                " שנה את סדר המילים ",
+                " והמשפט יקבל משמעות אחרת,  ",
+                " גם אתה ",
+                " באם תארגן את עצמך ",
+                " בסדר שונה במקצת  ",
+                " תהיה אחר. "
+            )
+            postId=86
+            textLocation = arrayListOf(10, -1, 30,5, 0,0,0, 0)
+            postPadding =  arrayListOf(0, 0,0, 0)
+            postTransparency =10
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#0A174E"
+            val textColor = "#F5D042"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+     fun loadPost716() {
+        val post = Post()
+        with(post) {
+            postNum = 716
+            lineNum = 7
+            imageUri = "https://cdn.pixabay.com/photo/2022/01/01/17/08/judaean-desert-6908389_960_720.jpg"
+            postText = arrayListOf(
+                " בכל דור ודור ",
+                " יש את מי שעולה להר סיני ",
+                " ויש את ההמון שסוגד למטה לעגל הזהב,  ",
+                " בכל מקרה ",
+                " הסנה עדיין בוער ",
+                " והדרך פתוחה  ",
+                " לאלה שבוחרים לעלות בהר. "
+            )
+            postId=86
+            textLocation = arrayListOf(10, -1, 30,5, 0,0,0, 0)
+            postPadding =  arrayListOf(0, 0,0, 0)
+            postTransparency =10
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#0A174E"
+            val textColor = "#F5D042"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
 }
 

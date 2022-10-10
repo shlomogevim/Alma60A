@@ -41,6 +41,7 @@ class DrawGeneralPost() {
         val textView8 = layout.findViewById<TextView>(R.id.tv8Fire)
         val textView9 = layout.findViewById<TextView>(R.id.tv9Fire)
         val textView10 = layout.findViewById<TextView>(R.id.tv10Fire)
+        val textView11 = layout.findViewById<TextView>(R.id.tv11Fire)
         var textView = layout.findViewById<TextView>(R.id.tv10Fire)
         val image = layout.findViewById<ImageView>(R.id.pagerImageFire)
         val ken = layout.findViewById<com.flaviofaria.kenburnsview.KenBurnsView>(R.id.tour_image)
@@ -55,6 +56,7 @@ class DrawGeneralPost() {
         textView8.text = ""
         textView9.text = ""
         textView10.text = ""
+        textView11.text = ""
 
 //        util.logi("DrawGeneralPost 58     postUri=${post.imageUri}")
 
@@ -71,7 +73,7 @@ class DrawGeneralPost() {
             image.load(post.imageUri) {
                 crossfade(true)
                 crossfade(1000)
-                transformations(RoundedCornersTransformation(30f))
+//                transformations(RoundedCornersTransformation(30f))
             }
             ken.pause()
         }
@@ -90,6 +92,7 @@ class DrawGeneralPost() {
                 8 -> textView8
                 9 -> textView9
                 10 -> textView10
+                11 -> textView11
                 else -> textView1
             }
 

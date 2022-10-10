@@ -429,7 +429,7 @@ class Post8Lines(val context: Context) {
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
-       fun loadPost812() {
+       fun loadPost812() { //N
         val post = Post()
         with(post) {
             postNum = 812
@@ -446,10 +446,10 @@ class Post8Lines(val context: Context) {
                 " אין ייאוש כלל."
             )
             postId = 89
-            textLocation = arrayListOf(10, -1, 30,5, 0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 28,200, 0, 0, 0, 0)
             postPadding = arrayListOf(10, 0, 10, 0)
-            postTransparency =4
-            postTextSize = arrayListOf(0, 16)
+            postTransparency =8
+            postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#000000"
             val textColor = "#ffffff"
             postFontFamily = 103
@@ -462,7 +462,7 @@ class Post8Lines(val context: Context) {
         util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost813() {
+    fun loadPost813() { //N
         val post = Post()
         with(post) {
             postNum = 813
@@ -479,7 +479,7 @@ class Post8Lines(val context: Context) {
                 " נוצרת היצירה האנושית."
             )
             postId = 82
-            textLocation = arrayListOf(10, 5, 30,-1, 0, 0, 0, 0)
+            textLocation = arrayListOf(10, 220, 28,-1, 0, 0, 0, 0)
             postPadding = arrayListOf(10, 0, 10, 0)
             postTransparency =8
             postTextSize = arrayListOf(0, 14)
@@ -495,24 +495,24 @@ class Post8Lines(val context: Context) {
         util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost814() {
+    fun loadPost814() { //N
         val post = Post()
         with(post) {
             postNum = 814
             lineNum = 8
             imageUri = "https://cdn.pixabay.com/photo/2018/03/04/23/32/book-3199610_960_720.jpg"
             postText = arrayListOf(
-                " המחשבה היא כלי הישרדותי ",
+                " המחשבה היא כלי הישרדותי, ",
                 " היא נועדה לנתח מצבים  ",
-                " כדי לגבש דרכי תגובה,  ",
+                " כדי לגבש דרכי תגובה בעולם עוין,  ",
                 " שירה היא כלי אומנותי ",
                 " שבאה לתאר את החיים סביב ",
-                " כדי להבין לעצמך את העולם, ",
+                " כדי לתת לעצמך קצת הבנה על העולם, ",
                 " ולאדם המודרני מומלץ  ",
-                " עשה שירה פחות מחשבה. "
+                " עשה יותר שירה ופחות מחשבה. "
             )
             postId = 87
-            textLocation = arrayListOf(10, -1, 30,5, 0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 28,140, 0, 0, 0, 0)
             postPadding = arrayListOf(10, 0, 10, 0)
             postTransparency =8
             postTextSize = arrayListOf(0, 14)

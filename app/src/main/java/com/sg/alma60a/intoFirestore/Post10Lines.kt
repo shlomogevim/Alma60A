@@ -55,7 +55,7 @@ class Post10Lines(val context: Context) {
         util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost1001() {
+    fun loadPost1001() { //I
         val post = Post()
         with(post) {
             postNum = 1001
@@ -70,14 +70,14 @@ class Post10Lines(val context: Context) {
                 " שים אותה על שולחן הניתוחים לאופרציה שיגרתית של הוצאת איבר חולה, ",
                 " מחריד, היית מתעלף תוך שניה מהמראות. ",
                 " מסקנה: ",
-                " האדם לא בנוי להתמודד ביומיום שלו עם האמת, זה גדול עליו,  ",
+                " האדם לא בנוי להתמודד ביומיום שלו עם האמת      זה גדול עליו,  ",
                 " הוא מעדיף ווריאציה נוחה של האמת ",
                 " ורצוי עם בגד ים מינימלי. "
             )
-            textLocation = arrayListOf(10, -1, 25,10, 3, 25,6,25)
+            textLocation = arrayListOf(10, -1, 23,230, 0, 0,0,0)
             postId = 85
-            postTransparency = 4
-            postTextSize = arrayListOf(0, 12)
+            postTransparency = 8
+            postTextSize = arrayListOf(0, 11)
             val backgroundColor = "#000000"
             val textColor = "#ffffff"
             postFontFamily = 103
@@ -90,4 +90,42 @@ class Post10Lines(val context: Context) {
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
+
+ 
+  fun loadPost1003() {
+        val post = Post()
+        with(post) {
+            postNum = 1003
+            lineNum = 10
+            postId = 85
+            imageUri = "https://cdn.pixabay.com/photo/2016/05/11/16/32/bridge-1385938_960_720.jpg"
+            postText = arrayListOf(
+                " הרבי אמר: ",
+                " \"העולם כולו גשר צר מאוד והעיקר לא לפחד כלל\" ",
+                " ולבריאותך הנפשית אפשר להוסיף: ",
+                "יש בעולם גשרים צרים מאוד, ",
+                " אבל רצוי לך לדעת ",
+                " מתי הגשר מתחיל ",
+                " וטוב לך לנהוג שם באומץ וזהירות, ",
+                " ומתי הגשר נגמר  ",
+                " ואפשר לך לנשום לרווחה ",
+                " ולהרפות. "
+            )
+            textLocation = arrayListOf(10, -1, 23,10, 0,0,0,0)
+            postId = 86
+            postTransparency = 9
+            postTextSize = arrayListOf(0, 11)
+            val backgroundColor = "#990011"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postPadding = arrayListOf(0, 0, 0, 0)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
 }
