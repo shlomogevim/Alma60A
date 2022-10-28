@@ -1659,20 +1659,20 @@ class Post2Lines(val context: Context) {
 //        util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost258() {
+    fun loadPost258() {  //I
         val post = Post()
         with(post) {
             postNum = 258
             lineNum = 2
             imageUri = "https://cdn.pixabay.com/photo/2020/06/18/18/48/highway-5314645_1280.jpg"
             postText = arrayListOf(
-                " אין חופש אמיתי ",
-                " ללא חרדה מהבלתי ידוע. "
+                "    אין חופש אמיתי     ",
+                "   ללא חרדה מהבלתי ידוע.   "
             )
-            textLocation = arrayListOf(10, 20, 45, -1, 0, 0, 0, 0)
+            textLocation = arrayListOf(10, -1, 35, 40, 0, 0, 0, 0)
             postId = 86
-            postTransparency = 3
-            postTextSize = arrayListOf(0, 22)
+            postTransparency = 10
+            postTextSize = arrayListOf(0, 18)
             val backgroundColor = "#000000"
             val textColor = "#ffffff"
             postFontFamily = 100

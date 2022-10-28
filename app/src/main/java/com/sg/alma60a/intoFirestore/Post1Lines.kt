@@ -44,7 +44,7 @@ class Post1Lines(val context: Context) {
 //        util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost101() {
+    fun loadPost101() {  //I
         val post = Post()
         with(post) {
             with(post) {
@@ -74,7 +74,7 @@ class Post1Lines(val context: Context) {
 //            util.sendPostToStringFirestore(post)
         }
     }
-        fun loadPost102() {
+        fun loadPost102() {//I
             val post = Post()
             with(post) {
                 with(post) {
@@ -86,7 +86,7 @@ class Post1Lines(val context: Context) {
                         "גם מחיים שלווים לגמרי מתים בסוף."
                     )
                     postId= 85
-                    textLocation = arrayListOf(10,-1, 35,5,0, 0, 0, 0)
+                    textLocation = arrayListOf(10,-1, 35,200,0, 0, 0, 0)
                     postTransparency = 1
                     postTextSize = arrayListOf(0, 28)
                     val backgroundColor = "263238"
