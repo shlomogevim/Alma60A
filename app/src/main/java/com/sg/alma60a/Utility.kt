@@ -421,6 +421,7 @@ class Utility() {
             data[POST_RADIUS] = postRadiuas
             data[POST_TIME_STAMP] = FieldValue.serverTimestamp()
             data[POST_LINE_SPACING]=lineSpacing.toDouble()
+            data[POST_VIDEO_URL]=videoUrl
         }
         FirebaseFirestore.getInstance().collection(POST_REF).document(post.postNum.toString())
             .set(data)
@@ -444,6 +445,7 @@ class Utility() {
             data[POST_RADIUS] = postRadiuas
          // data[POST_TIME_STAMP] = FieldValue.serverTimestamp()
             data[POST_LINE_SPACING]=lineSpacing.toDouble()
+            data[POST_VIDEO_URL]=videoUrl
         }
         FirebaseFirestore.getInstance().collection(POST_REF).document(post.postNum.toString())
             .update(data)

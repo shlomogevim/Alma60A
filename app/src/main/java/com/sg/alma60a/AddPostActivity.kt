@@ -1,8 +1,10 @@
 package com.sg.alma60a
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import com.sg.alma60a.databinding.ActivityAddPostBinding
 
 class AddPostActivity : AppCompatActivity() {
@@ -153,13 +155,13 @@ class AddPostActivity : AppCompatActivity() {
 //       post4Lines.loadPost4999018()
 //       post4Lines.loadPost4999019()
 //       post4Lines.loadPost4999020()
-//       post4Lines.loadPost4999021()
-//       post4Lines.loadPost4999022()
-//       post4Lines.loadPost4999023()
-//       post4Lines.loadPost4999024()
-//       post4Lines.loadPost4999025()
-//       post4Lines.loadPost4999026()
-//       post4Lines.loadPost4999027()
+//       post4Lines.loadPost4999021() //v
+//       post4Lines.loadPost4999022()  //v
+//       post4Lines.loadPost4999023() //v
+//       post4Lines.loadPost4999024() //v
+//       post4Lines.loadPost4999025() //v
+//       post4Lines.loadPost4999026()  //v
+     //  post4Lines.loadPost4999027()  //v
 
 //  post5Lines.loadPost540()
 //  post5Lines.loadPost541()
@@ -212,6 +214,7 @@ class AddPostActivity : AppCompatActivity() {
 // post5Lines.loadPost588()
 // post5Lines.loadPost589()
 // post5Lines.loadPost590()
+ post5Lines.loadPost591()
 
 
 
@@ -368,7 +371,7 @@ class AddPostActivity : AppCompatActivity() {
 //post2Lines.loadPost255()
 //post2Lines.loadPost256()
 //post2Lines.loadPost257()
-post2Lines.loadPost258()
+//post2Lines.loadPost258()
 //post2Lines.loadPost259()
 //post2Lines.loadPost260()
 //post2Lines.loadPost261()
@@ -737,4 +740,10 @@ post2Lines.loadPost258()
 //  post5Lines.loadPost539()
 
     }
+
+    /*fun operateVideo(view: View) {
+        val intent = Intent(this, VideoActivity1::class.java)
+        // intent.putExtra(USER_EXTRA, currentUser)
+        startActivity(intent)
+    }*/
 }

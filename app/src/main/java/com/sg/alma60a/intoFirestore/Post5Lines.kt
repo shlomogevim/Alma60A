@@ -3013,10 +3013,10 @@ class Post5Lines(val context: Context) {
                 " שהוא הרבה מעבר למה שהם. "
             )
             postId = 78
-            textLocation = arrayListOf(10,-1, 24,120,0, 0,0, 0)
+            textLocation = arrayListOf(10,-1, 26,40,0, 0,0, 0)
             postPadding = arrayListOf(0, 0, 0,0)
-            postTransparency =0
-            postTextSize = arrayListOf(0, 13)
+            postTransparency =5
+            postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#000000"
             val textColor = "#ffffff"
             postFontFamily = 103
@@ -3025,6 +3025,39 @@ class Post5Lines(val context: Context) {
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
             lineSpacing=1.3f
+            videoUrl="dGw3w_njQ4g"
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost591() {
+        val post = Post()
+        with(post) {
+            postNum = 590
+            lineNum = 5
+            imageUri = "https://cdn.pixabay.com/photo/2022/10/25/19/55/beach-7546731_960_720.jpg"
+            postText = arrayListOf(
+                " חיים רעים נופלים עליך  ",
+                " תרצה או לא, ",
+                " חיים טובים עוברים לידך  ",
+                " ככה שרצוי לך ללמוד ",
+                " לקחת מהם כמה שיותר. "
+            )
+            postId = 78
+            textLocation = arrayListOf(10,-1, 26,10,0, 0,0, 0)
+            postPadding = arrayListOf(0, 0, 0,0)
+            postTransparency =3
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            lineSpacing=1.3f
+            videoUrl="iHdKTX_dUaA"
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)

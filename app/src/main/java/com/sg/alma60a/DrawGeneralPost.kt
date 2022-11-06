@@ -1,10 +1,12 @@
 package com.sg.alma60a
 
 import android.content.Context
+import android.content.Intent
 import android.content.res.Resources
 import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
 import android.view.Gravity
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
@@ -45,6 +47,8 @@ class DrawGeneralPost() {
         var textView = layout.findViewById<TextView>(R.id.tv10Fire)
         val image = layout.findViewById<ImageView>(R.id.pagerImageFire)
         val ken = layout.findViewById<com.flaviofaria.kenburnsview.KenBurnsView>(R.id.tour_image)
+        val videoPostBtn=layout.findViewById<Button>(R.id.videoBtn)
+
 
         textView1.text = ""
         textView2.text = ""
@@ -76,6 +80,12 @@ class DrawGeneralPost() {
 //                transformations(RoundedCornersTransformation(30f))
             }
             ken.pause()
+        }
+
+        videoPostBtn.setOnClickListener {
+            val intent = Intent(context, VideoActivity1::class.java)
+            intent.putExtra(CURRENT_URL, post.videoUrl)
+            context.startActivity(intent)
         }
 
         constraintSet.clone(layout)

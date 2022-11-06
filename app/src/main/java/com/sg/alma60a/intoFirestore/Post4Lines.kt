@@ -6388,7 +6388,7 @@ fun loadPost4993() {
         util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost4999021() {  //I
+    fun loadPost4999021() {  //I  בני ברמן חי אדם
         val post = Post()
         with(post) {
             postNum = 4999021
@@ -6401,7 +6401,7 @@ fun loadPost4993() {
                 " לך למרחבי החיים והמוות. "
             )
             postId = 87
-            textLocation = arrayListOf(10,-1,28,180, 0, 0, 0, 0)
+            textLocation = arrayListOf(10,-1,28,20, 0, 0, 0, 0)
             postPadding = arrayListOf(10, 0, 10, 0)
             postTransparency =10
             postTextSize = arrayListOf(0, 14)
@@ -6412,13 +6412,13 @@ fun loadPost4993() {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-
+            videoUrl="s9HFcqzHKLQ"
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost4999022() {  //I
+    fun loadPost4999022() {  //I bogi wonderland
         val post = Post()
         with(post) {
             postNum = 4999022
@@ -6427,11 +6427,11 @@ fun loadPost4993() {
             postText = arrayListOf(
                 " האומנות המוטבעת באדם היא ",
                 " לקחת ארבעה חומרים פשוטים,  ",
-                " אש, אדמה, אוויר, ומים  ",
+                " אדמה, רוח, אש, ומים  ",
                 " וליצור מהם חווית חיים. "
             )
             postId = 87
-            textLocation = arrayListOf(10,-1,28,120, 0, 0, 0, 0)
+            textLocation = arrayListOf(10,-1,28,20, 0, 0, 0, 0)
             postPadding = arrayListOf(10, 0, 10, 0)
             postTransparency =10
             postTextSize = arrayListOf(0, 14)
@@ -6442,13 +6442,13 @@ fun loadPost4993() {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-
+    videoUrl="god7hAPv8f0"
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost4999023() {  //I
+    fun loadPost4999023() {  //I  אזנבור להמאמא
         val post = Post()
         with(post) {
             postNum = 4999023
@@ -6461,7 +6461,7 @@ fun loadPost4993() {
                 " זה מה שקורה באמת. "
             )
             postId = 87
-            textLocation = arrayListOf(10,-1,28,120, 0, 0, 0, 0)
+            textLocation = arrayListOf(10,-1,28,20, 0, 0, 0, 0)
             postPadding = arrayListOf(10, 0, 10, 0)
             postTransparency =10
             postTextSize = arrayListOf(0, 14)
@@ -6472,13 +6472,13 @@ fun loadPost4993() {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-
+           videoUrl="ADYDZMc1GbU"
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost4999024() {  //I
+    fun loadPost4999024() {  //I באאז דונה דונה
         val post = Post()
         with(post) {
             postNum = 4999024
@@ -6502,13 +6502,13 @@ fun loadPost4993() {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-
+           videoUrl="j1zBEWyBJb0"
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost4999025() {  //I
+    fun loadPost4999025() {  //I  אמסטרונג
         val post = Post()
         with(post) {
             postNum = 4999025
@@ -6521,7 +6521,7 @@ fun loadPost4993() {
                 " מפליא אותי שהוא ממשיך בזה. "
             )
             postId = 87
-            textLocation = arrayListOf(10,-1,23,50, 0, 0, 0, 0)
+            textLocation = arrayListOf(10,-1,23,20, 0, 0, 0, 0)
             postPadding = arrayListOf(10, 0, 10, 0)
             postTransparency =0
             postTextSize = arrayListOf(0, 12)
@@ -6532,13 +6532,13 @@ fun loadPost4993() {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-
+            videoUrl="VqhCQZaH4Vs"
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost4999026() {  //I
+    fun loadPost4999026() {  //I  את חרותי חווה א.
         val post = Post()
         with(post) {
             postNum = 4999026
@@ -6551,10 +6551,10 @@ fun loadPost4993() {
                 " יש לך בעולם. "
             )
             postId = 87
-            textLocation = arrayListOf(10,-1,25,50, 0, 0, 0, 0)
+            textLocation = arrayListOf(10,-1,30,50, 0, 0, 0, 0)
             postPadding = arrayListOf(10, 0, 10, 0)
             postTransparency =0
-            postTextSize = arrayListOf(0, 13)
+            postTextSize = arrayListOf(0, 16)
             val backgroundColor = "#000000"
             val textColor = "#ffffff"
             postFontFamily = 103
@@ -6562,13 +6562,13 @@ fun loadPost4993() {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-
+             videoUrl="CBk5MtMxbaA"
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost4999027() {  //I
+    fun loadPost4999027() {  //I        url="cIrGQD84F1g"   // תודה לחיים סוסא -
         val post = Post()
         with(post) {
             postNum = 4999027
@@ -6592,7 +6592,7 @@ fun loadPost4993() {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
-
+            videoUrl="cIrGQD84F1g"
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
