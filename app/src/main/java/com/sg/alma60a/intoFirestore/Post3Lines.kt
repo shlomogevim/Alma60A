@@ -4354,9 +4354,21 @@ fun loadPost3942() {
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
             postPadding = arrayListOf(0, 0, 0, 0)
+            videoUrl="h-WPexVEujg"
+//            videoText=getVideoText(post.postNum)
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
+
+    }
+    private fun getVideoText(postNum: Int): String {
+//        val fileName="v${postNum}"
+        val fileName="VideoCurrentText"
+        return context.applicationContext.assets
+            .open(fileName)
+            .bufferedReader().use {
+                it.readText()
+            }
     }
 
     fun loadPost3961() {  //I

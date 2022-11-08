@@ -13,7 +13,7 @@
             android:name=".VideoExplanationActivity"
             android:exported="false" />
         <activity
-            android:name=".VideoActivity1"
+            android:name=".VideoActivity"
             android:exported="false" />
         <activity
             android:name=".DrawArticle2"

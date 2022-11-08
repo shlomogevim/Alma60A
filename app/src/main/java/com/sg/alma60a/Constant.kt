@@ -29,11 +29,14 @@ const val POST_RADIUS="post_radius"
 const val POST_TIME_STAMP="post_time_stamp"
 const val POST_LINE_SPACING = "post_line_spacing"
 const val  POST_VIDEO_URL="post_video_url"
+const val  POST_VIDEO_TEXT="post_video_text"
 
 const val POST_REF_STAM="Posts Stam"
 const val POST_IMAGE_STAM="Posts Image Stam"
 
-const val CURRENT_URL="current_url"
+const val VIDEO_URL="current_url"
+const val VIDEO_TEXT="current_text"
+const val SHARPREF_CURRENT_POST = "ShareprefCurrentPost"
 
 
 const val SHARPREF_MOVING_BACKGROUND="SharprefMovingBackground"

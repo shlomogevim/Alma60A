@@ -2,6 +2,7 @@ package com.sg.alma60a
 
 import android.app.Activity
 import android.content.Context
+import android.util.Log
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.sg.alma60a.model.Post
 
@@ -2999,7 +3000,7 @@ class Post5Lines(val context: Context) {
         util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost590() {  //I
+    fun loadPost590() {  //I  //v
         val post = Post()
         with(post) {
             postNum = 590
@@ -3026,15 +3027,16 @@ class Post5Lines(val context: Context) {
             postTextColor = arrayListOf(CONSTANT, col)
             lineSpacing=1.3f
             videoUrl="dGw3w_njQ4g"
+//            videoText=getVideoText(post.postNum)
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost591() {
+    fun loadPost591() {   //v
         val post = Post()
         with(post) {
-            postNum = 590
+            postNum = 591
             lineNum = 5
             imageUri = "https://cdn.pixabay.com/photo/2022/10/25/19/55/beach-7546731_960_720.jpg"
             postText = arrayListOf(
@@ -3058,11 +3060,22 @@ class Post5Lines(val context: Context) {
             postTextColor = arrayListOf(CONSTANT, col)
             lineSpacing=1.3f
             videoUrl="iHdKTX_dUaA"
+//            videoText=getVideoText(post.postNum)
         }
         drawPost.drawPostFire(post, layout)
-        util.sendPostToStringFirestore(post)
+       util.sendPostToStringFirestore(post)
     }
+
+    private fun getVideoText(postNum: Int): String {
+//        val fileName="v${postNum}"
+        val fileName="VideoCurrentText"
+        return context.applicationContext.assets
+            .open(fileName)
+            .bufferedReader().use {
+                it.readText()
+            }
     }
+}
 
 
 

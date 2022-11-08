@@ -3,7 +3,9 @@ package com.sg.alma60a
 import android.content.Context
 import android.content.res.Resources
 import androidx.constraintlayout.widget.ConstraintLayout
+import com.google.gson.Gson
 import com.sg.alma60a.model.Post
+
 
 
 class DrawPostCenter(val context: Context) {
@@ -44,12 +46,9 @@ class DrawPostCenter(val context: Context) {
         }
     }
     fun drawPostFire(post: Post, layout: ConstraintLayout) {
- //    util.logi("DrawPostCenter 105     =========>       post.lineNum=${post.lineNum}")
+        loadPost(post)
 
-       // util.sendPostToStringFirestore(post)
-       //util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)
-       //pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
-//        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
+ //    util.logi("DrawPostCenter 48     =========>       post.lineNum=${post.lineNum}")
 
         when (post.lineNum) {
 
@@ -65,5 +64,13 @@ class DrawPostCenter(val context: Context) {
             10 -> draw10Line.drawPostFire(context, post, layout)
             11 -> draw11Line.drawPostFire(context, post, layout)
         }
+    }
+
+    private fun loadPost(post: Post) {
+        val editor = pref.edit()
+        val gson = Gson()
+        val json: String = gson.toJson(post)
+        editor.putString(SHARPREF_CURRENT_POST, json)
+        editor.apply()
     }
 }

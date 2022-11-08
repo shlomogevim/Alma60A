@@ -1,20 +1,21 @@
 package com.sg.alma60a
 
 import android.content.Context
+import android.content.SharedPreferences
 import android.util.Log
 import com.google.firebase.firestore.DocumentSnapshot
 import com.google.firebase.firestore.FieldValue
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import com.sg.alma60a.model.Article
 import com.sg.alma60a.model.Post
+import java.lang.reflect.Type
 import kotlin.collections.ArrayList
 import kotlin.collections.HashMap
 
 
 class Utility() {
-
-
-
 
     fun improveColorString(st:String):String{
         var str1=st
@@ -400,10 +401,18 @@ class Utility() {
         return bigArray
     }
 
+  /*  fun loadCurrentPost(): Post {
+        val gson = Gson()
+        val json: String? = pref.getString(SHARPREF_CURRENT_POST, null)
+        val type: Type = object : TypeToken<Post>() {}.type
+        val post: Post = gson.fromJson(json, type)
+        return post
+    }*/
+
 
 
     fun sendPostToStringFirestore(post: Post) {
-        val data = HashMap<String, Any>()
+         val data = HashMap<String, Any>()
         with(post) {
             data[POST_ID] = postId
             data[POST_NUM] = postNum
@@ -422,6 +431,7 @@ class Utility() {
             data[POST_TIME_STAMP] = FieldValue.serverTimestamp()
             data[POST_LINE_SPACING]=lineSpacing.toDouble()
             data[POST_VIDEO_URL]=videoUrl
+            data[POST_VIDEO_TEXT]=videoText
         }
         FirebaseFirestore.getInstance().collection(POST_REF).document(post.postNum.toString())
             .set(data)
@@ -446,6 +456,7 @@ class Utility() {
          // data[POST_TIME_STAMP] = FieldValue.serverTimestamp()
             data[POST_LINE_SPACING]=lineSpacing.toDouble()
             data[POST_VIDEO_URL]=videoUrl
+            data[POST_VIDEO_TEXT]=videoText
         }
         FirebaseFirestore.getInstance().collection(POST_REF).document(post.postNum.toString())
             .update(data)

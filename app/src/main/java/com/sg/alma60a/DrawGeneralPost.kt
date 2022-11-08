@@ -30,7 +30,7 @@ class DrawGeneralPost() {
     fun drawPostFire(context: Context, post: Post, layout: ConstraintLayout) {
 
         val pref = context.getSharedPreferences(SHARPREF_ALMA, Context.MODE_PRIVATE)
-        var movingBackgroundMode = pref.getString(SHARPREF_MOVING_BACKGROUND, FALSE)
+        val movingBackgroundMode = pref.getString(SHARPREF_MOVING_BACKGROUND, FALSE)
 
 //       util.logi("DrawGeneralPost 100      \n     =========>  /n post=$post")
         val textView1 = layout.findViewById<TextView>(R.id.tv1Fire)
@@ -83,10 +83,16 @@ class DrawGeneralPost() {
         }
 
         videoPostBtn.setOnClickListener {
-            val intent = Intent(context, VideoActivity1::class.java)
-            intent.putExtra(CURRENT_URL, post.videoUrl)
+            val intent = Intent(context, VideoActivity::class.java)
+            intent.putExtra(VIDEO_URL, post.videoUrl)
+            intent.putExtra(VIDEO_TEXT, post.videoText)
             context.startActivity(intent)
         }
+
+     /*   val fileName="v591"
+        val text=createTextString(context,fileName)
+        post.videoText=text*/
+
 
         constraintSet.clone(layout)
 
@@ -115,6 +121,13 @@ class DrawGeneralPost() {
 
 
     }
+
+    private fun createTextString(context: Context,fileName : String)=
+        context.applicationContext.assets
+            .open(fileName)
+            .bufferedReader().use {
+                it.readText()
+            }
 
 
     fun drawPost(context: Context, post: Post, layout: ConstraintLayout) {

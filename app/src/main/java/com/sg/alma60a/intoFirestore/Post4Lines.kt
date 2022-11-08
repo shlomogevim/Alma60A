@@ -12,6 +12,7 @@ class Post4Lines(val context: Context) {
     val pref = context.getSharedPreferences(SHARPREF_ALMA, Context.MODE_PRIVATE)
     val drawPost = DrawPostCenter(context)
     private val util = Utility()
+    private val util1 = Utility1(context)
 
 
     fun loadPost400() {
@@ -6597,6 +6598,38 @@ fun loadPost4993() {
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
+   fun loadPost4999028() {
+        val post = Post()
+        with(post) {
+            postNum = 4999028
+            lineNum = 4
+            imageUri = "https://cdn.pixabay.com/photo/2016/03/12/23/18/man-1253004_960_720.jpg"
+            postText = arrayListOf(
+                " באדם יש צדדים חיוביים ופחות חיוביים ",
+                " יש שמתמקדים בצדדים החיוביים שלהם  ",
+                " יש שמתמקדים בצדדים הפחות חיוביים שלהם,  ",
+                " ויש שמתמקדים בלעשות את המירב עם מה שהם. "
+            )
+            postId = 87
+            textLocation = arrayListOf(10,-1,25,10, 0, 0, 0, 0)
+            postPadding = arrayListOf(10, 0, 10, 0)
+            postTransparency =0
+            postTextSize = arrayListOf(0, 11)
+            val backgroundColor = "#0A174E"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            lineSpacing=1.2f
+            videoUrl="s9HFcqzHKLQ"
+            videoText=util1.getVideoText(postNum)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
 }
 
 
