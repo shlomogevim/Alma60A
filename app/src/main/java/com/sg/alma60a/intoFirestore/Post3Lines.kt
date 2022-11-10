@@ -12,6 +12,7 @@ class Post3Lines(val context: Context) {
     val drawPost = DrawPostCenter(context)
     val pref = context.getSharedPreferences(SHARPREF_ALMA, Context.MODE_PRIVATE)
     private val util = Utility()
+    private val util1 = Utility1(context)
 
 
     fun loadPost300() {
@@ -4342,12 +4343,12 @@ fun loadPost3942() {
                 " פשוט כי הוא מסכן באותו רגע ",
                 " ולא בגלל שום סיבה אחרת. ",
             )
-            textLocation = arrayListOf(10,-1, 25,280,0,0, 0, 0)
+            textLocation = arrayListOf(10,20, 30,-1,0,0, 0, 0)
             postId = 87
-            postTransparency =9
-            postTextSize = arrayListOf(0, 12)
-            val backgroundColor = "#000000"
-            val textColor = "#ffffff"
+            postTransparency =0
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#ffffff"
+            val textColor = "#000000"
             postFontFamily = 103
             postBackground = util.improveColorString(backgroundColor)
             val textcolo = util.improveColorString(textColor)
@@ -4355,7 +4356,7 @@ fun loadPost3942() {
             postTextColor = arrayListOf(CONSTANT, col)
             postPadding = arrayListOf(0, 0, 0, 0)
             videoUrl="h-WPexVEujg"
-//            videoText=getVideoText(post.postNum)
+          videoText=getVideoText(post.postNum)
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)

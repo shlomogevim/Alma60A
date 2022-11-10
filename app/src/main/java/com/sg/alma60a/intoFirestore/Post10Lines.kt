@@ -12,6 +12,7 @@ class Post10Lines(val context: Context) {
     val drawPost = DrawPostCenter(context)
     val pref = context.getSharedPreferences(SHARPREF_ALMA, Context.MODE_PRIVATE)
     private val util = Utility()
+    private val util1 = Utility1(context)
 
 
     fun loadPost1000() {
@@ -50,12 +51,12 @@ class Post10Lines(val context: Context) {
             postPadding = arrayListOf(0, 0, 0, 0)
             postRadiuas = 16
             lineSpacing = 1.3f
-        }
+             }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost1001() { //I
+    fun loadPost1001() { //I  //nv
         val post = Post()
         with(post) {
             postNum = 1001
@@ -70,11 +71,11 @@ class Post10Lines(val context: Context) {
                 " שים אותה על שולחן הניתוחים לאופרציה שיגרתית של הוצאת איבר חולה, ",
                 " מחריד, היית מתעלף תוך שניה מהמראות. ",
                 " מסקנה: ",
-                " האדם לא בנוי להתמודד ביומיום שלו עם האמת      זה גדול עליו,  ",
+                " האדם לא בנוי להתמודד ביומיום שלו עם האמת  זה גדול עליו,  ",
                 " הוא מעדיף ווריאציה נוחה של האמת ",
                 " ורצוי עם בגד ים מינימלי. "
             )
-            textLocation = arrayListOf(10, -1, 23,230, 0, 0,0,0)
+            textLocation = arrayListOf(10, -1, 23,5, 0, 0,0,0)
             postId = 85
             postTransparency = 8
             postTextSize = arrayListOf(0, 11)
@@ -86,6 +87,8 @@ class Post10Lines(val context: Context) {
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
             postPadding = arrayListOf(0, 0, 0, 0)
+            videoUrl="c5QfXjsoNe4"
+            videoText=util1.getVideoText(postNum)
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)

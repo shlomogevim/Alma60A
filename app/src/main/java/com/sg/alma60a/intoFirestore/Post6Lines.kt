@@ -11,6 +11,7 @@ class Post6Lines(val context: Context) {
     val pref = context.getSharedPreferences(SHARPREF_ALMA, Context.MODE_PRIVATE)
     val drawPost = DrawPostCenter(context)
     private val util = Utility()
+    private val util1 = Utility1(context)
 
     fun loadPost600() {
         val post = Post()
@@ -1408,7 +1409,7 @@ class Post6Lines(val context: Context) {
         util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost644() {  //I
+    fun loadPost644() {  //I //nv
         val post = Post()
         with(post) {
             postNum = 644
@@ -1422,7 +1423,7 @@ class Post6Lines(val context: Context) {
                 "אומנם חלק מהחיים זה להראות שאתה נהנה",
                 " אבל אין לזה שום קשר עם ההנאה עצמה. "
             )
-            textLocation = arrayListOf(10,-1, 22, 40, 0, 0, 0, 0)
+            textLocation = arrayListOf(10,-1, 22, 5, 0, 0, 0, 0)
             postId = 88
             postTransparency =5
             postTextSize = arrayListOf(0, 12)
@@ -1434,6 +1435,8 @@ class Post6Lines(val context: Context) {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
+            videoUrl="2wZaJCccPao"
+            videoText=util1.getVideoText(post.postNum)
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)

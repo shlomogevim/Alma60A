@@ -12,6 +12,7 @@ class Post1Lines(val context: Context) {
    // val drawPost = DrawPostCenter(context)
     val drawPost = DrawPostCenter(context)
     private val util = Utility()
+    private var utility1=Utility1(context)
 
 
     fun loadPost100() {
@@ -41,10 +42,10 @@ class Post1Lines(val context: Context) {
             lineSpacing=0.9f
         }
         drawPost.drawPostFire(post, layout)
-//        util.sendPostToStringFirestore(post)
+        util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost101() {  //I
+    fun loadPost101() {  //I //nv
         val post = Post()
         with(post) {
             with(post) {
@@ -69,9 +70,11 @@ class Post1Lines(val context: Context) {
                 postPadding = arrayListOf(10, 0, 10, 0)
                 postRadiuas = 15
                 lineSpacing=0.9f
+                videoUrl="7UAnc7lqJjM"
+                videoText=utility1.getVideoText(postNum)
             }
             drawPost.drawPostFire(post, layout)
-//            util.sendPostToStringFirestore(post)
+            util.sendPostToStringFirestore(post)
         }
     }
         fun loadPost102() {//I
@@ -102,7 +105,7 @@ class Post1Lines(val context: Context) {
                     lineSpacing=0.9f
                 }
                 drawPost.drawPostFire(post, layout)
-//                util.sendPostToStringFirestore(post)
+                util.sendPostToStringFirestore(post)
             }
 
         }

@@ -11,6 +11,7 @@ class Post8Lines(val context: Context) {
     val pref = context.getSharedPreferences(SHARPREF_ALMA, Context.MODE_PRIVATE)
     val drawPost = DrawPostCenter(context)
     private val util = Utility()
+    private val util1 = Utility1(context)
 
     /* fun loadPost800() {
          val post = Post()
@@ -181,8 +182,10 @@ class Post8Lines(val context: Context) {
            postPadding = arrayListOf(0, 5, 0, 0)
             postRadiuas = 16
             lineSpacing = 1.4f
+            videoUrl="FhRgXyH1BC4"
+            videoText=util1.getVideoText(postNum)
         }
-        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
+//        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, TRUE).apply()
 //        pref.edit().putString(SHARPREF_MOVING_BACKGROUND, FALSE).apply()
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestoreWithoutChangingTimeStamp(post)

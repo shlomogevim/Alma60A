@@ -2969,7 +2969,7 @@ class Post5Lines(val context: Context) {
         util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost589() {  //I
+    fun loadPost589() {  //I  //vn
         val post = Post()
         with(post) {
             postNum = 589
@@ -2983,10 +2983,10 @@ class Post5Lines(val context: Context) {
                 " אבל לא לחדור אליהם. "
             )
             postId = 78
-            textLocation = arrayListOf(10,420, 24,-1,0, 0,0, 0)
+            textLocation = arrayListOf(10,-1, 30,20,0, 0,0, 0)
             postPadding = arrayListOf(0, 0, 0,0)
             postTransparency =5
-            postTextSize = arrayListOf(0, 13)
+            postTextSize = arrayListOf(0, 14)
             val backgroundColor = "#2BAE66"
             val textColor = "#ffffff"
             postFontFamily = 103
@@ -2995,12 +2995,14 @@ class Post5Lines(val context: Context) {
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
             lineSpacing=1.3f
+            videoUrl="Y7lmAc3LKWM"
+//            videoText=getVideoText(post.postNum)
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
-    }
+        }
 
-    fun loadPost590() {  //I  //v
+    fun loadPost590() {  //I  //vn
         val post = Post()
         with(post) {
             postNum = 590
@@ -3027,13 +3029,13 @@ class Post5Lines(val context: Context) {
             postTextColor = arrayListOf(CONSTANT, col)
             lineSpacing=1.3f
             videoUrl="dGw3w_njQ4g"
-//            videoText=getVideoText(post.postNum)
+            videoText=getVideoText(post.postNum)
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
 
-    fun loadPost591() {   //v
+    fun loadPost591() {   //vn
         val post = Post()
         with(post) {
             postNum = 591
@@ -3065,6 +3067,40 @@ class Post5Lines(val context: Context) {
         drawPost.drawPostFire(post, layout)
        util.sendPostToStringFirestore(post)
     }
+
+    fun loadPost592() {   //vn
+        val post = Post()
+        with(post) {
+            postNum = 592
+            lineNum = 5
+            imageUri = "https://cdn.pixabay.com/photo/2018/02/02/07/25/embroidery-3124830_960_720.jpg"
+            postText = arrayListOf(
+                " אי אפשר להבין את האדם בפני עצמו  ",
+                " (למרות שאתה תופס את עצמך כיחיד), ",
+                " בגלל שהוא חלק מרשת גדולה יותר,  ",
+                " תבין ראשית את הרשת הזו ",
+                " ועצמך יהיה ברור לך הרבה יותר. "
+            )
+            postId = 78
+            textLocation = arrayListOf(10,-1, 28,10,0, 0,0, 0)
+            postPadding = arrayListOf(0, 0, 0,0)
+            postTransparency =5
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            lineSpacing=1.3f
+            videoUrl="iZ49hgrY7TY"
+        //    videoText=getVideoText(post.postNum)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
 
     private fun getVideoText(postNum: Int): String {
 //        val fileName="v${postNum}"

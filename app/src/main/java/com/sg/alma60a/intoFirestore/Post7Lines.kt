@@ -10,6 +10,8 @@ class Post7Lines(val context: Context) {
     val pref = context.getSharedPreferences(SHARPREF_ALMA, Context.MODE_PRIVATE)
     val drawPost = DrawPostCenter(context)
     private val util = Utility()
+    private val util1 = Utility1(context)
+
 
     fun loadPost700() {
         val post = Post()
@@ -530,7 +532,7 @@ fun loadPost714() {
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
-     fun loadPost716() {
+     fun loadPost716() {  //nv
         val post = Post()
         with(post) {
             postNum = 716
@@ -557,6 +559,8 @@ fun loadPost714() {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
+            videoUrl="FqjJkLPcY3I"
+            videoText=util1.getVideoText(postNum)
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)

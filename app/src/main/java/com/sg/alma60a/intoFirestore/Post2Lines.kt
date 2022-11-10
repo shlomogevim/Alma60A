@@ -12,6 +12,7 @@ class Post2Lines(val context: Context) {
     val drawPost = DrawPostCenter(context)
     val pref = context.getSharedPreferences(SHARPREF_ALMA, Context.MODE_PRIVATE)
     private val util = Utility()
+    private val util1 = Utility1(context)
 
 
     fun loadPost200() {
@@ -2888,6 +2889,35 @@ fun loadPost291() { //I
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost29902() {  //I
+        val post = Post()
+        with(post) {
+            postNum = 29902
+            postId = 87
+            lineNum = 2
+            imageUri = "https://cdn.pixabay.com/photo/2016/07/27/13/13/monk-1545250_960_720.jpg"
+            postText = arrayListOf(
+                " כמה שתכיר במגבלה שלך  ",
+                " ככה תהיה פחות מוגבל. "
+            )
+            textLocation = arrayListOf(10, -1, 25, 20, 0,0, 0, 0)
+            postPadding = arrayListOf(10, 0, 10, 0)
+            postTransparency =10
+            postTextSize = arrayListOf(0,14)
+            val backgroundColor = "#F5D042"
+            val textColor = "#0A174E"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            videoUrl="mb_cj7Mw8VM"
+                 videoText=util1.getVideoText(postNum)
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)

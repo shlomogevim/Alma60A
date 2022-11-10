@@ -12,6 +12,7 @@ class Post9Lines(val context: Context) {
     val drawPost= DrawPostCenter(context)
     val pref = context.getSharedPreferences(SHARPREF_ALMA, Context.MODE_PRIVATE)
     private val util= Utility()
+    private val util1= Utility1(context)
 
     fun loadPost900() {
         val post = Post()
@@ -60,7 +61,7 @@ class Post9Lines(val context: Context) {
 
 
 
-    fun loadPost901() {
+    fun loadPost901() {      //nv
         val post = Post()
         with(post) {
             postNum = 901
@@ -91,6 +92,8 @@ class Post9Lines(val context: Context) {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
+            videoUrl="sxBUFPp9YQY"
+            videoText=util1.getVideoText(postNum)
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
