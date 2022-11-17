@@ -328,6 +328,7 @@ class Post8Lines(val context: Context) {
             val textcolo = util.improveColorString(textColor)
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
+            videoUrl="M20Z8V9nelo"
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)

@@ -15,7 +15,7 @@ class Post1Lines(val context: Context) {
     private var utility1=Utility1(context)
 
 
-    fun loadPost100() {
+    fun loadPost100() {          //nv
         val post = Post()
         with(post) {
             postNum = 100
@@ -40,6 +40,8 @@ class Post1Lines(val context: Context) {
             postPadding = arrayListOf(10, 0, 10, 0)
             postRadiuas = 15
             lineSpacing=0.9f
+            videoUrl="LYAvhujK4nA"
+            videoText=utility1.getVideoText(postNum)
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
@@ -77,7 +79,7 @@ class Post1Lines(val context: Context) {
             util.sendPostToStringFirestore(post)
         }
     }
-        fun loadPost102() {//I
+        fun loadPost102() {//I  //nv
             val post = Post()
             with(post) {
                 with(post) {
@@ -89,7 +91,7 @@ class Post1Lines(val context: Context) {
                         "גם מחיים שלווים לגמרי מתים בסוף."
                     )
                     postId= 85
-                    textLocation = arrayListOf(10,-1, 35,200,0, 0, 0, 0)
+                    textLocation = arrayListOf(10,-1, 35,20,0, 0, 0, 0)
                     postTransparency = 1
                     postTextSize = arrayListOf(0, 28)
                     val backgroundColor = "263238"
@@ -103,6 +105,8 @@ class Post1Lines(val context: Context) {
                     postPadding = arrayListOf(0, 0, 0, 0)
                     postRadiuas = 15
                     lineSpacing=0.9f
+                    videoUrl="55O5FzEwdxc"
+                    videoText=utility1.getVideoText(postNum)
                 }
                 drawPost.drawPostFire(post, layout)
                 util.sendPostToStringFirestore(post)
