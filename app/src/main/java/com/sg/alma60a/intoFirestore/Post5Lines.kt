@@ -3203,6 +3203,38 @@ fun loadPost594() {   //v
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
+
+    fun loadPost596() {   //v
+        val post = Post()
+        with(post) {
+            postNum = 596
+            lineNum = 5
+            imageUri = "https://cdn.pixabay.com/photo/2016/12/17/14/33/wave-1913559_960_720.jpg"
+            postText = arrayListOf(
+                "סערות מזג האוויר  ",
+                " שונות מסערות הלב, ",
+                " כולם מדברים עליהם חופשי ",
+                " ואפשר תמיד להשתמש במטריה ",
+                " כדי לא להירטב . "
+            )
+            postId = 78
+            textLocation = arrayListOf(10,-1, 28,10,0, 0,0, 0)
+            postPadding = arrayListOf(0, 0, 0,0)
+            postTransparency =10
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#02343F"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            lineSpacing=1.3f
+            videoUrl="iv8GW1GaoIc"
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
 }
 
 

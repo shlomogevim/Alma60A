@@ -636,5 +636,38 @@ fun loadPost714() {
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
+
+    fun loadPost719() {//v
+        val post = Post()
+        with(post) {
+            postNum = 719
+            lineNum = 7
+            imageUri = "https://cdn.pixabay.com/photo/2022/11/17/21/18/landscape-7598904_960_720.jpg"
+            postText = arrayListOf(
+                " בשם הצדק, הדיוק והאמת ",
+                " אתה צריך להביא את הצדדים ",
+                " הפחות נחמדים שלך,  ",
+                "  בשם הבריאות הנפשית של הציבור ",
+                " וניקיון כדור הארץ, ",
+                " תשמור אותם לעצמך,   ",
+                " יש מספיק מהחומרים האלה מסביב. "
+            )
+            postId=86
+            textLocation = arrayListOf(10, -1, 30,10, 0,0,0, 0)
+            postPadding =  arrayListOf(0, 0,0, 0)
+            postTransparency =0
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#0A174E"
+            val textColor = "#F5D042"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            videoUrl="yt5LV29Q_X4"
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
 }
 
