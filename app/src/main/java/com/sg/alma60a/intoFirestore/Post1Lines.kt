@@ -12,7 +12,7 @@ class Post1Lines(val context: Context) {
    // val drawPost = DrawPostCenter(context)
     val drawPost = DrawPostCenter(context)
     private val util = Utility()
-    private var utility1=Utility1(context)
+    private val util1 = Utility1(context)
 
 
     fun loadPost100() {          //nv
@@ -41,7 +41,7 @@ class Post1Lines(val context: Context) {
             postRadiuas = 15
             lineSpacing=0.9f
             videoUrl="LYAvhujK4nA"
-            videoText=utility1.getVideoText(postNum)
+            videoText=util1.getVideoText(postNum)
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
@@ -73,7 +73,7 @@ class Post1Lines(val context: Context) {
                 postRadiuas = 15
                 lineSpacing=0.9f
                 videoUrl="7UAnc7lqJjM"
-                videoText=utility1.getVideoText(postNum)
+                videoText=util1.getVideoText(postNum)
             }
             drawPost.drawPostFire(post, layout)
             util.sendPostToStringFirestore(post)
@@ -106,13 +106,43 @@ class Post1Lines(val context: Context) {
                     postRadiuas = 15
                     lineSpacing=0.9f
                     videoUrl="55O5FzEwdxc"
-                    videoText=utility1.getVideoText(postNum)
+                    videoText=util1.getVideoText(postNum)
                 }
                 drawPost.drawPostFire(post, layout)
                 util.sendPostToStringFirestore(post)
             }
-
         }
+      fun loadPost103() {  //v
+        val post = Post()
+        with(post) {
+            with(post) {
+                postNum = 103
+                lineNum = 1
+                imageUri = "https://cdn.pixabay.com/photo/2015/07/15/07/13/homeless-845752_960_720.jpg"
+                postText = arrayListOf(
+                    " אתה הקורבן למה שאתה. "
+                )
+                postId= 85
+                textLocation = arrayListOf(10,-1, 30,5,0, 0, 0, 0)
+                postTransparency = 1
+                postTextSize = arrayListOf(0, 28)
+                val backgroundColor = "263238"
+                val textColor = "#f6ff03"
+                postFontFamily = 200
+                postBackground = util.improveColorString(backgroundColor)
+                val textcolo = util.improveColorString(textColor)
+                val col = "#$textcolo"
+                postTextColor = arrayListOf(CONSTANT, col)
+                postPadding = arrayListOf(0, 0, 0, 0)
+               videoUrl="9hu0yzZk_Fk"
+                videoText=util1.getVideoText(postNum)
+                lineSpacing=0.9f
+                videoText = util1.getPostExplanation(postNum, postText)
+            }
+            drawPost.drawPostFire(post, layout)
+            util.sendPostToStringFirestore(post)
+        }
+    }
     }
 
 

@@ -20,6 +20,7 @@ class AddPostActivity : AppCompatActivity() {
     lateinit var post9Lines: Post9Lines
     lateinit var post10Lines: Post10Lines
     lateinit var post11Lines: Post11Lines
+    lateinit var post12Lines: Post12Lines
 
     lateinit var articlesLines:Articles
 
@@ -46,6 +47,7 @@ class AddPostActivity : AppCompatActivity() {
         post9Lines = Post9Lines(this)
         post10Lines = Post10Lines(this)
         post11Lines = Post11Lines(this)
+        post12Lines = Post12Lines(this)
 
         articlesLines=Articles(this)
 
@@ -54,12 +56,13 @@ class AddPostActivity : AppCompatActivity() {
 
 
 
-       // articlesLines.loadArticles10()
+  // articlesLines.loadArticles10()
 
 
 //  post1Lines.loadPost100()    //nv
 //  post1Lines.loadPost101() //nv
 //  post1Lines.loadPost102() //nv
+//  post1Lines.loadPost103() //v
 
 //  post2Lines.loadPost29900()  //v
 //  post2Lines.loadPost29901()  //v
@@ -69,7 +72,6 @@ class AddPostActivity : AppCompatActivity() {
 //  post2Lines.loadPost29905() //v
 //  post2Lines.loadPost29906() //v
 //  post2Lines.loadPost29907() //v
-//  post2Lines.loadPost29908() //v
 
 //post3Lines.loadPost3901()  //v
 //post3Lines.loadPost3902()  //v
@@ -130,14 +132,14 @@ class AddPostActivity : AppCompatActivity() {
 //post3Lines.loadPost3957()
 //post3Lines.loadPost3958()
 //post3Lines.loadPost3959()
-//post3Lines.loadPost3960()          //nv
+//post3Lines.loadPost3960()  //nv
 //post3Lines.loadPost3961()
 //post3Lines.loadPost3962()
 //post3Lines.loadPost3963()
-//post3Lines.loadPost3964()     //nv
+//post3Lines.loadPost3964()   //v  //***** starting util1.getVideoText
 //post3Lines.loadPost3965()
 //post3Lines.loadPost3966()
-//post3Lines.loadPost3967()         //v
+//post3Lines.loadPost3967()   //v
 //post3Lines.loadPost3968()
 //post3Lines.loadPost3969()
 //post3Lines.loadPost3970()
@@ -159,6 +161,14 @@ class AddPostActivity : AppCompatActivity() {
 //post3Lines.loadPost3986() //v
 //post3Lines.loadPost3987() //v
 //post3Lines.loadPost3988() //v
+//post3Lines.loadPost3989() //v
+//post3Lines.loadPost3990() //v
+//post3Lines.loadPost3991() //v
+//post3Lines.loadPost3992() //v
+//post3Lines.loadPost3993() //v
+//post3Lines.loadPost3994() //v
+//post3Lines.loadPost3995() //v
+//post3Lines.loadPost3996() //v
 
 //       post4Lines.loadPost4999000()   //v
 //       post4Lines.loadPost4999001()//v
@@ -201,6 +211,16 @@ class AddPostActivity : AppCompatActivity() {
 //      post4Lines.loadPost4999038()  //v
 //      post4Lines.loadPost4999039()  //v
 //      post4Lines.loadPost4999040()  //v
+//      post4Lines.loadPost4999041()  //v
+//      post4Lines.loadPost4999042()  //v
+//      post4Lines.loadPost4999043()  //v
+//      post4Lines.loadPost4999044()  //v
+//      post4Lines.loadPost4999045()  //v
+//      post4Lines.loadPost4999046()  //v
+//      post4Lines.loadPost4999047()  //v
+//      post4Lines.loadPost4999048()  //v
+//      post4Lines.loadPost4999049()  //v
+//      post4Lines.loadPost4999050()  //v
 
 //  post5Lines.loadPost540()
 //  post5Lines.loadPost541()
@@ -259,6 +279,7 @@ class AddPostActivity : AppCompatActivity() {
 // post5Lines.loadPost594() //v
 // post5Lines.loadPost595() //v
 // post5Lines.loadPost596() //v
+// post5Lines.loadPost597() //v
 
 
 //    post6Lines.loadPost600()  //v
@@ -308,6 +329,7 @@ class AddPostActivity : AppCompatActivity() {
 // post6Lines.loadPost644()
 // post6Lines.loadPost645() //v
 // post6Lines.loadPost646() //v
+//7 post6Lines.loadPost647() //v
 
 //           post7Lines.loadPost700()
 //     post7Lines.loadPost701()
@@ -356,7 +378,14 @@ class AddPostActivity : AppCompatActivity() {
 //      post10Lines.loadPost1002()
 //      post10Lines.loadPost1003()
         //---------------------------------
-//     post11Lines.loadPost1100()  //nv
+
+//     post11Lines.loadPost1100()  //v
+
+//        ----------------
+
+     post12Lines.loadPost1200()  //v
+
+//  ---------
 
 //         post2Lines.loadPost200()
 //           post2Lines.loadPost201()
@@ -534,7 +563,7 @@ class AddPostActivity : AppCompatActivity() {
 //post3Lines.loadPost372()
 //post3Lines.loadPost373()
 //post3Lines.loadPost374()
-//post3Lines.loadPost375()
+//post3Lines.loadPost375() //v
 //post3Lines.loadPost376()
 //post3Lines.loadPost377()
 //post3Lines.loadPost378()

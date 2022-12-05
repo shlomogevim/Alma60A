@@ -19,9 +19,18 @@
             app:rippleColor="@color/black"
             android:layout_marginStart="2dp"
             android:layout_marginTop="0dp"
-            android:onClick="operateVideo"
-            android:backgroundTint="@color/sea"
-            />
+            android:backgroundTint="@color/sea" />
+        <Button
+            android:id="@+id/videoExplanetionBtn"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:cornerRadius="20dp"
+            app:rippleColor="@color/black"
+            android:layout_marginEnd="2dp"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="@color/green1" />
 
         <ImageView
             android:id="@+id/pagerImageFire"
@@ -170,6 +179,17 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="440dp"   />
+        <TextView
+            android:id="@+id/tv12Fire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tv12Fire"
+            android:textSize="32sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="480dp"   />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

@@ -44,10 +44,12 @@ class DrawGeneralPost() {
         val textView9 = layout.findViewById<TextView>(R.id.tv9Fire)
         val textView10 = layout.findViewById<TextView>(R.id.tv10Fire)
         val textView11 = layout.findViewById<TextView>(R.id.tv11Fire)
+        val textView12 = layout.findViewById<TextView>(R.id.tv12Fire)
         var textView = layout.findViewById<TextView>(R.id.tv10Fire)
         val image = layout.findViewById<ImageView>(R.id.pagerImageFire)
         val ken = layout.findViewById<com.flaviofaria.kenburnsview.KenBurnsView>(R.id.tour_image)
         val videoPostBtn=layout.findViewById<Button>(R.id.videoBtn)
+        val videoExplanationBtn=layout.findViewById<Button>(R.id.videoExplanetionBtn)
 
 
         textView1.text = ""
@@ -61,6 +63,7 @@ class DrawGeneralPost() {
         textView9.text = ""
         textView10.text = ""
         textView11.text = ""
+        textView12.text = ""
 
 //        util.logi("DrawGeneralPost 58     postUri=${post.imageUri}")
 
@@ -80,6 +83,13 @@ class DrawGeneralPost() {
 //                transformations(RoundedCornersTransformation(30f))
             }
             ken.pause()
+        }
+
+   videoExplanationBtn.setOnClickListener {
+            val textVideo=post.videoText
+            val intent=Intent(context,VideoExplanationActivity::class.java)
+            intent.putExtra(VIDEO_TEXT,textVideo)
+            context.startActivity(intent)
         }
 
         videoPostBtn.setOnClickListener {
@@ -109,6 +119,7 @@ class DrawGeneralPost() {
                 9 -> textView9
                 10 -> textView10
                 11 -> textView11
+                12 -> textView12
                 else -> textView1
             }
 

@@ -2923,7 +2923,7 @@ fun loadPost291() { //I
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
             videoUrl="mb_cj7Mw8VM"
-                 videoText=util1.getVideoText(postNum)
+           videoText=util1.getVideoText(postNum)
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
@@ -3063,37 +3063,10 @@ fun loadPost29905() {  //v
             val col = "#$textcolo"
             postTextColor = arrayListOf(CONSTANT, col)
             videoUrl="iUMQ1NjHsqY"
+            videoText = util1.getPostExplanation(postNum, postText)
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
-
-fun loadPost29908() {  //v
-    val post = Post()
-    with(post) {
-        postNum = 29908
-        postId = 87
-        lineNum = 2
-        imageUri = "https://cdn.pixabay.com/photo/2021/08/23/08/28/path-6567149_960_720.jpg"
-        postText = arrayListOf(
-            " הדרך שלך כתובה מראש ",
-            " החוויה ממנה תלויה רק בך. "
-        )
-        textLocation = arrayListOf(10, -1, 30,10, 0,0, 0, 0)
-        postPadding = arrayListOf(0, 0, 0, 0)
-        postTransparency =10
-        postTextSize = arrayListOf(0,16)
-        val backgroundColor = "#101820"
-        val textColor = "#F2AA4C"
-        postFontFamily = 103
-        postBackground = util.improveColorString(backgroundColor)
-        val textcolo = util.improveColorString(textColor)
-        val col = "#$textcolo"
-        postTextColor = arrayListOf(CONSTANT, col)
-        videoUrl="MsPC61BiJ9w"
-    }
-    drawPost.drawPostFire(post, layout)
-    util.sendPostToStringFirestore(post)
-}
 
 }

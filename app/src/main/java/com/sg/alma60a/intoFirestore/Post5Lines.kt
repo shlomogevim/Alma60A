@@ -3005,7 +3005,7 @@ class Post5Lines(val context: Context) {
             postTextColor = arrayListOf(CONSTANT, col)
             lineSpacing=1.3f
             videoUrl="Y7lmAc3LKWM"
-//            videoText=getVideoText(post.postNum)
+         // videoText=getVideoText(post.postNum)
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
@@ -3231,6 +3231,38 @@ fun loadPost594() {   //v
             postTextColor = arrayListOf(CONSTANT, col)
             lineSpacing=1.3f
             videoUrl="iv8GW1GaoIc"
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost597() {   //v
+        val post = Post()
+        with(post) {
+            postNum = 597
+            lineNum = 5
+            imageUri = "https://cdn.pixabay.com/photo/2021/08/23/08/28/path-6567149_960_720.jpg"
+            postText = arrayListOf(
+                " לא בטוח ",
+                " אם הדרך שלך כתובה מראש ",
+                " או לא ",
+                " אבל מה שבטוח ",
+                " שהחוויה ממנה תלויה רק בך. "
+            )
+            postId = 78
+            textLocation = arrayListOf(10,-1, 28,10,0, 0,0, 0)
+            postPadding = arrayListOf(0, 0, 0,0)
+            postTransparency =10
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#02343F"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            videoUrl="MsPC61BiJ9w"
+            videoText = util1.getPostExplanation(postNum, postText)
         }
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
