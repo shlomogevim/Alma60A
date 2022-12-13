@@ -73,102 +73,13 @@ class AddPostActivity : AppCompatActivity() {
 //  post2Lines.loadPost29906() //v
 //  post2Lines.loadPost29907() //v
 
-//post3Lines.loadPost3901()  //v
-//post3Lines.loadPost3902()  //v
-//post3Lines.loadPost3903()     //v
-//post3Lines.loadPost3904()    //v
-//post3Lines.loadPost3905()  //v
-//post3Lines.loadPost3906()       //v
-//post3Lines.loadPost3907()  //v
-//post3Lines.loadPost3908()     //v
-//post3Lines.loadPost3909()     //v
-//post3Lines.loadPost3910()   //v
-//post3Lines.loadPost3911()  //v
-//post3Lines.loadPost3912()        //v
-//post3Lines.loadPost3913()   //v
-//post3Lines.loadPost3914() //v
-//post3Lines.loadPost3915()  //v
-//post3Lines.loadPost3916() //v
-//post3Lines.loadPost3917()  //v
-//post3Lines.loadPost3918()
-//post3Lines.loadPost3919()
-//post3Lines.loadPost3920()  //v
-//post3Lines.loadPost3921()  //v
-//post3Lines.loadPost3922() //v
-//post3Lines.loadPost3923() //v
-//post3Lines.loadPost3924() //v
-//post3Lines.loadPost3925()//v
-//post3Lines.loadPost3926()//v
-//post3Lines.loadPost3927()  //v
-//post3Lines.loadPost3928()  //v
-//post3Lines.loadPost3929()  //v
-//post3Lines.loadPost3930()  //v
-//post3Lines.loadPost3931() //v
-//post3Lines.loadPost3932() //v
-//post3Lines.loadPost3933() //v
-//post3Lines.loadPost3934()  //v
-//post3Lines.loadPost3935() //v
-//post3Lines.loadPost3936() //v
-//post3Lines.loadPost3937()  //v
-//post3Lines.loadPost3938() //v
-//post3Lines.loadPost3939()//v
-//post3Lines.loadPost3940()//v
-//post3Lines.loadPost3941()//v
-//post3Lines.loadPost3942()//v
-//post3Lines.loadPost3943()//v
-//post3Lines.loadPost3944()//v
-//post3Lines.loadPost3945()//v
-//post3Lines.loadPost3946()//v
-//post3Lines.loadPost3947()//v
-//post3Lines.loadPost3948()//v
-//post3Lines.loadPost3949()//v
-//post3Lines.loadPost3950()//v
-//post3Lines.loadPost3951() //v
-//post3Lines.loadPost3952()
-//post3Lines.loadPost3953()
-//post3Lines.loadPost3954() //v
-//post3Lines.loadPost3955() //v
-//post3Lines.loadPost3956()
-//post3Lines.loadPost3957()
-//post3Lines.loadPost3958()
-//post3Lines.loadPost3959()
-//post3Lines.loadPost3960()  //nv
-//post3Lines.loadPost3961()
-//post3Lines.loadPost3962()
-//post3Lines.loadPost3963()
-//post3Lines.loadPost3964()   //v  //***** starting util1.getVideoText
-//post3Lines.loadPost3965()
-//post3Lines.loadPost3966()
-//post3Lines.loadPost3967()   //v
-//post3Lines.loadPost3968()
-//post3Lines.loadPost3969()
-//post3Lines.loadPost3970()
-//post3Lines.loadPost3971()//v
-//post3Lines.loadPost3972() //v
-//post3Lines.loadPost3973() //v
-//post3Lines.loadPost3974() //v
-//post3Lines.loadPost3975() //v
-//post3Lines.loadPost3976() //v
-//post3Lines.loadPost3977() //v
-//post3Lines.loadPost3978() //v
-//post3Lines.loadPost3979() //v
-//post3Lines.loadPost3980() //v
-//post3Lines.loadPost3981() //v
-//post3Lines.loadPost3982() //v
-//post3Lines.loadPost3983() //v
-//post3Lines.loadPost3984() //v
-//post3Lines.loadPost3985() //v
-//post3Lines.loadPost3986() //v
-//post3Lines.loadPost3987() //v
-//post3Lines.loadPost3988() //v
-//post3Lines.loadPost3989() //v
-//post3Lines.loadPost3990() //v
-//post3Lines.loadPost3991() //v
-//post3Lines.loadPost3992() //v
-//post3Lines.loadPost3993() //v
-//post3Lines.loadPost3994() //v
-//post3Lines.loadPost3995() //v
-//post3Lines.loadPost3996() //v
+//-------
+
+//post3Lines.loadPost3999000() //v
+//post3Lines.loadPost3999001() //v
+post3Lines.loadPost3999002() //v
+
+ //-----------
 
 //       post4Lines.loadPost4999000()   //v
 //       post4Lines.loadPost4999001()//v
@@ -221,67 +132,22 @@ class AddPostActivity : AppCompatActivity() {
 //      post4Lines.loadPost4999048()  //v
 //      post4Lines.loadPost4999049()  //v
 //      post4Lines.loadPost4999050()  //v
+//      post4Lines.loadPost4999051()  //v
+//      post4Lines.loadPost4999052()  //v
+//      post4Lines.loadPost4999053()  //v
+//      post4Lines.loadPost4999054()  //v
+//      post4Lines.loadPost4999055()  //v
+//      post4Lines.loadPost4999056()  //v
+//      post4Lines.loadPost4999057()  //v
+//      post4Lines.loadPost4999058()  //v
+//      post4Lines.loadPost4999059()  //v
+//      post4Lines.loadPost4999060()  //v
 
-//  post5Lines.loadPost540()
-//  post5Lines.loadPost541()
-//  post5Lines.loadPost542()
-//  post5Lines.loadPost543()
-//  post5Lines.loadPost544()
-//  post5Lines.loadPost545()
-//  post5Lines.loadPost546()
-//  post5Lines.loadPost547()
-//  post5Lines.loadPost548()
-//  post5Lines.loadPost549()
-//  post5Lines.loadPost550()
-//  post5Lines.loadPost551()
-//  post5Lines.loadPost552()
-//  post5Lines.loadPost553()
-//  post5Lines.loadPost554()
-//  post5Lines.loadPost555()
-//  post5Lines.loadPost556()
-//  post5Lines.loadPost557()
-//  post5Lines.loadPost558()
-//  post5Lines.loadPost559()
-//  post5Lines.loadPost560()
-//  post5Lines.loadPost561()
-//  post5Lines.loadPost562()
-//  post5Lines.loadPost563()
-// post5Lines.loadPost564()
-// post5Lines.loadPost565()
-// post5Lines.loadPost566()
-// post5Lines.loadPost567()
-// post5Lines.loadPost568()
-// post5Lines.loadPost569()
-// post5Lines.loadPost570()
-// post5Lines.loadPost571()
-// post5Lines.loadPost572()
-// post5Lines.loadPost573()
-// post5Lines.loadPost574()
-// post5Lines.loadPost575()
-// post5Lines.loadPost576()
-// post5Lines.loadPost577()
-// post5Lines.loadPost578()
-// post5Lines.loadPost579()
-// post5Lines.loadPost580() //v
-// post5Lines.loadPost581() //v
-// post5Lines.loadPost582()//v
-// post5Lines.loadPost583() //v
-// post5Lines.loadPost584() //v
-// post5Lines.loadPost585() //v
-// post5Lines.loadPost586() //v
-// post5Lines.loadPost587() //v
-// post5Lines.loadPost588()  //v
-// post5Lines.loadPost589()  //v
-// post5Lines.loadPost590()  //v
-// post5Lines.loadPost591()  //v
-// post5Lines.loadPost592() //v
-// post5Lines.loadPost593() //v
-// post5Lines.loadPost594() //v
-// post5Lines.loadPost595() //v
-// post5Lines.loadPost596() //v
-// post5Lines.loadPost597() //v
+// ---------
 
+// post5Lines.loadPost5999000() //v
 
+// ---------
 //    post6Lines.loadPost600()  //v
 //    post6Lines.loadPost601() //v
 //    post6Lines.loadPost602() //v
@@ -329,9 +195,12 @@ class AddPostActivity : AppCompatActivity() {
 // post6Lines.loadPost644()
 // post6Lines.loadPost645() //v
 // post6Lines.loadPost646() //v
-//7 post6Lines.loadPost647() //v
+// post6Lines.loadPost647() //v
+// post6Lines.loadPost648() //v
 
-//           post7Lines.loadPost700()
+//------------
+
+//     post7Lines.loadPost700()
 //     post7Lines.loadPost701()
 //     post7Lines.loadPost702()
 //     post7Lines.loadPost703()
@@ -352,6 +221,7 @@ class AddPostActivity : AppCompatActivity() {
 //     post7Lines.loadPost718()   //v
 //     post7Lines.loadPost719()   //v
 
+//------------
 
 //     post8Lines.loadPost801()
 //     post8Lines.loadPost802()
@@ -368,22 +238,28 @@ class AddPostActivity : AppCompatActivity() {
 //     post8Lines.loadPost813()
 //     post8Lines.loadPost814()
 
+//------------
+
 //       post9Lines.loadPost900()
 //       post9Lines.loadPost901()  //nv
 //       post9Lines.loadPost902()
 //       post9Lines.loadPost903()
+//       post9Lines.loadPost904()
+  //---------------------------------
 
 //      post10Lines.loadPost1000()
 //      post10Lines.loadPost1001() //nv
 //      post10Lines.loadPost1002()
 //      post10Lines.loadPost1003()
+//      post10Lines.loadPost1004()
+
         //---------------------------------
 
 //     post11Lines.loadPost1100()  //v
 
 //        ----------------
 
-     post12Lines.loadPost1200()  //v
+//     post12Lines.loadPost1200()  //v
 
 //  ---------
 
@@ -579,6 +455,105 @@ class AddPostActivity : AppCompatActivity() {
 //post3Lines.loadPost388()
 //post3Lines.loadPost389()
 //post3Lines.loadPost390()
+//post3Lines.loadPost3901()  //v
+//post3Lines.loadPost3902()  //v
+//post3Lines.loadPost3903()     //v
+//post3Lines.loadPost3904()    //v
+//post3Lines.loadPost3905()  //v
+//post3Lines.loadPost3906()       //v
+//post3Lines.loadPost3907()  //v
+//post3Lines.loadPost3908()     //v
+//post3Lines.loadPost3909()     //v
+//post3Lines.loadPost3910()   //v
+//post3Lines.loadPost3911()  //v
+//post3Lines.loadPost3912()        //v
+//post3Lines.loadPost3913()   //v
+//post3Lines.loadPost3914() //v
+//post3Lines.loadPost3915()  //v
+//post3Lines.loadPost3916() //v
+//post3Lines.loadPost3917()  //v
+//post3Lines.loadPost3918()
+//post3Lines.loadPost3919()
+//post3Lines.loadPost3920()  //v
+//post3Lines.loadPost3921()  //v
+//post3Lines.loadPost3922() //v
+//post3Lines.loadPost3923() //v
+//post3Lines.loadPost3924() //v
+//post3Lines.loadPost3925()//v
+//post3Lines.loadPost3926()//v
+//post3Lines.loadPost3927()  //v
+//post3Lines.loadPost3928()  //v
+//post3Lines.loadPost3929()  //v
+//post3Lines.loadPost3930()  //v
+//post3Lines.loadPost3931() //v
+//post3Lines.loadPost3932() //v
+//post3Lines.loadPost3933() //v
+//post3Lines.loadPost3934()  //v
+//post3Lines.loadPost3935() //v
+//post3Lines.loadPost3936() //v
+//post3Lines.loadPost3937()  //v
+//post3Lines.loadPost3938() //v
+//post3Lines.loadPost3939()//v
+//post3Lines.loadPost3940()//v
+//post3Lines.loadPost3941()//v
+//post3Lines.loadPost3942()//v
+//post3Lines.loadPost3943()//v
+//post3Lines.loadPost3944()//v
+//post3Lines.loadPost3945()//v
+//post3Lines.loadPost3946()//v
+//post3Lines.loadPost3947()//v
+//post3Lines.loadPost3948()//v
+//post3Lines.loadPost3949()//v
+//post3Lines.loadPost3950()//v
+//post3Lines.loadPost3951() //v
+//post3Lines.loadPost3952()
+//post3Lines.loadPost3953()
+//post3Lines.loadPost3954() //v
+//post3Lines.loadPost3955() //v
+//post3Lines.loadPost3956()
+//post3Lines.loadPost3957()
+//post3Lines.loadPost3958()
+//post3Lines.loadPost3959()
+//post3Lines.loadPost3960()  //nv
+//post3Lines.loadPost3961()
+//post3Lines.loadPost3962()
+//post3Lines.loadPost3963()
+//post3Lines.loadPost3964()   //v  //***** starting util1.getVideoText
+//post3Lines.loadPost3965()
+//post3Lines.loadPost3966()
+//post3Lines.loadPost3967()   //v
+//post3Lines.loadPost3968()
+//post3Lines.loadPost3969()
+//post3Lines.loadPost3970()
+//post3Lines.loadPost3971()//v
+//post3Lines.loadPost3972() //v
+//post3Lines.loadPost3973() //v
+//post3Lines.loadPost3974() //v
+//post3Lines.loadPost3975() //v
+//post3Lines.loadPost3976() //v
+//post3Lines.loadPost3977() //v
+//post3Lines.loadPost3978() //v
+//post3Lines.loadPost3979() //v
+//post3Lines.loadPost3980() //v
+//post3Lines.loadPost3981() //v
+//post3Lines.loadPost3982() //v
+//post3Lines.loadPost3983() //v
+//post3Lines.loadPost3984() //v
+//post3Lines.loadPost3985() //v
+//post3Lines.loadPost3986() //v
+//post3Lines.loadPost3987() //v
+//post3Lines.loadPost3988() //v
+//post3Lines.loadPost3989() //v
+//post3Lines.loadPost3990() //v
+//post3Lines.loadPost3991() //v
+//post3Lines.loadPost3992() //v
+//post3Lines.loadPost3993() //v
+//post3Lines.loadPost3994() //v
+//post3Lines.loadPost3995() //v
+//post3Lines.loadPost3996() //v
+//post3Lines.loadPost3997() //v
+//post3Lines.loadPost3998() //v
+//post3Lines.loadPost3999() //v
 
 // post4Lines.loadPost400()
 //  post4Lines.loadPost401()
@@ -772,8 +747,6 @@ class AddPostActivity : AppCompatActivity() {
 //        post4Lines.loadPost4997()
 //        post4Lines.loadPost4998()
 //        post4Lines.loadPost4999()
-
-
 //         post5Lines.loadPost500()
 //        post5Lines.loadPost501()
 //          post5Lines.loadPost502()
@@ -815,6 +788,66 @@ class AddPostActivity : AppCompatActivity() {
 //  post5Lines.loadPost538()
 //  post5Lines.loadPost539()
 
+//  post5Lines.loadPost540()
+//  post5Lines.loadPost541()
+//  post5Lines.loadPost542()
+//  post5Lines.loadPost543()
+//  post5Lines.loadPost544()
+//  post5Lines.loadPost545()
+//  post5Lines.loadPost546()
+//  post5Lines.loadPost547()
+//  post5Lines.loadPost548()
+//  post5Lines.loadPost549()
+//  post5Lines.loadPost550()
+//  post5Lines.loadPost551()
+//  post5Lines.loadPost552()
+//  post5Lines.loadPost553()
+//  post5Lines.loadPost554()
+//  post5Lines.loadPost555()
+//  post5Lines.loadPost556()
+//  post5Lines.loadPost557()
+//  post5Lines.loadPost558()
+//  post5Lines.loadPost559()
+//  post5Lines.loadPost560()
+//  post5Lines.loadPost561()
+//  post5Lines.loadPost562()
+//  post5Lines.loadPost563()
+// post5Lines.loadPost564()
+// post5Lines.loadPost565()
+// post5Lines.loadPost566()
+// post5Lines.loadPost567()
+// post5Lines.loadPost568()
+// post5Lines.loadPost569()
+// post5Lines.loadPost570()
+// post5Lines.loadPost571()
+// post5Lines.loadPost572()
+// post5Lines.loadPost573()
+// post5Lines.loadPost574()
+// post5Lines.loadPost575()
+// post5Lines.loadPost576()
+// post5Lines.loadPost577()
+// post5Lines.loadPost578()
+// post5Lines.loadPost579()
+// post5Lines.loadPost580() //v
+// post5Lines.loadPost581() //v
+// post5Lines.loadPost582()//v
+// post5Lines.loadPost583() //v
+// post5Lines.loadPost584() //v
+// post5Lines.loadPost585() //v
+// post5Lines.loadPost586() //v
+// post5Lines.loadPost587() //v
+// post5Lines.loadPost588()  //v
+// post5Lines.loadPost589()  //v
+// post5Lines.loadPost590()  //v
+// post5Lines.loadPost591()  //v
+// post5Lines.loadPost592() //v
+// post5Lines.loadPost593() //v
+// post5Lines.loadPost594() //v
+// post5Lines.loadPost595() //v
+// post5Lines.loadPost596() //v
+// post5Lines.loadPost597() //v
+// post5Lines.loadPost598() //v
+// post5Lines.loadPost599() //v
     }
 
     /*fun operateVideo(view: View) {

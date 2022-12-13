@@ -131,4 +131,41 @@ class Post10Lines(val context: Context) {
         util.sendPostToStringFirestore(post)
     }
 
+fun loadPost1004() {
+    val post = Post()
+    with(post) {
+        postNum = 1004
+        lineNum = 10
+        postId = 85
+        imageUri = "https://cdn.pixabay.com/photo/2016/03/04/17/51/brick-1236403_960_720.jpg"
+        postText = arrayListOf(
+            " אני חושב שכבישים ללא מוצא ",
+            " לא צריכים להרגיש אשמים ",
+            " על זה שאין להם מוצא ",
+            " בגלל שככה הם נוצרו, ",
+            " ------- ",
+            " אני חושב שאנשים ",
+            " לא צרכים להרגיש אשמים ",
+            " שהם בני אדם ",
+            " זה נכון שיש להם מוגבלות אנושית ",
+            " אבל ככה הם נוצרו. "
+        )
+        textLocation = arrayListOf(10, -1, 30,10, 0,0,0,0)
+        postId = 86
+        postTransparency = 9
+        postTextSize = arrayListOf(0, 14)
+        val backgroundColor = "#990011"
+        val textColor = "#ffffff"
+        postFontFamily = 103
+        postBackground = util.improveColorString(backgroundColor)
+        val textcolo = util.improveColorString(textColor)
+        val col = "#$textcolo"
+        postTextColor = arrayListOf(CONSTANT, col)
+        postPadding = arrayListOf(0, 0, 0, 0)
+        videoUrl="93aXrAW0y10"
+        videoText = util1.getPostExplanation(postNum, postText)
+    }
+    drawPost.drawPostFire(post, layout)
+    util.sendPostToStringFirestore(post)
+}
 }

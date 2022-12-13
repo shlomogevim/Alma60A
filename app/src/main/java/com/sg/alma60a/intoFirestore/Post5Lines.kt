@@ -3267,6 +3267,102 @@ fun loadPost594() {   //v
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
+
+    fun loadPost598() {   //v
+        val post = Post()
+        with(post) {
+            postNum = 598
+            lineNum = 5
+            imageUri = "https://cdn.pixabay.com/photo/2013/04/04/12/34/mountains-100367_960_720.jpg"
+            postText = arrayListOf(
+                " אדם המקטר על החיים ",
+                " דומה ",
+                " לעיוור המקטר שחשוך מידי בחדר, ",
+                " לשניהם אין מספיק יכולת ",
+                " לראות את האור. "
+            )
+            postId = 78
+            textLocation = arrayListOf(10,-1, 28,5,0, 0,0, 0)
+            postPadding = arrayListOf(0, 0, 0,0)
+            postTransparency =0
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#02343F"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            videoUrl="VTbqsoJYAZA"
+            videoText = util1.getPostExplanation(postNum, postText)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost599() {   //v
+        val post = Post()
+        with(post) {
+            postNum = 599
+            lineNum = 5
+            imageUri = "https://cdn.pixabay.com/photo/2016/09/01/13/33/doll-1636124_960_720.jpg"
+            postText = arrayListOf(
+                " (פרודיה זה חיקוי הומוריסטי של מישהו) ",
+                " --- ",
+                " אתה בדרך כלל הפרודיה של עצמך  ",
+                " אבל את אף אחד זה לא מצחיק ",
+                " כי הם לא מכירים את המקור. "
+            )
+            postId = 78
+            textLocation = arrayListOf(10,-1, 28,5,0, 0,0, 0)
+            postPadding = arrayListOf(5, 0, 5,0)
+            postTransparency =10
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#990011"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            videoUrl="VTbqsoJYAZA"
+            videoText = util1.getPostExplanation(postNum, postText)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost5999000() {   //v
+        val post = Post()
+        with(post) {
+            postNum = 5999000
+            lineNum = 5
+            postText = arrayListOf(
+                " האי-צדק  ",
+                " הוא עניין של פרשנות, ",
+                " עוגמת הנפש האישית  ",
+                " בגלל האי-צדק הזה ",
+                " היא דבר מוחלט. "
+            )
+            postId = 78
+            imageUri = "https://cdn.pixabay.com/photo/2020/04/16/18/02/old-couple-5051770_960_720.jpg"
+            textLocation = arrayListOf(10,-1, 30,5,0, 0,0, 0)
+            postPadding = arrayListOf(5, 0, 5,0)
+            postTransparency =10
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#07553B"
+            val textColor = "#CED46A"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            videoUrl="kU2bMx5RRYs"
+            videoText = util1.getPostExplanation(postNum, postText)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
 }
 
 

@@ -1493,5 +1493,37 @@ class Post6Lines(val context: Context) {
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
+      fun loadPost648() {  //v
+        val post = Post()
+        with(post) {
+            postNum = 648
+            lineNum = 6
+            imageUri = "https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_960_720.jpg"
+            postText = arrayListOf(
+                " האדם בנוי מהחלק הגלוי לכולם ",
+                " והוא תוצר של כל הבעיות שלו ",
+                " שנפתרו בעבר,  ",
+                " ומהחלק הסמוי מכול ",
+                " והוא תוצר של כל הבעיות שלו ",
+                " שלא נפתרו מעולם. "
+            )
+            textLocation = arrayListOf(10,-1, 28, 5, 0, 0, 0, 0)
+            postId = 88
+            postTransparency =10
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postPadding = arrayListOf(10, 0, 10, 0)
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            videoUrl="jOTSvTsAVzQ"
+            videoText = util1.getPostExplanation(postNum, postText)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
 }
 

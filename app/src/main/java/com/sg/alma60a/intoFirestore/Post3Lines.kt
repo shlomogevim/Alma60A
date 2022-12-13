@@ -5460,6 +5460,185 @@ fun loadPost3996() {  //v
     drawPost.drawPostFire(post, layout)
     util.sendPostToStringFirestore(post)
 }
+
+    fun loadPost3997() {  //v
+        val post = Post()
+        with(post) {
+            postNum = 3997
+            lineNum = 3
+            imageUri = "https://cdn.pixabay.com/photo/2014/07/31/21/37/bar-406884_960_720.jpg"
+            postText = arrayListOf(
+                "  הכל אמת,  ",
+                " אבל לא הכל מתאים ",
+                " למה שאתה ברגע זה. ",
+            )
+            textLocation = arrayListOf(10,-1, 30,10,0,0,0, 0)
+            postId = 85
+            postTransparency =6
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#0A174E"
+            val textColor = "#F5D042"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            videoUrl="R-RF-r2CWZU"
+            videoText = util1.getPostExplanation(postNum, postText)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+fun loadPost3998() {  //v
+    val post = Post()
+    with(post) {
+        postNum = 3998
+        lineNum = 3
+        imageUri = "https://cdn.pixabay.com/photo/2022/11/19/09/35/forest-7601671_960_720.jpg"
+        postText = arrayListOf(
+            "  אין יופי בעולם בשבילך  ",
+            " מלבד אותם מקומות ספורים ",
+            " שאתה מוצא בהם יופי. ",
+        )
+        textLocation = arrayListOf(10,-1, 30,10,0,0,0, 0)
+        postId = 85
+        postTransparency =3
+        postTextSize = arrayListOf(0, 14)
+        val backgroundColor = "#0A174E"
+        val textColor = "#F5D042"
+        postFontFamily = 103
+        postBackground = util.improveColorString(backgroundColor)
+        val textcolo = util.improveColorString(textColor)
+        val col = "#$textcolo"
+        postTextColor = arrayListOf(CONSTANT, col)
+        postPadding = arrayListOf(0, 0, 0, 0)
+        videoUrl="M063lXohF8Y"
+        videoText = util1.getPostExplanation(postNum, postText)
+    }
+    drawPost.drawPostFire(post, layout)
+    util.sendPostToStringFirestore(post)
+}
+
+    fun loadPost3999() {  //v
+        val post = Post()
+        with(post) {
+            postNum = 3999
+            lineNum = 3
+            imageUri = "https://cdn.pixabay.com/photo/2018/11/26/20/24/railway-3840175_960_720.jpg"
+            postText = arrayListOf(
+                "  החיים שלך עוברים בכל מקרה  ",
+                " גם אם תחייה אותם ",
+                " וגם אם לא. ",
+            )
+            textLocation = arrayListOf(10,-1, 33,10,0,0,0, 0)
+            postId = 85
+            postTransparency =10
+            postTextSize = arrayListOf(0, 16)
+            val backgroundColor = "#0A174E"
+            val textColor = "#F5D042"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postPadding = arrayListOf(5,5, 5, 5)
+            videoUrl="y3KEhWTnWvE"
+            videoText = util1.getPostExplanation(postNum, postText)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost3999000() {  //v
+        val post = Post()
+        with(post) {
+            postNum = 3999000
+            lineNum = 3
+            imageUri = "https://cdn.pixabay.com/photo/2017/02/06/10/54/sad-2042536_960_720.jpg"
+            postText = arrayListOf(
+                "  לא חושב שיש מחסור באהבה בעולם,  ",
+                " הבעיה שהיא זורמת בדרך כלל ",
+                " למקומות מפוקפקים. ",
+            )
+            textLocation = arrayListOf(10,-1, 28,10,0,0,0, 0)
+            postId = 85
+            postTransparency =10
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#0A174E"
+            val textColor = "#F5D042"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postPadding = arrayListOf(5,5, 5, 5)
+            videoUrl="JhP2pExoRRw"
+            videoText = util1.getPostExplanation(postNum, postText)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+    fun loadPost3999001() {  //v
+        val post = Post()
+        with(post) {
+            postNum = 3999001
+            lineNum = 3
+            imageUri = "https://cdn.pixabay.com/photo/2013/02/08/22/23/afghanistan-79492_960_720.jpg"
+            postText = arrayListOf(
+                " איכות החיים שלך ",
+                " אינה נקבעת לפי הדברים שקורים מסביב ",
+                " אלא עד כמה אתה מוטרד מהם. ",
+            )
+            textLocation = arrayListOf(10,-1,30,10,0,28,0, 0)
+            postId = 85
+            postTransparency =10
+            postTextSize = arrayListOf(0, 16)
+            val backgroundColor = "#0A174E"
+            val textColor = "#F5D042"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postPadding = arrayListOf(10,0, 10, 0)
+            lineSpacing=1.2f
+            videoUrl="mGAR7vMCHEQ"
+            videoText = util1.getPostExplanation(postNum, postText)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+      fun loadPost3999002() {  //v
+        val post = Post()
+        with(post) {
+            postNum = 3999002
+            lineNum = 3
+            postText = arrayListOf(
+                " מי שאין לו בורות בדרך ",
+                " קל לו לייעץ  ",
+                " איך לא ליפול לבורות. ",
+            )
+            imageUri = "https://cdn.pixabay.com/photo/2016/12/03/17/49/cave-1880282_960_720.jpg"
+            textLocation = arrayListOf(10,-1,33,10,0,0,0, 0)
+            postId = 85
+            postTransparency =10
+            postTextSize = arrayListOf(0, 16)
+            val backgroundColor = "#0A174E"
+            val textColor = "#F5D042"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postPadding = arrayListOf(10,0, 10, 0)
+            lineSpacing=1.2f
+            videoUrl="uHjsbA8Jv6A"
+            videoText = util1.getPostExplanation(postNum, postText)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
 }
 
 
