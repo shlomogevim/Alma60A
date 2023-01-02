@@ -168,4 +168,81 @@ fun loadPost1004() {
     drawPost.drawPostFire(post, layout)
     util.sendPostToStringFirestore(post)
 }
+
+    fun loadPost1005() {
+        val post = Post()
+        with(post) {
+            postNum = 1005
+            lineNum = 10
+            postId = 85
+            imageUri = "https://cdn.pixabay.com/photo/2016/03/31/17/51/cube-1293954_960_720.png"
+            postText = arrayListOf(
+                " בחיים האלה ",
+                " כל סוף הוא התחלה ",
+                " וכל התחלה היא סוף, ",
+                " בכל אור יש צל ",
+                " ובכל צל יש אור, ",
+                " בכל אמת יש כזב ",
+                " ובכל כזב יש אמת, ",
+                " אין בעיה עם כל זה ",
+                " רק שזה יכול לבלבל ",
+                " אנשים שמחפשים סדר בחיים. "
+            )
+            textLocation = arrayListOf(10, -1, 30,10, 0,0,0,0)
+            postId = 86
+            postTransparency = 9
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            videoUrl="quCa39ZbwMs"
+            videoText = util1.getPostExplanation(postNum, postText)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost1006() {
+        val post = Post()
+        with(post) {
+            postNum = 1006
+            lineNum = 10
+            postId = 85
+            imageUri = "https://cdn.pixabay.com/photo/2020/01/20/22/21/palace-4781577_960_720.jpg"
+
+            postText = arrayListOf(
+                " החיים שלך ",
+                " זה איך שאתה תופס אותם, ",
+                " אתה תופס אותם כטוב ",
+                " אתה חי בטוב, ",
+                " אתה תופס אותם כרע  ",
+                " באתה חי ברע, ",
+                " כך שאם אתה שואל: ",
+                " מי זה האלוהים הזה ",
+                " שקובע לי איך החיים שלי יהיו ? ",
+                " זהו, שזה אתה. "
+            )
+            textLocation = arrayListOf(10, -1, 30,10, 0,0,0,0)
+            postId = 86
+            postTransparency =5
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            postPadding = arrayListOf(0, 0, 0, 0)
+            videoUrl="tyy-XIbfxOk"
+            videoText = util1.getPostExplanation(postNum, postText)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
 }
