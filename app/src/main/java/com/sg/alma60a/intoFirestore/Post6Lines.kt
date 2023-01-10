@@ -1525,5 +1525,134 @@ class Post6Lines(val context: Context) {
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
+        fun loadPost649() {  //v
+        val post = Post()
+        with(post) {
+            postNum = 649
+            lineNum = 6
+            imageUri = "https://cdn.pixabay.com/photo/2021/01/16/14/31/train-5922321_960_720.jpg"
+            postText = arrayListOf(
+                " כדי להגיע לאור ",
+                " אתה צריך התכוונות אישית ",
+                " להביא את עצמך אליו, ",
+                " כדי להגיע  לחושך ",
+                " אתה לא צריך שום התכוונות ",
+                " הוא ימצא אותך בכוחות עצמו. "
+            )
+            textLocation = arrayListOf(10,-1, 28, 5, 0, 0, 0, 0)
+            postId = 88
+            postTransparency =10
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postPadding = arrayListOf(10, 0, 10, 0)
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            videoUrl="BREMqjC5w04"
+            videoText = util1.getPostExplanation(postNum, postText)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+
+    fun loadPost650() {  //v
+        val post = Post()
+        with(post) {
+            postNum = 650
+            lineNum = 6
+            imageUri = "https://cdn.pixabay.com/photo/2019/05/02/10/59/water-4173134_960_720.jpg"
+            postText = arrayListOf(
+                " משמעות ",
+                " זה אפיק בחיים שבו אתה זורם ",
+                " פעם בשטף ופעם בנחת, ",
+                " בלעדי המשמעות",
+                " אתה נגר עלי ",
+                " הזורם סתם לכל הכיוונים. "
+            )
+            textLocation = arrayListOf(10,-1, 28, 5, 0, 0, 0, 0)
+            postId = 88
+            postTransparency =10
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postPadding = arrayListOf(10, 0, 10, 0)
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            videoUrl="WD8jbNHRujU"
+            videoText = util1.getPostExplanation(postNum, postText)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+    fun loadPost651() {  //v
+        val post = Post()
+        with(post) {
+            postNum = 651
+            lineNum = 6
+            imageUri = "https://cdn.pixabay.com/photo/2018/03/06/06/27/emoji-3202669_960_720.jpg"
+            postText = arrayListOf(
+                " לאדם יש שני מצבי קיום: ",
+                " או מצב פיסי ירוד ",
+                " מה שנקרא \"אני מרגיש זיפת\", ",
+                " או מצב נפשי ירוד ",
+                " מה שנקרא טמטום חושים, ",
+                " זה בדרך כלל לא הולך ביחד. "
+            )
+            textLocation = arrayListOf(10,-1, 28, 5, 0, 0, 0, 0)
+            postId = 88
+            postTransparency =10
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postPadding = arrayListOf(10, 0, 10, 0)
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            videoUrl="yMYLNN2xYu4"
+            videoText = util1.getPostExplanation(postNum, postText)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
+       fun loadPost652() {  //v
+        val post = Post()
+        with(post) {
+            postNum = 652
+            lineNum = 6
+            imageUri = "https://cdn.pixabay.com/photo/2020/03/05/00/13/hands-4903050_960_720.jpg"
+            postText = arrayListOf(
+                " איך אתה טופס את עצמך ? ",
+                " כתמונת פייסבוק קפואה ",
+                " של נחל זורם, ",
+                " או  ",
+                " שידור און ליין דינמי ",
+                " של נחל מבעבע מתוך האדמה. "
+            )
+            textLocation = arrayListOf(10,-1, 28, 5, 0, 0, 0, 0)
+            postId = 88
+            postTransparency =10
+            postTextSize = arrayListOf(0, 14)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postPadding = arrayListOf(10, 0, 10, 0)
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            videoUrl="I1rRFGAUlyY"
+            videoText = util1.getPostExplanation(postNum, postText)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
 }
 

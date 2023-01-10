@@ -3155,4 +3155,32 @@ fun loadPost29905() {  //v
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
+     fun loadPost29911() {  //v
+        val post = Post()
+        with(post) {
+            postNum = 29911
+            postId = 87
+            lineNum = 2
+            imageUri = "https://cdn.pixabay.com/photo/2020/02/17/20/23/create-4857731_960_720.jpg"
+            postText = arrayListOf(
+                " אתה יוצר את החיים ",
+                " שיוצרים אותך. "
+            )
+            textLocation = arrayListOf(10, -1, 30,10, 0,0, 0, 0)
+            postPadding = arrayListOf(0,0, 0, 0)
+            postTransparency =10
+            postTextSize = arrayListOf(0,16)
+            val backgroundColor = "#000000"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            videoUrl="oxHnRfhDmrk"
+            videoText = util1.getPostExplanation(postNum, postText)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
 }

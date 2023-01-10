@@ -3488,6 +3488,40 @@ fun loadPost594() {   //v
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
+
+    fun loadPost5999005() {
+        val post = Post()
+        with(post) {
+            postNum = 5999005
+            lineNum = 5
+            postText = arrayListOf(
+                " מודה שאני ",
+                " לא מספיק טוב בשביל ",
+                " לחיות חיים טובים,  ",
+                " ולא מספיק רע בשביל ",
+                " להינות מחיים רעים. "
+            )
+            postId = 78
+            imageUri = "https://cdn.pixabay.com/photo/2022/12/09/22/55/trees-7646226_960_720.jpg"
+            textLocation = arrayListOf(10,-1,30,10,0, 0,0, 0)
+            postPadding = arrayListOf(5,0, 5,0)
+            postTransparency =0
+            postTextSize = arrayListOf(0, 15)
+            val backgroundColor = "#333D79"
+            val textColor = "#ffffff"
+            postFontFamily = 103
+            postBackground = util.improveColorString(backgroundColor)
+            val textcolo = util.improveColorString(textColor)
+            val col = "#$textcolo"
+            postTextColor = arrayListOf(CONSTANT, col)
+            videoUrl="vWFKdqvdLO4"
+          /*  val postText1= arrayListOf("0.9")
+            videoText = util1.getPostExplanation(postNum, postText1)*/
+            videoText = util1.getPostExplanation(postNum, postText)
+        }
+        drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)
+    }
 }
 
 
