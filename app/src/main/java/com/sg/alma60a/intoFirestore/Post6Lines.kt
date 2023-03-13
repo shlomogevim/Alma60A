@@ -930,6 +930,12 @@ class Post6Lines(val context: Context) {
         drawPost.drawPostFire(post, layout)
         util.sendPostToStringFirestore(post)
     }
+
+
+//  -----------------------------------------------------------------------------
+
+
+
     fun loadPost630() {
         val post = Post()
         with(post) {

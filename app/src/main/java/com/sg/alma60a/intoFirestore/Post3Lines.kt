@@ -5551,6 +5551,10 @@ fun loadPost3998() {  //v
         util.sendPostToStringFirestore(post)
     }
 
+//    -------------------------------------------------------------------------
+
+
+
     fun loadPost3999000() {  //v
         val post = Post()
         with(post) {
@@ -5577,8 +5581,8 @@ fun loadPost3998() {  //v
             videoUrl="JhP2pExoRRw"
             videoText = util1.getPostExplanation(postNum, postText)
         }
-        drawPost.drawPostFire(post, layout)
-        util.sendPostToStringFirestore(post)
+      /*  drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)*/
     }
     fun loadPost3999001() {  //v
         val post = Post()
@@ -5607,8 +5611,8 @@ fun loadPost3998() {  //v
             videoUrl="mGAR7vMCHEQ"
             videoText = util1.getPostExplanation(postNum, postText)
         }
-        drawPost.drawPostFire(post, layout)
-        util.sendPostToStringFirestore(post)
+      /*  drawPost.drawPostFire(post, layout)
+        util.sendPostToStringFirestore(post)*/
     }
       fun loadPost3999002() {  //v
         val post = Post()
